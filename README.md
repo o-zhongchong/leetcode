@@ -10,7 +10,7 @@ HDOJ Directory: HDOJ
 Leetcode Directory: Leetcode
 
 ## Author
-Abelzhong
+abelzhong
 
 ## Date
 2019-07-07
