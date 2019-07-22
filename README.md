@@ -1,5 +1,4 @@
-## Description
-Source Code Backup on Leetcode or HDOJ
+## Code Backup
 
 FileName is the ID of Problem
 
@@ -9,8 +8,10 @@ HDOJ Directory: HDOJ
 
 Leetcode Directory: Leetcode
 
-## Author
-abelzhong
+## Leetcode
 
-## Date
-2019-07-07
+### Algorithm
+
+| # | Title | Solution |
+|---| ----- | -------- |
+|1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address)|[C++](./Leetcode/1108.cpp)
