@@ -21,3 +21,20 @@ Leetcode Directory: Leetcode
 |979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|[C++](./Leetcode/979.cpp)|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address)|[C++](./Leetcode/1108.cpp)|
 |1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[C++](./Leetcode/1122.cpp)|
+
+### Database
+
+| # | Title | Solution |
+|:-:| :---- | :------- |
+|595|[Big Countries](https://leetcode.com/problems/big-countries/")|[SQL](./Leetcode/595.sql)|
+|627|[Swap Salary](https://leetcode.com/problems/swap-salary/")|[SQL](./Leetcode/627.sql)|
+
+### Shell
+
+| # | Title | Solution |
+|:-:| :---- | :------- |
+
+### Concurrency
+
+| # | Title | Solution |
+|:-:| :---- | :------- |
