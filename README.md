@@ -31,6 +31,9 @@ Leetcode Directory: Leetcode
 |1133|[Largest Unique Number](https://leetcode.com/problems/largest-unique-number)|[C++](./Leetcode/1133.cpp)|
 |1134|[Armstrong Number](https://leetcode.com/problems/armstrong-number)|[C++](./Leetcode/1134.cpp)|
 |1135|[Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost)|[C++](./Leetcode/1135.cpp)|
+|1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[C++](./Leetcode/1137.cpp)|
+|1138|[Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/)|[C++](./Leetcode/1138.cpp)|
+|1139|[Largest 1-Bordered Square](https://leetcode.com/problems/largest-1-bordered-square/)|[C++](./Leetcode/1139.cpp)|
 
 ### Database
 
