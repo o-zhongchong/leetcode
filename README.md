@@ -15,6 +15,7 @@ Leetcode Directory: Leetcode
 | # | Title | Solution |
 |:-:| :---- | :------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum)|[C++](./Leetcode/1.cpp) [Python](./Leetcode/1.py)|
+|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Leetcode/53.cpp)|
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[C++](./Leetcode/419.cpp) [Python](./Leetcode/419.py)|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[C++](./Leetcode/509.cpp)|
 |559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[C++](./Leetcode/559.cpp)|
