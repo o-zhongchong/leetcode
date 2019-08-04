@@ -36,6 +36,7 @@ Leetcode Directory: Leetcode
 |1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[C++](./Leetcode/1137.cpp)|
 |1138|[Alphabet Board Path](https://leetcode.com/problems/alphabet-board-path/)|[C++](./Leetcode/1138.cpp)|
 |1139|[Largest 1-Bordered Square](https://leetcode.com/problems/largest-1-bordered-square/)|[C++](./Leetcode/1139.cpp)|
+|1144|[Decrease Elements To Make Array Zigzag](https://leetcode.com/problems/decrease-elements-to-make-array-zigzag/)|[C++](./Leetcode/1144.cpp)|
 
 ### Database
 
