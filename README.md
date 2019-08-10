@@ -16,6 +16,7 @@ Leetcode Directory: Leetcode
 |:-:| :---- | :------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum)|[C++](./Leetcode/1.cpp) [Python](./Leetcode/1.py)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Leetcode/53.cpp)|
+|338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[C++](./Leetcode/338.cpp)|
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[C++](./Leetcode/419.cpp) [Python](./Leetcode/419.py)|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[C++](./Leetcode/509.cpp)|
 |537|[Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication/)|[C++](./Leetcode/537.cpp)|
