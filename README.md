@@ -1,14 +1,14 @@
-## Code Backup
+## Leetcode Problem Solving & HDOJ Code Backup
 
-FileName is the ID of Problem
+fileName is problem id
 
-e.g. 1000.cpp is the solution of problem 1000
+e.g. 1.cpp is answer to problem 1
 
-HDOJ Directory: HDOJ
+HDOJ directory: ./HDOJ
 
-Leetcode Directory: Leetcode
+Leetcode directory: ./Leetcode
 
-## Leetcode
+## Leetcode Problem Category
 
 ### Algorithm
 
