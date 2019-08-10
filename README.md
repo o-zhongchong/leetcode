@@ -46,6 +46,8 @@ Leetcode directory: ./Leetcode
 |1144|[Decrease Elements To Make Array Zigzag](https://leetcode.com/problems/decrease-elements-to-make-array-zigzag/)|[C++](./Leetcode/1144.cpp)|
 |1146|[Snapshot Array](https://leetcode.com/problems/snapshot-array/)|[C++](./Leetcode/1146.cpp)|
 |1147|[Longest Chunked Palindrome Decomposition](https://leetcode.com/problems/longest-chunked-palindrome-decomposition/)|[C++](./Leetcode/1147.cpp)|
+|1150|[Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/is-a-a-majority-element/)|[C++](./Leetcode/1150.cpp)|
+|1153|[String Transforms Into Another String](https://leetcode.com/problems/string-transforms-into-another-string/)|[C++](./Leetcode/1153.cpp)|
 
 ### Database
 
