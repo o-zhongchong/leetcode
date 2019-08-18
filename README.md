@@ -41,6 +41,7 @@ Leetcode directory: ./Leetcode
 |1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|[C++](./Leetcode/1078.cpp)|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address)|[C++](./Leetcode/1108.cpp)|
 |1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[C++](./Leetcode/1122.cpp)|
+|1123|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[C++](./Leetcode/1123.cpp)|
 |1133|[Largest Unique Number](https://leetcode.com/problems/largest-unique-number)|[C++](./Leetcode/1133.cpp)|
 |1134|[Armstrong Number](https://leetcode.com/problems/armstrong-number)|[C++](./Leetcode/1134.cpp)|
 |1135|[Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost)|[C++](./Leetcode/1135.cpp)|
