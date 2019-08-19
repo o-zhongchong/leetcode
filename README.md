@@ -54,6 +54,7 @@ Leetcode directory: ./Leetcode
 |1150|[Check If a Number Is Majority Element in a Sorted Array](https://leetcode.com/problems/is-a-a-majority-element/)|[C++](./Leetcode/1150.cpp)|
 |1153|[String Transforms Into Another String](https://leetcode.com/problems/string-transforms-into-another-string/)|[C++](./Leetcode/1153.cpp)|
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/)|[C++](./Leetcode/1160.cpp)|
+|1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)|[C++](./Leetcode/1161.cpp)|
 
 ### Database
 
