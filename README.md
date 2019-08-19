@@ -33,6 +33,7 @@ Leetcode directory: ./Leetcode
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[C++](./Leetcode/897.cpp)|
 |908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|[C++](./Leetcode/908.cpp)|
 |922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[C++](./Leetcode/922.cpp)|
+|951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/)|[C++](./Leetcode/951.cpp)|
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[C++](./Leetcode/965.cpp)|
 |979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|[C++](./Leetcode/979.cpp)|
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[C++](./Leetcode/1002.cpp)|
