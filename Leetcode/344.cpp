@@ -1,7 +1,7 @@
 class Solution {
 public:
-    string reverseString(string s) {
+    void reverseString(vector<char>& s) {
         reverse(s.begin(),s.end());
-        return s;
+        return;
     }
 };
