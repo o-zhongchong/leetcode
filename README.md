@@ -28,6 +28,7 @@ Leetcode directory: ./Leetcode
 |811|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)|[C++](./Leetcode/811.cpp)|
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[C++](./Leetcode/821.cpp)|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[C++](./Leetcode/867.cpp)|
+|872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[C++](./Leetcode/872.cpp)|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[C++](./Leetcode/876.cpp)|
 |883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|[C++](./Leetcode/883.cpp)|
 |885|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|[C++](./Leetcode/885.cpp)|
