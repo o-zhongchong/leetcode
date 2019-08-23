@@ -41,6 +41,7 @@ Leetcode directory: ./Leetcode
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[C++](./Leetcode/1002.cpp)|
 |1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|[C++](./Leetcode/1025.cpp)|
 |1030|[Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/)|[C++](./Leetcode/1030.cpp)|
+|1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[C++](./Leetcode/1047.cpp)|
 |1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|[C++](./Leetcode/1078.cpp)|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address)|[C++](./Leetcode/1108.cpp)|
 |1111|[Maximum Nesting Depth of Two Valid Parentheses Strings](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/)|[C++](./Leetcode/1111.cpp)|
