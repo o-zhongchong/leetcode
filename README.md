@@ -1,4 +1,4 @@
-## Leetcode Problem Solving & HDOJ Code Backup
+## Leetcode Problem Solution & HDOJ Code Backup
 
 fileName is problem id
 
