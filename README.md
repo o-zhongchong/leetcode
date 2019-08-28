@@ -1,6 +1,6 @@
 ## Leetcode Problem Solution & HDOJ Code Backup
 
-fileName is problem id
+FileName is problem ID
 
 e.g. 1.cpp is answer to problem 1
 
