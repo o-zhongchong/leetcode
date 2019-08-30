@@ -25,6 +25,7 @@ Leetcode directory: ./Leetcode
 |559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[C++](./Leetcode/559.cpp)|
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[C++](./Leetcode/589.cpp)|
 |590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[C++](./Leetcode/590.cpp)|
+|806|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)|[C++](./Leetcode/806.cpp)|
 |811|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)|[C++](./Leetcode/811.cpp)|
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[C++](./Leetcode/821.cpp)|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[C++](./Leetcode/867.cpp)|
