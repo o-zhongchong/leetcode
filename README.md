@@ -1,8 +1,8 @@
-## Leetcode Problem Solution & HDOJ Code Backup
+# Solution for Leetcode & HDOJ
 
-FileName is problem ID
+FileName is Problem ID
 
-e.g. 1.cpp is answer to problem 1
+e.g. 1.cpp is solution for problem 1
 
 HDOJ directory: ./HDOJ
 
