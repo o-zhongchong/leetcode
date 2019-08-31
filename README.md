@@ -47,6 +47,7 @@ Leetcode directory: ./Leetcode
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[C++](./Leetcode/1047.cpp)|
 |1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|[C++](./Leetcode/1078.cpp)|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address)|[C++](./Leetcode/1108.cpp)|
+|1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)|[C++](./Leetcode/1110.cpp)|
 |1111|[Maximum Nesting Depth of Two Valid Parentheses Strings](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/)|[C++](./Leetcode/1111.cpp)|
 |1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[C++](./Leetcode/1122.cpp)|
 |1123|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[C++](./Leetcode/1123.cpp)|
