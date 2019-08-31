@@ -17,13 +17,13 @@ public:
         ret.push_back(root);
         for( auto &node:to_delete )
         {
-            del_root_node(ret, node);
+            del_node(ret, node, root);
         }
         
         return ret;
     }
 protected:
-    int del_root_node(vector<TreeNode*> &ret, int node )
+    int del_node(vector<TreeNode*> &ret, int node, TreeNode* root)
     {
         int len = ret.size();
         for( int i=0; i < len; ++i )
@@ -36,7 +36,18 @@ protected:
 
                 if( p->right != nullptr)
                     ret.push_back(p->right );
-
+                
+                if( p->val != root->val )
+                {
+                    if( root->left != nullptr && p->val == root->left->val)
+                        root->left = nullptr;
+                    if( root->right != nullptr && p->val == root->right->val)
+                        root->right = nullptr;
+                    delete p;
+                    p = nullptr;
+                }
+                ret[i] = nullptr;
+                
                 ret.erase( ret.begin() + i );
                 return 0;
             }
