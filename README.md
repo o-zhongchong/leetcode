@@ -16,6 +16,7 @@ Leetcode directory: ./Leetcode
 |:-:| :---- | :------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum)|[C++](./Leetcode/1.cpp) [Python](./Leetcode/1.py)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Leetcode/53.cpp)|
+|195|[Tenth Line](https://leetcode.com/problems/tenth-line/)|[Bash](./Leetcode/195.cpp)|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[C++](./Leetcode/338.cpp)|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./Leetcode/344.cpp)|
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[C++](./Leetcode/419.cpp) [Python](./Leetcode/419.py)|
