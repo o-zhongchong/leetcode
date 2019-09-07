@@ -68,8 +68,8 @@ Leetcode directory: ./Leetcode
 |1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)|[C++](./Leetcode/1161.cpp)|
 |1165|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|[C++](./Leetcode/1165.cpp)|
 |1166|[Design File System](https://leetcode.com/problems/design-file-system/)|[C++](./Leetcode/1166.cpp)|
-|5067|[Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[C++](./Leetcode/5067.cpp)|
-|5070|[Shortest Distance to Target Color](https://leetcode.com/problems/shortest-distance-to-target-color/)|[C++](./Leetcode/5070.cpp)|
+|1180|[Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[C++](./Leetcode/1180.cpp)|
+|1182|[Shortest Distance to Target Color](https://leetcode.com/problems/shortest-distance-to-target-color/)|[C++](./Leetcode/1182.cpp)|
 
 ### Database
 
