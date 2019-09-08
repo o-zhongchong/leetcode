@@ -75,8 +75,9 @@ Leetcode directory: ./Leetcode
 
 | # | Title | Solution |
 |:-:| :---- | :------- |
-|595|[Big Countries](https://leetcode.com/problems/big-countries/")|[SQL](./Leetcode/595.sql)|
-|627|[Swap Salary](https://leetcode.com/problems/swap-salary/")|[SQL](./Leetcode/627.sql)|
+|595|[Big Countries](https://leetcode.com/problems/big-countries/)|[SQL](./Leetcode/595.sql)|
+|620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)|[SQL](./Leetcode/620.sql)|
+|627|[Swap Salary](https://leetcode.com/problems/swap-salary/)|[SQL](./Leetcode/627.sql)|
 
 ### Shell
 
