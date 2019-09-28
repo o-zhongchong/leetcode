@@ -20,6 +20,7 @@ Leetcode directory: ./Leetcode
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[C++](./Leetcode/338.cpp)|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./Leetcode/344.cpp)|
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[C++](./Leetcode/419.cpp) [Python](./Leetcode/419.py)|
+|500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[C++](./Leetcode/500.cpp)|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[C++](./Leetcode/509.cpp)|
 |537|[Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication/)|[C++](./Leetcode/537.cpp)|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[C++](./Leetcode/557.cpp) [Python](./Leetcode/557.py)|
