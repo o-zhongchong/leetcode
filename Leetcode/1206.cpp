@@ -1,20 +1,23 @@
+const int MAX_LEVEL = 20;
+
 struct Node
 {
     int key;
-    vector<Node*> next;
+    Node *next[MAX_LEVEL];
     Node(int val):key(val){}
 };
 
 class Skiplist {
 public:
-    Skiplist():MAX_LEVEL(10000) {
+    Skiplist(){
         head = new Node(0);
-        head->next.push_back(nullptr);
+        head->next[0] = nullptr;
+        top_level=0;
         srand((unsigned)time(0));
     }
     
     bool search(int target) {
-        int cur_level = head->next.size() - 1;
+        int cur_level = top_level;
         Node *p = head;
         
         for(; cur_level >=0; --cur_level)
@@ -36,22 +39,24 @@ public:
     void add(int num) {
         Node *node = new Node(num);
         int k = 0;
-        bool coin_flip = rand() % 2;
-        while( coin_flip && k< MAX_LEVEL)
+        int coin_flip = rand() % 4;
+        while( coin_flip == 0 && k+1 < MAX_LEVEL)
         {
             ++k;
-            coin_flip = rand() % 2;
+            coin_flip = rand() % 4;
         }
-        node->next.insert(node->next.begin(),k+1,nullptr);
+        for(int i=0; i<=k; ++i)
+            node->next[i]=nullptr;
         
-        int cur_level = head->next.size();
-        if( k >= cur_level )
+        if( k > top_level )
         {
-            head->next.insert(head->next.end(), k-cur_level+1, nullptr);
+            for(int i=top_level+1; i<=k; ++i)
+                head->next[i]=nullptr;
+            top_level = k;
         }
         
         Node *p = head;
-        cur_level = k;
+        int cur_level = k;
         for(; cur_level>=0; --cur_level )
         {
             while( p->next[cur_level] != nullptr &&
@@ -66,10 +71,10 @@ public:
     }
     
     bool erase(int num) {
-        int cur_level = head->next.size() - 1;
+        int cur_level = top_level;
         Node *p = head;
-        Node *target = nullptr;
-        
+        Node* target = nullptr;
+  
         for(; cur_level >=0; --cur_level)
         {
             while(p->next[cur_level] != nullptr)
@@ -111,11 +116,12 @@ public:
             delete target;
             return true;
         }
+
         return false;
     }
 protected:
     Node *head;
-    int MAX_LEVEL;
+    int top_level;
 };
 
 /**
