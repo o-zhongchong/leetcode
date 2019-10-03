@@ -1,133 +1,111 @@
-const int MAX_LEVEL = 20;
+var gfw_proxy = "PROXY 127.0.0.1:10809;DIRECT";
+var direct = "DIRECT";
 
-struct Node
+var rules = [
+"*.google.com",
+"*.google.com.hk",
+"*.google.hk",
+"*.googleapis.com",
+"*.gstatic.com",
+"*.google-analytics.com",
+"*.googlevideo.com",
+"*.googleusercontent.com",
+"*.googleadservices.com",
+"*.googleusercontent.com",
+"*.googlesyndication.com",
+"*.mobileadtrading.com",
+"*.tapad.com",
+"*.youtube.com",
+"*.ggpht.com",
+"*.ytimg.com",
+"*.zaobao.com",
+"*.zaobao.com.sg",
+"*.chartbeat.com",
+"*.wikipedia.org",
+"*.wikimedia.org",
+"*.*.amazonaws.com",
+"*.amazonaws.com",
+"*.onesignal.com",
+"*.zprk.io",
+"*.blismedia.com",
+"*.sphdigital.com",
+"facebook.com",
+"*.facebook.net",
+"*.facebook.com",
+"*.fbcdn.net",
+"*.fbsbx.com",
+"twitter.com",
+"*.twitter.com",
+"*.twimg.com",
+"*.doubleclick.com",
+"*.cxense.com",
+"*.adsrvr.org",
+"*.colossusssp.com",
+"*.ebdr3.com",
+"*.crwdcntrl.net",
+"*.python.org",
+"*.pypi.org",
+"*.pythonhosted.org",
+"*.githubassets.com",
+"*.staruml.io",
+"*.kxcdn.com",
+"*.hk01.com",
+"*.snapchat.com",
+"*.app.link",
+"*.hotjar.com",
+"*.cppreference.com",
+"*.voachinese.com",
+"*.chartbeat.net",
+"*.voanews.com",
+"*.githubusercontent.com",
+"*.leetcode.com"
+]
+
+function checkip(host)
 {
-    int key;
-    Node *next[MAX_LEVEL];
-    Node(int val):key(val){}
-};
+    var ipValidate=/^(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])$/;
+    if( ipValidate.test(host) )
+    {
+        return true;
+    }
+    return false;
+}
 
-class Skiplist {
-public:
-    Skiplist(){
-        head = new Node(0);
-        head->next[0] = nullptr;
-        top_level=0;
-        srand((unsigned)time(0));
-    }
-    
-    bool search(int target) {
-        int cur_level = top_level;
-        Node *p = head;
-        
-        for(; cur_level >=0; --cur_level)
+function is_ip_proxy(host)
+{
+    host_ip = dnsResolve(host)
+    if( isInNet(host_ip), "61.112.0.0", "255.255.0.0" ||
+        isInNet(host_ip), "61.123.0.0", "255.255.0.0" )
+        return true;
+    return false;
+}
+
+function is_host_proxy(host)
+{
+    for(var i = 0 ; i < rules.length ; i++)
+    {
+        if( shExpMatch( host,rules[i] ) )
         {
-            while(p->next[cur_level] != nullptr)
-            {
-                if(p->next[cur_level]->key < target)
-                    p = p->next[cur_level];
-                else if(p->next[cur_level]->key == target)
-                    return true;
-                else
-                    break;
-            }
-        }
-        
-        return false;
-    }
-    
-    void add(int num) {
-        Node *node = new Node(num);
-        int k = 0;
-        int coin_flip = rand() % 4;
-        while( coin_flip == 0 && k+1 < MAX_LEVEL)
-        {
-            ++k;
-            coin_flip = rand() % 4;
-        }
-        for(int i=0; i<=k; ++i)
-            node->next[i]=nullptr;
-        
-        if( k > top_level )
-        {
-            for(int i=top_level+1; i<=k; ++i)
-                head->next[i]=nullptr;
-            top_level = k;
-        }
-        
-        Node *p = head;
-        int cur_level = k;
-        for(; cur_level>=0; --cur_level )
-        {
-            while( p->next[cur_level] != nullptr &&
-                 p->next[cur_level]->key < node->key )
-            {
-                p = p->next[cur_level];
-            }
-            
-            node->next[cur_level] = p->next[cur_level];
-            p->next[cur_level] = node;
-        }
-    }
-    
-    bool erase(int num) {
-        int cur_level = top_level;
-        Node *p = head;
-        Node* target = nullptr;
-  
-        for(; cur_level >=0; --cur_level)
-        {
-            while(p->next[cur_level] != nullptr)
-            {
-                if( p->next[cur_level]->key < num )
-                    p = p->next[cur_level];
-                else if( p->next[cur_level]->key == num )
-                {
-                    if(target == nullptr)
-                    {
-                        target = p->next[cur_level];
-                        p->next[cur_level] = p->next[cur_level]->next[cur_level];
-                        break;
-                    }
-                    else
-                    {
-                        if( p->next[cur_level] == target )
-                        {
-                            p->next[cur_level] = p->next[cur_level]->next[cur_level];
-                            break;
-                        }
-                        else
-                        {
-                            Node *s = p->next[cur_level];
-                            while(s->next[cur_level] != target)
-                                s = s->next[cur_level];
-                            s->next[cur_level] = s->next[cur_level]->next[cur_level];
-                            break;
-                        }
-                    }
-                }
-                else
-                    break;
-            }
-        }
-        
-        if( target != nullptr)
-        {
-            delete target;
             return true;
         }
-
-        return false;
     }
-protected:
-    Node *head;
-    int top_level;
-};
+    return false;
+}
 
-/**
- * Your Skiplist object will be instantiated and called as such:
- * Skiplist* obj = new Skiplist();
- * bool param_1 = obj->search(target);
- * obj->add(num);
- * bool param_3 = obj->erase(num);
- */
+function FindProxyForURL(url, host) 
+{
+    if( checkip() )
+    {
+        if( is_ip_proxy(host) )
+            return gfw_proxy;
+        else
+            return direct;
+    }
+    else
+    {
+        if ( is_host_proxy(host) )
+            return gfw_proxy
+        else
+            return direct; 
+    }
+}
