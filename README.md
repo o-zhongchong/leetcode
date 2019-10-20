@@ -74,6 +74,7 @@ Leetcode directory: ./Leetcode
 |1166|[Design File System](https://leetcode.com/problems/design-file-system/)|[C++](./Leetcode/1166.cpp)|
 |1180|[Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[C++](./Leetcode/1180.cpp)|
 |1182|[Shortest Distance to Target Color](https://leetcode.com/problems/shortest-distance-to-target-color/)|[C++](./Leetcode/1182.cpp)|
+|1185|[Day of the Week](https://leetcode.com/problems/day-of-the-week/)|[C++](./Leetcode/1185.cpp)|
 |1189|[Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|[C++](./Leetcode/1189.cpp)|
 |1206|[Design Skiplist](https://leetcode.com/problems/design-skiplist/)|[C++](./Leetcode/1206.cpp)|
 
