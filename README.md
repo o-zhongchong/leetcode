@@ -46,6 +46,7 @@ Leetcode directory: ./Leetcode
 |922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[C++](./Leetcode/922.cpp)|
 |951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/)|[C++](./Leetcode/951.cpp)|
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[C++](./Leetcode/965.cpp)|
+|969|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)|[C++](./Leetcode/969.cpp)|
 |979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|[C++](./Leetcode/979.cpp)|
 |986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/submissions/)|[C++](./Leetcode/986.cpp)|
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[C++](./Leetcode/1002.cpp)|
