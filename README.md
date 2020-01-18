@@ -4,9 +4,9 @@ FileName is Problem ID
 
 e.g. 1.cpp is solution for problem 1
 
-HDOJ directory: ./HDOJ
+HDOJ directory: /HDOJ
 
-Leetcode directory: ./Leetcode
+Leetcode directory: /Leetcode
 
 ## Leetcode Problem Category
 
