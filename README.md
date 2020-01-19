@@ -84,6 +84,7 @@ Leetcode directory: /Leetcode
 |1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[C++](./Leetcode/1200.cpp)|
 |1206|[Design Skiplist](https://leetcode.com/problems/design-skiplist/)|[C++](./Leetcode/1206.cpp)|
 |1217|[Play with Chips](https://leetcode.com/problems/play-with-chips/)|[C++](./Leetcode/1217.cpp)|
+|1286|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|[C++](./Leetcode/1286.cpp)|
 
 ### Database
 
