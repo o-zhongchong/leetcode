@@ -86,6 +86,11 @@ Leetcode directory: /Leetcode
 |1217|[Play with Chips](https://leetcode.com/problems/play-with-chips/)|[C++](./Leetcode/1217.cpp)|
 |1286|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|[C++](./Leetcode/1286.cpp)|
 
+### Concurrency
+
+| # | Title | Solution |
+|:-:| :---- | :------- |
+
 ### Database
 
 | # | Title | Solution |
@@ -100,7 +105,4 @@ Leetcode directory: /Leetcode
 |:-:| :---- | :------- |
 |195|[Tenth Line](https://leetcode.com/problems/tenth-line/)|[Bash](./Leetcode/195.sh)|
 
-### Concurrency
 
-| # | Title | Solution |
-|:-:| :---- | :------- |
