@@ -1,13 +1,5 @@
 # Solution for Leetcode & HDOJ
 
-FileName is Problem ID
-
-e.g. 1.cpp is solution for problem 1
-
-HDOJ directory: /HDOJ
-
-Leetcode directory: /Leetcode
-
 ## Leetcode Problem Category
 
 ### Algorithm
