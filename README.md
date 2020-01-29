@@ -7,6 +7,7 @@
 | # | Title | Solution |
 |:-:| :---- | :------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum)|[C++](./Leetcode/1.cpp) [Python](./Leetcode/1.py)|
+|15|[3Sum](https://leetcode.com/problems/3sum/)|[C++](./Leetcode/15.cpp) [Python](./Leetcode/15.cpp)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Leetcode/53.cpp)|
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[C++](./Leetcode/136.cpp)|
 |148|[Sort List](https://leetcode.com/problems/sort-list/)|[C++](./Leetcode/148.cpp)|
