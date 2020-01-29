@@ -2,21 +2,36 @@ class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
         vector<vector<int>> ret;
+        int target = 0;
         int len = (int)nums.size();
+        if( len < 3 )
+            return ret;
+        sort(nums.begin(),nums.end());
+        
         for(int i=0; i<len; ++i)
-            for(int j=0;j<len;++j)
-                for(int k=0;k<len;++k)
-                    if(i!=j && i!=k && j!=k && nums[i] + nums[j] + nums[k]==0)
-                    {
-                        vector<int> vec = {nums[i],nums[j],nums[k]};
-                        sort(vec.begin(),vec.end());
-                        bool is_exist = false;
-                        for( auto node : ret)
-                            if(node[0]==vec[0] && node[1]==vec[1] &&                                                 node[2]==vec[2])
-                                is_exist=true;
-                        if( !is_exist )
-                            ret.push_back(vec);
-                    }
+        {
+            if( i > 0 && nums[i] == nums[i-1] )
+                continue;
+            int l=i+1, r=len-1;
+            while(l<r)
+            {
+                int sum = nums[i] + nums[l] + nums[r];
+                if( sum > target)
+                    --r;
+                else if( sum < target)
+                    ++l;
+                else
+                {
+                    ret.push_back(vector<int> {nums[i],nums[l],nums[r]});
+                    ++l;
+                    --r;
+                    while (l < r && nums[l] == nums[l-1])
+                        ++l;
+                    while (l < r && nums[r] == nums[r+1])
+                        --r;  
+                }
+            }
+        }
         return ret;
     }
 };
