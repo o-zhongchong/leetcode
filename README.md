@@ -1,5 +1,3 @@
-# Solution for Leetcode & HDOJ
-
 ## Leetcode Problem Category
 
 ### Algorithm
