@@ -5,6 +5,7 @@
 | # | Title | Solution |
 |:-:| :---- | :------- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum)|[C++](./Leetcode/1.cpp) [Python](./Leetcode/1.py)|
+|8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[C++](./Leetcode/8.cpp)|
 |15|[3Sum](https://leetcode.com/problems/3sum/)|[C++](./Leetcode/15.cpp)|
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[C++](./Leetcode/16.cpp)
 |18|[4Sum](https://leetcode.com/problems/4sum/)|[C++](./Leetcode/18.cpp)
