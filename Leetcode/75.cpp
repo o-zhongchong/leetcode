@@ -1,31 +1,39 @@
 class Solution {
 public:
-    void sort(int left, int right, vector<int> &nums)
-    {
-        if(left>=right)
-            return;
-        if(nums[left]>nums[right])
-            swap(nums[left],nums[right]);
-        int l=left+1, r=right-1, index=left+1;
-        int pivotL=left, pivotR=right;
-        while(index<=r)
-        {
-            if(nums[index]<nums[pivotL])
-                swap(nums[index++],nums[l++]);
-            else if(nums[index]>nums[pivotR])
-                swap(nums[index],nums[r--]);
-            else
-                ++index;
-        }
-        swap(nums[pivotL],nums[--l]);
-        swap(nums[pivotR],nums[++r]);
-        sort(left,l-1,nums);
-        sort(l+1,r-1,nums);
-        sort(r+1,right,nums);
-    }
     void sortColors(vector<int>& nums) {
-        if(nums.size()<=0)
-            return;
-        sort(0,nums.size()-1,nums);
+        int len = nums.size();
+        int red_pos = 0;
+        int white_pos = len-1;
+        
+        for(int i=0; i<len;)
+        {
+            if(0 == nums[i])
+            {
+                if(i == red_pos)
+                {
+                    ++red_pos;
+                    ++i;
+                }
+                else
+                {
+                    swap(nums[red_pos],nums[i]);
+                    ++red_pos;
+                }
+            }
+            else if(2 == nums[i])
+            {
+                if(i >= white_pos)
+                    return;
+                else
+                {
+                    swap(nums[white_pos],nums[i]);
+                    --white_pos;
+                }
+            }
+            else if(1 == nums[i])
+                ++i;
+            else
+                return;
+        }
     }
 };
