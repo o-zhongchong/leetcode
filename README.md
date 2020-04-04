@@ -16,7 +16,10 @@
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/)|[C++](./Leetcode/57.cpp)|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[C++](./Leetcode/75.cpp)|
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[C++](./Leetcode/136.cpp)|
+|147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[C++](./Leetcode/147.cpp)|
 |148|[Sort List](https://leetcode.com/problems/sort-list/)|[C++](./Leetcode/148.cpp)|
+|164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[C++](./Leetcode/164.cpp)|
+|179|[Largest Number](https://leetcode.com/problems/largest-number/)|[C++](./Leetcode/179.cpp)|
 |204|[Count Primes](https://leetcode.com/problems/count-primes/)|[C++](./Leetcode/204.cpp)|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[C++](./Leetcode/338.cpp)|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./Leetcode/344.cpp)|
