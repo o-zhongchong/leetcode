@@ -15,7 +15,7 @@
 ////Run memory:188KB
 //////////////////System Comment End//////////////////
 #include<stdio.h>  
-  
+
 int main(){  
     int a,b;  
     while (scanf("%d %d",&a,&b)==2){  
