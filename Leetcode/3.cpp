@@ -1,35 +1,22 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        map<char,unsigned int> postion;
-        unsigned int front,rear;
-        unsigned max_len = 0;
-        front = rear = 0;
-        while(rear < s.size())
+        if( s.empty() )
+            return 0;
+        
+        int len = s.size();
+        int left = -1;
+        unordered_map<int,int> m;
+        int ret = 1;
+        
+        for(int i=0; i<len; ++i)
         {
-            auto index = postion.find(s.at(rear));
-            if(index == postion.end())
-            {
-                postion.insert(make_pair(s.at(rear),rear));
-                ++rear;
-            }
-            else
-            {
-                auto len = rear - front;
-                if(len > max_len)
-                    max_len = len;
-                for(unsigned int i=front; i < index->second; ++i)
-                {
-                    postion.erase(s.at(i));
-                }
-                front = index->second + 1;
-                index->second = rear;
-                ++rear;
-            }
+            if(m.count(s[i]) && m[s[i]] > left )
+                left = m[s[i]];
+            m[s[i]] = i;
+            ret=max(ret, i-left);
         }
-        if(rear - front > max_len)
-            max_len = rear - front;
-        return max_len;
+        
+        return ret;
     }
 };
-
