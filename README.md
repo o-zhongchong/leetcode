@@ -15,6 +15,7 @@
 |15|[3Sum](https://leetcode.com/problems/3sum/)|[C++](./Leetcode/15.cpp)|
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[C++](./Leetcode/16.cpp)
 |18|[4Sum](https://leetcode.com/problems/4sum/)|[C++](./Leetcode/18.cpp)
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[C++](./Leetcode/20.cpp)
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[C++](./Leetcode/26.cpp)
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[C++](./Leetcode/27.cpp)
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[C++](./Leetcode/44.cpp)
