@@ -32,6 +32,7 @@
 |204|[Count Primes](https://leetcode.com/problems/count-primes/)|[C++](./Leetcode/204.cpp)|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[C++](./Leetcode/338.cpp)|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./Leetcode/344.cpp)|
+|383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[C++](./Leetcode/383.cpp)|
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[C++](./Leetcode/419.cpp) [Python](./Leetcode/419.py)|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[C++](./Leetcode/442.cpp)|
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[C++](./Leetcode/476.cpp)|
