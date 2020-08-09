@@ -19,6 +19,7 @@
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[C++](./Leetcode/20.cpp)
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[C++](./Leetcode/26.cpp)
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[C++](./Leetcode/27.cpp)
+|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[C++](./Leetcode/43.cpp)
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[C++](./Leetcode/44.cpp)
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Leetcode/53.cpp)|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[C++](./Leetcode/56.cpp)|
