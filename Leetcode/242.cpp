@@ -3,20 +3,32 @@ public:
     bool isAnagram(string s, string t) {
         if(s.size() != t.size())
             return false;
-        vector<int> count(26,0);
-        for( auto i : s)
+        
+        int count[26];
+        
+        for(int i = 0; i < 26; ++i)
         {
-            ++count.at(i - 'a');
+            count[i] = 0;
         }
-        for( auto i : t)
+        
+        for( auto c : s)
         {
-            --count.at(i - 'a');
+            int i = c - 'a';
+            ++count[i];
         }
-        for( auto i : count)
+        
+        for( auto c : t)
         {
-            if( i )
+            int i = c - 'a';
+            --count[i];
+        }
+        
+        for(int i = 0; i < 26; ++i)
+        {
+            if( count[i] )
                 return false;
         }
+        
         return true;
     }
 };
