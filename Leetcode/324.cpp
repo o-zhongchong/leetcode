@@ -10,14 +10,7 @@ public:
         
         for(int i = 0; i < len && m < len && n < len; ++i)
         {
-            if(i & 1)
-            {
-                nums[i] = tmp[m--];
-            }
-            else
-            {
-                nums[i] = tmp[n--];
-            }
+            nums[i] = i & 1 ? tmp[m--] : tmp[n--];
         }
         
         return;
