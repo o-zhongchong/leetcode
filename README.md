@@ -43,6 +43,7 @@
 |148|[Sort List](https://leetcode.com/problems/sort-list/)|[C++](./Leetcode/148.cpp)|
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[C++](./Leetcode/164.cpp)|
 |179|[Largest Number](https://leetcode.com/problems/largest-number/)|[C++](./Leetcode/179.cpp)|
+|190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[C++](./Leetcode/190.cpp)|
 |204|[Count Primes](https://leetcode.com/problems/count-primes/)|[C++](./Leetcode/204.cpp)|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[C++](./Leetcode/206.cpp)|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[C++](./Leetcode/217.cpp)|
