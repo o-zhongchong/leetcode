@@ -123,6 +123,7 @@
 |1206|[Design Skiplist](https://leetcode.com/problems/design-skiplist/)|[C++](./Leetcode/1206.cpp)|
 |1217|[Play with Chips](https://leetcode.com/problems/play-with-chips/)|[C++](./Leetcode/1217.cpp)|
 |1286|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|[C++](./Leetcode/1286.cpp)|
+|1382|[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|[C++](./Leetcode/1382.cpp)|
 
 ### Concurrency
 
