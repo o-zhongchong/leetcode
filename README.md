@@ -35,6 +35,7 @@
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|[C++](./Leetcode/67.cpp)|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[C++](./Leetcode/71.cpp)|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[C++](./Leetcode/75.cpp)|
+|78|[Subsets](https://leetcode.com/problems/subsets/)|[C++](./Leetcode/78.cpp)|
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[C++](./Leetcode/136.cpp)|
 |137|[Single Number II](https://leetcode.com/problems/single-number-ii/)|[C++](./Leetcode/137.cpp)|
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[C++](./Leetcode/138.cpp)|
