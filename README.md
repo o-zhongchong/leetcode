@@ -43,6 +43,7 @@
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[C++](./Leetcode/147.cpp)|
 |148|[Sort List](https://leetcode.com/problems/sort-list/)|[C++](./Leetcode/148.cpp)|
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[C++](./Leetcode/164.cpp)|
+|169|[Majority Element](https://leetcode.com/problems/majority-element/)|[C++](./Leetcode/169.cpp)|
 |179|[Largest Number](https://leetcode.com/problems/largest-number/)|[C++](./Leetcode/179.cpp)|
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[C++](./Leetcode/190.cpp)|
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[C++](./Leetcode/191.cpp)|
