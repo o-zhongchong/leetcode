@@ -4,3 +4,4 @@
 4. Math
 5. Tree
 6. Bit Manipulation
+7. Hash Table
