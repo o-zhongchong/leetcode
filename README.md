@@ -140,6 +140,7 @@
 |175|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)|[C++](./Leetcode/175.cpp)|
 |176|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)|[C++](./Leetcode/176.cpp)|
 |177|[Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)|[C++](./Leetcode/177.cpp)|
+|178|[Rank Scores](https://leetcode.com/problems/rank-scores/)|[C++](./Leetcode/178.cpp)|
 |196|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)|[C++](./Leetcode/196.cpp)|
 |595|[Big Countries](https://leetcode.com/problems/big-countries/)|[SQL](./Leetcode/595.sql)|
 |620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)|[SQL](./Leetcode/620.sql)|
