@@ -142,6 +142,7 @@
 |177|[Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)|[C++](./Leetcode/177.cpp)|
 |178|[Rank Scores](https://leetcode.com/problems/rank-scores/)|[C++](./Leetcode/178.cpp)|
 |180|[Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/)|[C++](./Leetcode/180.cpp)|
+|181|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)|[C++](./Leetcode/181.cpp)|
 |182|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)|[C++](./Leetcode/182.cpp)|
 |196|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)|[C++](./Leetcode/196.cpp)|
 |595|[Big Countries](https://leetcode.com/problems/big-countries/)|[SQL](./Leetcode/595.sql)|
