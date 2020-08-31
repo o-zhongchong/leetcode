@@ -137,16 +137,16 @@
 
 | # | Title | Solution |
 |:-:| :---- | :------- |
-|175|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)|[C++](./Leetcode/175.cpp)|
-|176|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)|[C++](./Leetcode/176.cpp)|
-|177|[Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)|[C++](./Leetcode/177.cpp)|
-|178|[Rank Scores](https://leetcode.com/problems/rank-scores/)|[C++](./Leetcode/178.cpp)|
-|180|[Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/)|[C++](./Leetcode/180.cpp)|
-|181|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)|[C++](./Leetcode/181.cpp)|
-|182|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)|[C++](./Leetcode/182.cpp)|
-|183|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)|[C++](./Leetcode/183.cpp)|
-|184|[Department Highest Salary](https://leetcode.com/problems/department-highest-salary/)|[C++](./Leetcode/184.cpp)|
-|196|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)|[C++](./Leetcode/196.cpp)|
+|175|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)|[SQL](./Leetcode/175.sql)|
+|176|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)|[SQL](./Leetcode/176.sql)|
+|177|[Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)|[SQL](./Leetcode/177.sql)|
+|178|[Rank Scores](https://leetcode.com/problems/rank-scores/)|[SQL](./Leetcode/178.sql)|
+|180|[Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/)|[SQL](./Leetcode/180.sql)|
+|181|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)|[SQL](./Leetcode/181.sql)|
+|182|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)|[SQL](./Leetcode/182.sql)|
+|183|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)|[SQL](./Leetcode/183.sql)|
+|184|[Department Highest Salary](https://leetcode.com/problems/department-highest-salary/)|[SQL](./Leetcode/184.sql)|
+|196|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)|[SQL](./Leetcode/196.sql)|
 |595|[Big Countries](https://leetcode.com/problems/big-countries/)|[SQL](./Leetcode/595.sql)|
 |620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)|[SQL](./Leetcode/620.sql)|
 |627|[Swap Salary](https://leetcode.com/problems/swap-salary/)|[SQL](./Leetcode/627.sql)|
