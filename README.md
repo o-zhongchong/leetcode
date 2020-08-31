@@ -145,6 +145,7 @@
 |181|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)|[C++](./Leetcode/181.cpp)|
 |182|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)|[C++](./Leetcode/182.cpp)|
 |183|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)|[C++](./Leetcode/183.cpp)|
+|184|[Department Highest Salary](https://leetcode.com/problems/department-highest-salary/)|[C++](./Leetcode/184.cpp)|
 |196|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)|[C++](./Leetcode/196.cpp)|
 |595|[Big Countries](https://leetcode.com/problems/big-countries/)|[SQL](./Leetcode/595.sql)|
 |620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)|[SQL](./Leetcode/620.sql)|
