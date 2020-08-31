@@ -1,7 +1,11 @@
-1. Array
-2. String
-3. Dynamic Programming
-4. Math
-5. Tree
-6. Bit Manipulation
-7. Hash Table
+Array
+String
+Heap
+Stack
+Hash Table
+Tree
+Sort
+Greddy
+Bit Manipulation
+Dynamic Programming
+Math
