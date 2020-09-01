@@ -148,6 +148,7 @@
 |184|[Department Highest Salary](https://leetcode.com/problems/department-highest-salary/)|[SQL](./Leetcode/184.sql)|
 |185|[Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)|[SQL](./Leetcode/185.sql)|
 |196|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)|[SQL](./Leetcode/196.sql)|
+|197|[Rising Temperature](https://leetcode.com/problems/rising-temperature/)|[SQL](./Leetcode/197.sql)|
 |595|[Big Countries](https://leetcode.com/problems/big-countries/)|[SQL](./Leetcode/595.sql)|
 |620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)|[SQL](./Leetcode/620.sql)|
 |627|[Swap Salary](https://leetcode.com/problems/swap-salary/)|[SQL](./Leetcode/627.sql)|
