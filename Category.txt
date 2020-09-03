@@ -1,11 +1,17 @@
 Array
+Linked List
 String
 Heap
 Stack
 Hash Table
 Tree
-Sort
+Graph
 Greddy
-Bit Manipulation
+Deph-first Search
+Breadth-first Search
+Sort
 Dynamic Programming
+Two Pointers
+Backtracking
+Bit Manipulation
 Math
