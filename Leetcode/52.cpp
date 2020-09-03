@@ -1,37 +1,60 @@
 class Solution {
 public:
-    void backtrack(int n, int m, vector<bool> &row_stat, vector<bool> &col_stat, 
-                                vector<bool> &left_incline, vector<bool> &right_incline, int &count)
-    {
-        if( m < n)
+    int totalNQueens(int n) {
+        vector<vector<string>> ret;
+        vector<string> puzzle;
+        vector<int> row(2*n, 0);
+        vector<int> col(2*n, 0);
+        vector<int> x(2*n, 0);
+        vector<int> y(2*n, 0);
+        
+        for(int i = 0; i < n; ++i)
         {
-            for( int i=0; i<n; ++i)
-            {
-                if( row_stat.at(i)==0 && col_stat.at(m)==0 && left_incline.at(m-i+n-1)==0 && right_incline.at(m+i)==0)
-                {
-                    row_stat.at(i)=1;
-                    col_stat.at(m)=1;
-                    left_incline.at(m-i+n-1)=1;
-                    right_incline.at(m+i)=1;
-                    backtrack(n, m+1, row_stat, col_stat, left_incline, right_incline, count);
-                    row_stat.at(i)=0;
-                    col_stat.at(m)=0;
-                    left_incline.at(m-i+n-1)=0;
-                    right_incline.at(m+i)=0;
-                }
-            }
+            puzzle.push_back(string(n,'.'));
         }
-        else
-            ++count;
+        
+        solver(puzzle, 0, n, row, col, x, y, ret);
+        
+        return ret.size();
     }
     
-    int totalNQueens(int n) {
-        vector<bool> row_stat(n,0);
-        vector<bool> col_stat(n,0);
-        vector<bool> left_incline(2*n-1,0);
-        vector<bool> right_incline(2*n-1,0);
-        int count = 0;
-        backtrack(n,0,row_stat,col_stat,left_incline,right_incline,count);
-        return count;
+    int solver(vector<string>& puzzle, int i, int n, vector<int>& row,
+              vector<int>& col, vector<int>& x, vector<int>& y, 
+              vector<vector<string>>& ret)
+    {
+        if(i < 0 || n <= 0)
+        {
+            return -1;
+        }
+        
+        if(i == n)
+        {
+            ret.push_back(puzzle);
+            return 0;
+        }
+        
+        for(int j = 0; j < n; ++j)
+        {
+            if(row[i] || col[j] || x[n-1-i+j] || y[i+j])
+            {
+                continue;
+            }
+            
+            puzzle[i][j] = 'Q';
+            row[i] = 1;
+            col[j] = 1;
+            x[n-1-i+j] = 1;
+            y[i+j] = 1;
+            
+            solver(puzzle, i+1, n, row, col, x, y, ret);
+            
+            puzzle[i][j] = '.';
+            row[i] = 0;
+            col[j] = 0;
+            x[n-1-i+j] = 0;
+            y[i+j] = 0;
+        }
+        
+        return 0;
     }
 };
