@@ -153,6 +153,7 @@
 |595|[Big Countries](https://leetcode.com/problems/big-countries/)|[SQL](./Leetcode/595.sql)|
 |596|[Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/)|[SQL](./Leetcode/596.sql)|
 |620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)|[SQL](./Leetcode/620.sql)|
+|626|[Exchange Seats](https://leetcode.com/problems/exchange-seats/)|[SQL](./Leetcode/626.sql)|
 |627|[Swap Salary](https://leetcode.com/problems/swap-salary/)|[SQL](./Leetcode/627.sql)|
 
 ### Shell
