@@ -9,6 +9,7 @@ Graph
 Greddy
 Deph-first Search
 Breadth-first Search
+Binary Search Tree
 Sort
 Dynamic Programming
 Two Pointers
