@@ -16,3 +16,4 @@ Two Pointers
 Backtracking
 Bit Manipulation
 Math
+Trie
