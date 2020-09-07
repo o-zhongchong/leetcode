@@ -2,13 +2,26 @@ class Solution {
 public:
     int countRoutes(vector<int>& locations, int start, int finish, int fuel) {
         const int n = locations.size();
-        vector<vector<int>> dp(n, vector<int>(fuel+1, -1));
+        int** dp = new int*[n];
         
-        return moveToCity(locations, start, finish, fuel, dp);
+        for(int i=0; i<n; ++i)
+        {
+            dp[i] = new int[fuel+1];
+        }
+        
+        for(int i=0; i<n; ++i)
+        {
+            for(int j=0; j<fuel+1; ++j)
+            {
+                dp[i][j] = -1;
+            }
+        }
+        
+        return dfs(locations, start, finish, fuel, dp);
     }
     
-    int moveToCity(vector<int>& locations, int start, int finish, 
-                   int fuel, vector<vector<int>>& dp)
+    int dfs(vector<int>& locations, int curCity, int finishCity, 
+                   int fuel, int** dp)
     {
         if(fuel < 0)
         {
@@ -16,25 +29,25 @@ public:
         }
         
         const int n = locations.size();
-        int ans = (start == finish) ? 1 : 0;
+        int ans = (curCity == finishCity) ? 1 : 0;
         
-        if(dp[start][fuel] != -1)
+        if(dp[curCity][fuel] != -1)
         {
-            return dp[start][fuel];
+            return dp[curCity][fuel];
         }
 
         for(int i = 0; i < n; ++i)
         {
-            int cost = abs(locations[start] - locations[i]);
+            int cost = abs(locations[curCity] - locations[i]);
             
-            if(i != start)
+            if(i != curCity)
             {
-                ans = (ans + moveToCity(locations, i, finish, fuel-cost, dp))
+                ans = (ans + dfs(locations, i, finishCity, fuel-cost, dp))
                     % 1000000007;
             }
         }
         
-        dp[start][fuel] = ans;
+        dp[curCity][fuel] = ans;
         
         return ans;
     }
