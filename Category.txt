@@ -1,19 +1,20 @@
 Array
 Linked List
-String
 Heap
 Stack
-Hash Table
 Tree
+Binary Search Tree
+Trie
 Graph
+Hash Table
+String
+
 Greddy
+Backtracking
 Deph-first Search
 Breadth-first Search
-Binary Search Tree
 Sort
 Dynamic Programming
 Two Pointers
-Backtracking
 Bit Manipulation
 Math
-Trie
