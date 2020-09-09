@@ -28,6 +28,7 @@
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[C++](./Leetcode/40.cpp)|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[C++](./Leetcode/43.cpp)|
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[C++](./Leetcode/44.cpp)|
+|50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[C++](./Leetcode/50.cpp)|
 |51|[N-Queens](https://leetcode.com/problems/n-queens/)|[C++](./Leetcode/51.cpp)|
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[C++](./Leetcode/52.cpp)|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Leetcode/53.cpp)|
