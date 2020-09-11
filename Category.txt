@@ -15,6 +15,7 @@ String
 Greddy
 Backtracking
 Recursion
+Binary Search
 Deph-first Search
 Breadth-first Search
 Sort
@@ -23,3 +24,6 @@ Two Pointers
 Bit Manipulation
 Math
 Random
+Sliding Window
+
+

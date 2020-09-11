@@ -24,15 +24,15 @@ public:
             
             while((temp << 1) <= dividend_l)
             {
-                temp = temp << 1;
-                weight = weight << 1;
+                temp <<= 1;
+                weight <<= 1;
             }
             
             dividend_l -= temp;
             ret += weight;
         }
         
-        return flag * ret;
+        return ret * flag;
     }
     
     int sign(int x)
