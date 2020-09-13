@@ -1,4 +1,6 @@
 Array
+Hash Table
+String
 Linked List
 Stack
 Queue
@@ -8,9 +10,8 @@ Binary Search Tree
 Binary Indexed Tree
 Segment Tree
 Trie
+Union Find
 Graph
-Hash Table
-String
 
 Greddy
 Backtracking
