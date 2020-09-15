@@ -19,15 +19,15 @@ public:
         return 0;
     }
     
-    void solve(vector<vector<char>>& board) {
-        int m = board.size();
+    int numIslands(vector<vector<char>>& grid) {
+        int m = grid.size();
         
         if(m <= 0)
         {
-            return;
+            return 0;
         }
         
-        int n = board[0].size();
+        int n = grid[0].size();
         int step[4][2] = {{-1,0}, {1,0}, {0,-1}, {0,1}};
         int* ds = new int[m*n];
         
@@ -40,7 +40,7 @@ public:
         {
             for(int j=0; j<n; ++j)
             {
-                if(board[i][j] == 'O')
+                if(grid[i][j] == '1')
                 {
                     for(int k=0; k<4; ++k)
                     {
@@ -48,7 +48,7 @@ public:
                         int q = j + step[k][1];
                         
                         if(p >= 0 && p < m && q >= 0 && q < n
-                           && board[p][q] == 'O')
+                           && grid[p][q] == '1')
                         {
                             merge(ds, i*n+j, p*n+q);
                         }
@@ -57,60 +57,21 @@ public:
             }
         }
         
-        unordered_set<int> myset;
-        
-        for(int i=0; i<n; ++i)
-        {
-            if(board[0][i] == 'O')
-            {
-                int x = find(ds, i);
-                myset.insert(x);
-            }
-        }
-        
-        for(int i=0; i<n; ++i)
-        {
-            if(board[m-1][i] == 'O')
-            {
-                int x = find(ds, (m-1)*n+i);
-                myset.insert(x);
-            }
-        }
-        
-        for(int i=0; i<m; ++i)
-        {
-            if(board[i][0] == 'O')
-            {
-                int x = find(ds, i*n);
-                myset.insert(x);
-            }
-        }
-        
-        for(int i=0; i<m; ++i)
-        {
-            if(board[i][n-1] == 'O')
-            {
-                int x = find(ds, i*n+n-1);
-                myset.insert(x);
-            }
-        }
+        int cnt = 0;
         
         for(int i=0; i<m; ++i)
         {
             for(int j=0; j<n; ++j)
             {
-                if(board[i][j] == 'O')
+                int k = i*n + j;
+                
+                if(grid[i][j] == '1' && find(ds, k) == k)
                 {
-                    int x = find(ds, i*n+j);
-                    
-                    if(myset.find(x) == myset.end())
-                    {
-                        board[i][j] = 'X';
-                    }
+                    ++cnt;
                 }
             }
         }
         
-        return;
+        return cnt;
     }
 };
