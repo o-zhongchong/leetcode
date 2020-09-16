@@ -28,6 +28,7 @@
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[C++](./Leetcode/29.cpp)|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[C++](./Leetcode/36.cpp)|
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|[C++](./Leetcode/37.cpp)|
+|38|[Count and Say](https://leetcode.com/problems/count-and-say/)|[C++](./Leetcode/38.cpp)|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[C++](./Leetcode/39.cpp)|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[C++](./Leetcode/40.cpp)|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[C++](./Leetcode/43.cpp)|
