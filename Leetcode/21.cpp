@@ -11,6 +11,7 @@ public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
         ListNode* root=nullptr;
         ListNode* p=nullptr;
+        
         while(l1!=nullptr || l2!=nullptr)
         {
             ListNode** tmp=nullptr;
@@ -40,6 +41,7 @@ public:
                 p->next=nullptr;
             }
         }
+        
         return root;
     }
 };
