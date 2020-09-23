@@ -25,6 +25,7 @@
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[C++](./Leetcode/20.cpp)
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[C++](./Leetcode/26.cpp)|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[C++](./Leetcode/27.cpp)|
+|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[C++](./Leetcode/28.cpp)|
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[C++](./Leetcode/29.cpp)|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[C++](./Leetcode/36.cpp)|
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|[C++](./Leetcode/37.cpp)|
