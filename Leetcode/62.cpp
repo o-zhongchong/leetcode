@@ -1,19 +1,26 @@
 class Solution {
 public:
     int uniquePaths(int m, int n) {
-        --n;
-        --m;
-        if( m == 0 || n==0)
-            return 1;
-        if( m<0 || n<0)
-            return -1;
-        long long res = 1;
-        if( m > n )
-            swap( m, n );
-        for( int i=1; i<=m; ++i )
+        int x = m - 1;
+        int y = m + n -2;
+        
+        return caculate(x,y);
+    }
+    
+    int caculate(int x, int y)
+    {
+        double ret = 1;
+        
+        if(y - x < x)
         {
-            res = res * (n+i) / i;
+            x = y - x;
         }
-        return res;
+        
+        for(int i=1; i<=x; ++i)
+        {
+            ret = ret * (y-i+1) / i;
+        }
+        
+        return ret;
     }
 };

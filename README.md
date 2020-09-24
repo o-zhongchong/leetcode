@@ -41,6 +41,7 @@
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[C++](./Leetcode/56.cpp)|
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/)|[C++](./Leetcode/57.cpp)|
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/)|[C++](./Leetcode/61.cpp)|
+|62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[C++](./Leetcode/62.cpp)|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|[C++](./Leetcode/67.cpp)|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[C++](./Leetcode/71.cpp)|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[C++](./Leetcode/75.cpp)|
