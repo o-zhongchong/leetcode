@@ -70,6 +70,7 @@
 |260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[C++](./Leetcode/260.cpp)|
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[C++](./Leetcode/268.cpp)|
 |274|[H-Index](https://leetcode.com/problems/h-index/)|[C++](./Leetcode/274.cpp)|
+|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[C++](./Leetcode/300.cpp)|
 |324|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|[C++](./Leetcode/324.cpp)|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[C++](./Leetcode/338.cpp)|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./Leetcode/344.cpp)|
