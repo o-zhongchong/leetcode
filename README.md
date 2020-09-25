@@ -43,6 +43,7 @@
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/)|[C++](./Leetcode/61.cpp)|
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[C++](./Leetcode/62.cpp)|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|[C++](./Leetcode/67.cpp)|
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./Leetcode/70.cpp)|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[C++](./Leetcode/71.cpp)|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[C++](./Leetcode/75.cpp)|
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[C++](./Leetcode/78.cpp)|
