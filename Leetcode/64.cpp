@@ -1,28 +1,53 @@
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
-        int len1=grid.size();
-        assert(len1>0);
-        int len2=grid[0].size();
-        assert(len2>0);
-        vector<vector<int>> res(len1, vector<int>(len2, INT32_MAX));
-        const int step[2][2]={ {0,-1}, {-1,0} };
-        res[0][0]=grid[0][0];
-        for(int i=0; i<len1; ++i)
-            for(int j=0; j<len2; ++j)
+        int m = grid.size();
+        
+        if(m <= 0)
+        {
+            return 0;
+        }
+        
+        int n = grid[0].size();
+        int** dp = new int*[m];
+        
+        for(int i=0; i<m; ++i)
+        {
+            dp[i] = new int[n];
+        }
+        
+        for(int i=0; i<m; ++i)
+        {
+            for(int j=0; j<n; ++j)
             {
-                if(res[i][j] == INT32_MAX)
+                dp[i][j] = INT_MAX;
+            }
+        }
+        
+        int step[2][2] = {{-1,0}, {0,-1}};
+        dp[0][0] = grid[0][0];
+        
+        for(int i=0; i<m; ++i)
+        {
+            for(int j=0; j<n; ++j)
+            {
+                for(int k=0; k<2; ++k)
                 {
-                    for(int k=0; k<2; ++k)
+                    int p = i + step[k][0];
+                    int q = j + step[k][1];
+                    
+                    if(p >=0 && p < m  && q >=0 && q < n)
                     {
-                        int x=i+step[k][0];
-                        int y=j+step[k][1];
-                        if(x>=0 && x<len1 && y>=0 && y<len2 && res[x][y] != INT32_MAX)
-                            if(res[x][y]+grid[i][j] < res[i][j])
-                                res[i][j]=res[x][y]+grid[i][j];
+                        if(dp[i][j] == INT_MAX ||
+                           dp[p][q] + grid[i][j] < dp[i][j])
+                        {
+                            dp[i][j] = dp[p][q] + grid[i][j];
+                        }
                     }
                 }
             }
-        return res[len1-1][len2-1];
+        }
+        
+        return dp[m-1][n-1];
     }
 };
