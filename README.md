@@ -49,6 +49,7 @@
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[C++](./Leetcode/71.cpp)|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[C++](./Leetcode/75.cpp)|
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[C++](./Leetcode/78.cpp)|
+|91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[C++](./Leetcode/91.cpp)|
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[C++](./Leetcode/120.cpp)|
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|[C++](./Leetcode/130.cpp)|
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[C++](./Leetcode/136.cpp)|
