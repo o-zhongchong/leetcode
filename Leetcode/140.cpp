@@ -4,38 +4,34 @@ public:
     
     vector<string> wordBreak(string s, vector<string>& wordDict) 
     {
-        return dfs(s, wordDict);
-    }
-    
-    vector<string> dfs(string s, vector<string>& wordDict)
-    {
         if(m.count(s))
         {
             return m[s];
         }
         
-        if(s.empty())
-        {
-            return {""};
-        }
-        
         vector<string> ret;
         
-        for(auto word : wordDict)
+        for(auto w : wordDict)
         {
-            if(s.substr(0, word.size()) != word)
+            if(s.substr(0, w.size()) == w)
             {
-                continue;
-            }
+                if(s.size() == w.size())
+                {
+                    ret.push_back(w);
+                }
+                else
+                {
+                    vector<string> r = wordBreak(s.substr(w.size()), wordDict);
             
-            vector<string> r = dfs(s.substr(word.size()), wordDict);
-            
-            for (string str : r) 
-            {
-                ret.push_back(word + (str.empty() ? "" : " ") + str);
+                    for(string str : r)
+                    {
+                        ret.push_back(w + " " + str);
+                    }
+                }
             }
         }
         
-        return ret;
+        m[s] = ret;
+        return m[s];
     }
 };

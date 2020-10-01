@@ -1,45 +1,31 @@
 class Solution {
 public:
+    unordered_map<string, bool> m;
+    
     bool wordBreak(string s, vector<string>& wordDict) {
-        unordered_set<string> myset;
-        
-        for(auto str : wordDict)
+        if(m.count(s))
         {
-            myset.insert(str);
+            return m[s];
         }
         
-        int len = s.size();
-        
-        if(len <= 0)
+        for(auto w : wordDict)
         {
-            return true;
-        }
-        
-        vector<bool> dp(len, 0);
-        
-        if(myset.find(string(1, s[0])) != myset.end())
-        {
-            dp[0] = true;
-        }
-        
-        for(int i=1; i<len; ++i)
-        {
-            if(myset.find(s.substr(0, i+1)) != myset.end())
+            if(s.substr(0, w.size()) == w)
             {
-                dp[i] = true;
-                continue;
-            }
-            
-            for(int j=0; j<i; ++j)
-            {
-                if(dp[j] && myset.find(s.substr(j+1, i-j)) != myset.end())
+                if(s.size() == w.size())
                 {
-                    dp[i] = true;
-                    break;
+                    return m[s] = true;
+                }
+                else
+                {
+                    if(wordBreak(s.substr(w.size()), wordDict))
+                    {
+                        return m[s] = true;
+                    }
                 }
             }
         }
         
-        return dp[len-1];
+        return m[s] = false;
     }
 };
