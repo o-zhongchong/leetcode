@@ -1,34 +1,20 @@
 class Solution {
 public:
-    unordered_map<int,int> dp;
-    
     int coinChange(vector<int>& coins, int amount) {
-        if(amount == 0)
-        {
-            return 0;
-        }
+        vector<int> dp(amount+1, amount+1);
+        dp[0] = 0;
         
-        if(dp.count(amount))
+        for(int i=0; i<amount+1; ++i)
         {
-            return dp[amount];
-        }
-        
-        int cnt = -1;
-        
-        for(auto c : coins)
-        {
-            if(amount >= c)
+            for(auto c : coins)
             {
-                int r = coinChange(coins, amount-c);
-                        
-                if( r!= -1 && (cnt == -1 || r + 1 < cnt))
+                if(c <= i)
                 {
-                    cnt = r + 1;
+                    dp[i] = min(dp[i], dp[i-c]+1);
                 }
             }
         }
         
-        dp[amount] = cnt;
-        return cnt;
+        return dp[amount] > amount ? -1 : dp[amount];
     }
 };
