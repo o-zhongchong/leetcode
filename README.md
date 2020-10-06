@@ -77,6 +77,7 @@
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[C++](./Leetcode/217.cpp)|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[C++](./Leetcode/219.cpp)|
 |220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|[C++](./Leetcode/220.cpp)|
+|221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[C++](./Leetcode/221.cpp)|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[C++](./Leetcode/242.cpp)|
 |260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[C++](./Leetcode/260.cpp)|
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[C++](./Leetcode/268.cpp)|
