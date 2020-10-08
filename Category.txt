@@ -1,29 +1,31 @@
-Array
-Hash Table
-String
-Linked List
-Stack
-Queue
-Heap
-Tree
-Binary Search Tree
-Binary Indexed Tree
-Segment Tree
-Trie
-Union Find
-Graph
+数据结构
+|--Array
+|--Hash Table
+|--String
+|--Linked List
+|--Stack
+|--Queue
+|--Heap
+|--Tree
+|--Binary Search Tree
+|--Binary Indexed Tree
+|--Segment Tree
+|--Trie
+|--Union Find
+|--Graph
 
-Greddy
-Backtracking
-Recursion
-Binary Search
-Deph-first Search
-Breadth-first Search
-Sort
-Dynamic Programming
-Two Pointers
-Bit Manipulation
-Math
-Random
-Sliding Window
+算法分类
+|--Greddy
+|--Backtracking
+|--Recursion
+|--Binary Search
+|--DFS
+|--BFS
+|--Sort
+|--Dynamic Programming
+|--Two Pointers
+|--Bit Manipulation
+|--Math
+|--Random
+|--Sliding Window
 
