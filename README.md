@@ -80,6 +80,7 @@
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[C++](./Leetcode/221.cpp)|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[C++](./Leetcode/242.cpp)|
 |260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[C++](./Leetcode/260.cpp)|
+|264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[C++](./Leetcode/264.cpp)|
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[C++](./Leetcode/268.cpp)|
 |274|[H-Index](https://leetcode.com/problems/h-index/)|[C++](./Leetcode/274.cpp)|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[C++](./Leetcode/279.cpp)|
