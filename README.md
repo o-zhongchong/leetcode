@@ -94,6 +94,7 @@
 |357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|[C++](./Leetcode/357.cpp)|
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[C++](./Leetcode/383.cpp)|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[C++](./Leetcode/392.cpp)|
+|399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|[C++](./Leetcode/399.cpp)|
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[C++](./Leetcode/419.cpp) [Python](./Leetcode/419.py)|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[C++](./Leetcode/442.cpp)|
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[C++](./Leetcode/476.cpp)|
