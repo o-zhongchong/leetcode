@@ -1,8 +1,18 @@
 class Solution {
 public:
-    int getRoot(int* ds, int x)
+    int find(int* ds, int x, int y)
     {
-        return x == ds[x] ? x : getRoot(ds, ds[x]);
+        if(ds[x] == y)
+        {
+            return 1;
+        }
+        
+        if(ds[x] == x)
+        {
+            return 0;
+        }
+        
+        return find(ds, ds[x], y);
     }
     
     vector<int> findRedundantDirectedConnection(vector<vector<int>>& edges) {
@@ -42,15 +52,12 @@ public:
         
         for(int i=0; i<len; ++i)
         {
-            int fx = getRoot(ds, edges[i][0]);
-            int fy = ds[edges[i][1]];
-            
-            if(fy != edges[i][1])
+            if(ds[edges[i][1]] != edges[i][1])
             {
                 continue;
             }
             
-            if(fx == edges[i][1])
+            if(find(ds, edges[i][0], edges[i][1]))
             {
                 return r1.empty() ? vector<int>{edges[i][0],edges[i][1]} : r1;
             }
