@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int find(int* ds, int x, int y)
+    int dfs(int* ds, int x, int y)
     {
         if(ds[x] == y)
         {
@@ -12,7 +12,7 @@ public:
             return 0;
         }
         
-        return find(ds, ds[x], y);
+        return dfs(ds, ds[x], y);
     }
     
     vector<int> findRedundantDirectedConnection(vector<vector<int>>& edges) {
@@ -57,7 +57,7 @@ public:
                 continue;
             }
             
-            if(find(ds, edges[i][0], edges[i][1]))
+            if(dfs(ds, edges[i][0], edges[i][1]))
             {
                 return r1.empty() ? vector<int>{edges[i][0],edges[i][1]} : r1;
             }
