@@ -48,6 +48,7 @@
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|[C++](./Leetcode/67.cpp)|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./Leetcode/70.cpp)|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[C++](./Leetcode/71.cpp)|
+|73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[C++](./Leetcode/73.cpp)|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[C++](./Leetcode/75.cpp)|
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[C++](./Leetcode/78.cpp)|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[C++](./Leetcode/88.cpp)|
