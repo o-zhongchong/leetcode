@@ -54,6 +54,7 @@
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[C++](./Leetcode/74.cpp)|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[C++](./Leetcode/75.cpp)|
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[C++](./Leetcode/78.cpp)|
+|79|[Word Search](https://leetcode.com/problems/word-search/)|[C++](./Leetcode/79.cpp)|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[C++](./Leetcode/88.cpp)|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[C++](./Leetcode/91.cpp)|
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[C++](./Leetcode/120.cpp)|
