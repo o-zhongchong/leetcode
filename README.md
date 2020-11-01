@@ -57,6 +57,7 @@
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[C++](./Leetcode/78.cpp)|
 |79|[Word Search](https://leetcode.com/problems/word-search/)|[C++](./Leetcode/79.cpp)|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[C++](./Leetcode/80.cpp)|
+|81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[C++](./Leetcode/81.cpp)|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[C++](./Leetcode/88.cpp)|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[C++](./Leetcode/91.cpp)|
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[C++](./Leetcode/120.cpp)|
