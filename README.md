@@ -28,6 +28,7 @@
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[C++](./Leetcode/28.cpp)|
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[C++](./Leetcode/29.cpp)|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[C++](./Leetcode/33.cpp)|
+|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[C++](./Leetcode/34.cpp)|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[C++](./Leetcode/36.cpp)|
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|[C++](./Leetcode/37.cpp)|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)|[C++](./Leetcode/38.cpp)|
