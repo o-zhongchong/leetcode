@@ -49,6 +49,7 @@
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[C++](./Leetcode/62.cpp)|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[C++](./Leetcode/63.cpp)|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[C++](./Leetcode/64.cpp)|
+|66|[Plus One](https://leetcode.com/problems/plus-one/)|[C++](./Leetcode/66.cpp)|
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|[C++](./Leetcode/67.cpp)|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./Leetcode/70.cpp)|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[C++](./Leetcode/71.cpp)|
