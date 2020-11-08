@@ -35,6 +35,7 @@
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)|[C++](./Leetcode/38.cpp)|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[C++](./Leetcode/39.cpp)|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[C++](./Leetcode/40.cpp)|
+|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[C++](./Leetcode/41.cpp)|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[C++](./Leetcode/43.cpp)|
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[C++](./Leetcode/44.cpp)|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[C++](./Leetcode/48.cpp)|
