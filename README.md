@@ -84,6 +84,7 @@
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[C++](./Leetcode/151.cpp)|
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[C++](./Leetcode/152.cpp)|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[C++](./Leetcode/153.cpp)|
+|154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[C++](./Leetcode/154.cpp)|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[C++](./Leetcode/162.cpp)|
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[C++](./Leetcode/164.cpp)|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[C++](./Leetcode/169.cpp)|
