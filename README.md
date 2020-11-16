@@ -87,6 +87,7 @@
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[C++](./Leetcode/154.cpp)|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[C++](./Leetcode/162.cpp)|
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[C++](./Leetcode/164.cpp)|
+|167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[C++](./Leetcode/167.cpp)|
 |169|[Majority Element](https://leetcode.com/problems/majority-element/)|[C++](./Leetcode/169.cpp)|
 |179|[Largest Number](https://leetcode.com/problems/largest-number/)|[C++](./Leetcode/179.cpp)|
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[C++](./Leetcode/190.cpp)|
