@@ -1,28 +1,34 @@
 数据结构
 |--Array
-|--Hash Table
-|--String
 |--Linked List
 |--Stack
 |--Queue
 |--Heap
+|--Hash Table
+|--String
+|
 |--Tree
 |--Binary Search Tree
 |--Binary Indexed Tree
 |--Segment Tree
 |--Trie
-|--Union Find
+|
 |--Graph
+|
+|--Union Find
 
 算法分类
-|--Greddy
-|--Backtracking
-|--Recursion
 |--Binary Search
 |--DFS
 |--BFS
+|
 |--Sort
+|
 |--Dynamic Programming
+|
+|--Greddy
+|--Backtracking
+|--Recursion
 |--Two Pointers
 |--Bit Manipulation
 |--Math
