@@ -8,9 +8,6 @@ public:
         
         int len = nums.size();
         vector<int> ret(len, 0);
-        vector<int> arr1, arr2;
-        arr1 = arr2 = ret;
-        
         int product = 1;
         
         for(int i = 0; i < len; ++i)
@@ -20,7 +17,7 @@ public:
                 product *= nums[i-1];
             }
             
-            arr1[i] = product;
+            ret[i] = product;
         }
         
         product = 1;
@@ -32,12 +29,7 @@ public:
                 product *= nums[i + 1];
             }
             
-            arr2[i] = product;
-        }
-        
-        for(int i = 0; i < len; ++i)
-        {
-            ret[i] = arr1[i] * arr2[i];
+            ret[i] *= product;
         }
         
         return ret;
