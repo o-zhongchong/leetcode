@@ -1,17 +1,45 @@
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
-        vector<int> res(nums.size(), 1);
-        for(int i = 1; i<nums.size(); ++i)
+        if(nums.empty())
         {
-            res.at(i) = res.at(i-1) * nums.at(i-1);
+            return {};
         }
-        int right = 1;
-        for(int i = nums.size() -1; i>=0; --i)
+        
+        int len = nums.size();
+        vector<int> ret(len, 0);
+        vector<int> arr1, arr2;
+        arr1 = arr2 = ret;
+        
+        int product = 1;
+        
+        for(int i = 0; i < len; ++i)
         {
-            res.at(i) = right * res.at(i);
-            right *= nums.at(i);
+            if(i - 1 >= 0)
+            {
+                product *= nums[i-1];
+            }
+            
+            arr1[i] = product;
         }
-        return res;
+        
+        product = 1;
+        
+        for(int i = len - 1; i >= 0; --i)
+        {
+            if(i + 1 < len)
+            {
+                product *= nums[i + 1];
+            }
+            
+            arr2[i] = product;
+        }
+        
+        for(int i = 0; i < len; ++i)
+        {
+            ret[i] = arr1[i] * arr2[i];
+        }
+        
+        return ret;
     }
 };
