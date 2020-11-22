@@ -2,7 +2,7 @@
 
 ### Algorithm
 
-| TAG | # | Title | Solution |
+| Tag | Num | Title | Solution |
 |:-:| :---- | :---- | :------- |
 |Array|1|[Two Sum](https://leetcode.com/problems/two-sum)|[C++](./Leetcode/1.cpp) [Python](./Leetcode/1.py)|
 ||2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[C++](./Leetcode/2.cpp)|
