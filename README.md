@@ -141,6 +141,7 @@
 ||559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[C++](./Leetcode/559.cpp)|
 ||589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[C++](./Leetcode/589.cpp)|
 ||590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[C++](./Leetcode/590.cpp)|
+|Queue|621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|[C++](./Leetcode/621.cpp)|
 ||684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[C++](./Leetcode/684.cpp)|
 ||685|[Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)|[C++](./Leetcode/685.cpp)|
 ||721|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[C++](./Leetcode/721.cpp)|
