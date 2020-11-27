@@ -40,6 +40,7 @@
 ||44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[C++](./Leetcode/44.cpp)|
 |Array|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[C++](./Leetcode/45.cpp)|
 |Array|48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[C++](./Leetcode/48.cpp)|
+|String|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[C++](./Leetcode/49.cpp)|
 ||50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[C++](./Leetcode/50.cpp)|
 ||51|[N-Queens](https://leetcode.com/problems/n-queens/)|[C++](./Leetcode/51.cpp)|
 ||52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[C++](./Leetcode/52.cpp)|
