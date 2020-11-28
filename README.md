@@ -7,12 +7,12 @@
 |Array|1|[Two Sum](https://leetcode.com/problems/two-sum)|[C++](./Leetcode/1.cpp) [Python](./Leetcode/1.py)|
 ||2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[C++](./Leetcode/2.cpp)|
 ||3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[C++](./Leetcode/3.cpp)|
-||5|[Happy Number](https://leetcode.com/problems/happy-number/)|[C++](./Leetcode/4.cpp)|
-||5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[C++](./Leetcode/5.cpp)|
+||4|[Happy Number](https://leetcode.com/problems/happy-number/)|[C++](./Leetcode/4.cpp)|
+|DP|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[C++](./Leetcode/5.cpp)|
 ||7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[C++](./Leetcode/7.cpp)|
 ||8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[C++](./Leetcode/8.cpp)|
 ||9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[C++](./Leetcode/9.cpp)|
-||10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[C++](./Leetcode/10.cpp)|
+|DP|10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[C++](./Leetcode/10.cpp)|
 |Array|11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[C++](./Leetcode/11.cpp)|
 ||12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[C++](./Leetcode/12.cpp)|
 ||13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[C++](./Leetcode/13.cpp)|
@@ -37,14 +37,14 @@
 |Array|40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[C++](./Leetcode/40.cpp)|
 |Array|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[C++](./Leetcode/41.cpp)|
 ||43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[C++](./Leetcode/43.cpp)|
-||44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[C++](./Leetcode/44.cpp)|
+|DP|44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[C++](./Leetcode/44.cpp)|
 |Array|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[C++](./Leetcode/45.cpp)|
 |Array|48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[C++](./Leetcode/48.cpp)|
 |String|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[C++](./Leetcode/49.cpp)|
 ||50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[C++](./Leetcode/50.cpp)|
 ||51|[N-Queens](https://leetcode.com/problems/n-queens/)|[C++](./Leetcode/51.cpp)|
 ||52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[C++](./Leetcode/52.cpp)|
-|Array|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Leetcode/53.cpp)|
+|DP|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Leetcode/53.cpp)|
 |Array|55|[Jump Game](https://leetcode.com/problems/jump-game/)|[C++](./Leetcode/55.cpp)|
 |Array|56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[C++](./Leetcode/56.cpp)|
 |Array|57|[Insert Interval](https://leetcode.com/problems/insert-interval/)|[C++](./Leetcode/57.cpp)|
@@ -66,7 +66,8 @@
 |Array|81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[C++](./Leetcode/81.cpp)|
 |Array|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[C++](./Leetcode/88.cpp)|
 |Array|90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[C++](./Leetcode/90.cpp)|
-||91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[C++](./Leetcode/91.cpp)|
+|DP|91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[C++](./Leetcode/91.cpp)|
+|String|93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[C++](./Leetcode/93.cpp)|
 |Stack|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C++](./Leetcode/94.cpp)|
 |Stack|103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[C++](./Leetcode/103.cpp)|
 |Array|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[C++](./Leetcode/118.cpp)|
