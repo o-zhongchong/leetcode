@@ -76,6 +76,7 @@
 |Array|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[C++](./Leetcode/121.cpp)|
 |Array|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[C++](./Leetcode/122.cpp)|
 |Array|123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|[C++](./Leetcode/123.cpp)|
+|String|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[C++](./Leetcode/125.cpp)|
 ||130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|[C++](./Leetcode/130.cpp)|
 ||136|[Single Number](https://leetcode.com/problems/single-number/)|[C++](./Leetcode/136.cpp)|
 ||137|[Single Number II](https://leetcode.com/problems/single-number-ii/)|[C++](./Leetcode/137.cpp)|
