@@ -47,6 +47,7 @@
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[C++](./Leetcode/55.cpp)||
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[C++](./Leetcode/56.cpp)||
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/)|[C++](./Leetcode/57.cpp)||
+|58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[C++](./Leetcode/58.cpp)|String|
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[C++](./Leetcode/59.cpp)||
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/)|[C++](./Leetcode/61.cpp)||
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[C++](./Leetcode/62.cpp)||
