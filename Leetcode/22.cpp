@@ -1,27 +1,34 @@
 class Solution {
 public:
-    void backTrack(int m, int n, string &str, vector<string> &str_vec) 
-    {
-        if( n == 0 && m==0)
-            str_vec.push_back(str);
-        string tmp = str;
-        if( m > 0)
-        {
-            str += ")";
-            backTrack(m-1, n, str, str_vec);
-            str = tmp;
-        }
-        if( n > 0)
-        {
-            str += "(";
-            backTrack(m+1,n-1,str,str_vec);
-            str=tmp;
-        }
-    }
     vector<string> generateParenthesis(int n) {
-        vector<string> vec;
-        string str;
-        backTrack(0,n,str,vec);
-        return vec;
+        vector<string> ret;
+        dfs(n, n, "", ret);
+        return ret;
+    }
+    
+    int dfs(int left, int right, string s, vector<string>& ret)
+    {
+        if(left > right)
+        {
+            return 0;
+        }
+        
+        if(left == 0 && right == 0)
+        {
+            ret.push_back(s);
+            return 0;
+        }
+        
+        if(left > 0)
+        {
+            dfs(left-1, right, s + "(", ret);
+        }
+        
+        if(right > 0)
+        {
+            dfs(left, right-1, s + ")", ret);
+        }
+        
+        return 0;
     }
 };
