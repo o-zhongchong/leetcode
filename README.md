@@ -27,6 +27,7 @@
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[C++](./Leetcode/27.cpp)||
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[C++](./Leetcode/28.cpp)||
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[C++](./Leetcode/29.cpp)||
+|32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[C++](./Leetcode/32.cpp)|String|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[C++](./Leetcode/33.cpp)||
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[C++](./Leetcode/34.cpp)||
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[C++](./Leetcode/35.cpp)||
@@ -54,7 +55,7 @@
 |62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[C++](./Leetcode/62.cpp)||
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[C++](./Leetcode/63.cpp)||
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[C++](./Leetcode/64.cpp)||
-|65|[Valid Number](https://leetcode.com/problems/valid-number/)|[C++](./Leetcode/65.cpp)||
+|65|[Valid Number](https://leetcode.com/problems/valid-number/)|[C++](./Leetcode/65.cpp)|String|
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[C++](./Leetcode/66.cpp)||
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|[C++](./Leetcode/67.cpp)||
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./Leetcode/70.cpp)||
@@ -130,6 +131,7 @@
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[C++](./Leetcode/300.cpp)||
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[C++](./Leetcode/303.cpp)||
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[C++](./Leetcode/304.cpp)||
+|316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[C++](./Leetcode/316.cpp)||
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)|[C++](./Leetcode/322.cpp)||
 |324|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|[C++](./Leetcode/324.cpp)||
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[C++](./Leetcode/338.cpp)||
