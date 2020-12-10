@@ -123,6 +123,7 @@
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[C++](./Leetcode/229.cpp)||
 |238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[C++](./Leetcode/238.cpp)||
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[C++](./Leetcode/242.cpp)||
+|258|[Add Digits](https://leetcode.com/problems/add-digits/)|[C++](./Leetcode/258.cpp)||
 |260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[C++](./Leetcode/260.cpp)||
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[C++](./Leetcode/264.cpp)||
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[C++](./Leetcode/268.cpp)||
