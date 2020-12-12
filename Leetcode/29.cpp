@@ -1,13 +1,17 @@
 class Solution {
 public:
+    int sign(int x)
+    {
+        return x > 0 ? 1 : -1;
+    }
+    
     int divide(int dividend, int divisor) {
         if(!divisor || (dividend == INT_MIN && divisor == -1) 
            || (dividend == INT_MAX && divisor == 1))
         {
             return INT_MAX;
         }
-        
-        if(!dividend)
+        else if(!dividend)
         {
             return 0;
         }
@@ -15,28 +19,23 @@ public:
         int flag = sign(dividend) * sign(divisor);
         long long dividend_l = labs(dividend);
         long long divisor_l = labs(divisor);
-        long long ret = 0;
+        long long res = 0;
         
         while(divisor_l <= dividend_l)
         {
-            long temp = divisor_l;
+            long tmp = divisor_l;
             long weight = 1;
             
-            while((temp << 1) <= dividend_l)
+            while((tmp << 1) <= dividend_l)
             {
-                temp <<= 1;
+                tmp <<= 1;
                 weight <<= 1;
             }
             
-            dividend_l -= temp;
-            ret += weight;
+            dividend_l -= tmp;
+            res += weight;
         }
         
-        return ret * flag;
-    }
-    
-    int sign(int x)
-    {
-        return x > 0 ? 1 : -1;
+        return res * flag;
     }
 };
