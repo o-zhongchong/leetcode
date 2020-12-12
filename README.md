@@ -58,6 +58,7 @@
 |65|[Valid Number](https://leetcode.com/problems/valid-number/)|[C++](./Leetcode/65.cpp)|String|
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[C++](./Leetcode/66.cpp)||
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|[C++](./Leetcode/67.cpp)||
+|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[C++](./Leetcode/69.cpp)|Math|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./Leetcode/70.cpp)||
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[C++](./Leetcode/71.cpp)||
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[C++](./Leetcode/73.cpp)||
