@@ -1,10 +1,10 @@
 数据结构
 |--Array
-|--Linked List
+|--List
 |--Stack
 |--Queue
 |--Heap
-|--Hash Table
+|--HashTable
 |--String
 |
 |--Tree
