@@ -1,21 +1,39 @@
 class Solution {
 public:
-    string reverseVowels(string s) {
-        vector<char> vows;
-        set<char> vow={'a','e','i','o','u','A','E','I','O','U'};
-        for(auto i=s.begin(); i!=s.end(); ++i)
+    bool isVowel(char c)
+    {
+        if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c =='u' ||
+           c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U')
         {
-            if( vow.find(*i)!=vow.end() )
-                vows.push_back(*i);
+            return true;
         }
-        for(auto i=s.begin(); i!=s.end(); ++i)
+        
+        return false;
+    }
+    
+    string reverseVowels(string s) {
+        int left = 0, right = s.size() - 1;
+        
+        while(left < right)
         {
-            if( vow.find(*i)!=vow.end() )
+            while(left < right && !isVowel(s[left]))
             {
-                *i=vows.back();
-                vows.pop_back();
+                ++left;
+            }
+            
+            while(left < right && !isVowel(s[right]))
+            {
+                --right;
+            }
+            
+            if(left < right)
+            {
+                swap(s[left], s[right]);
+                ++left;
+                --right;
             }
         }
+        
         return s;
     }
 };
