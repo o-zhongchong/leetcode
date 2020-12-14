@@ -141,7 +141,7 @@
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[C++](./Leetcode/345.cpp)|String|
 |357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|[C++](./Leetcode/357.cpp)||
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[C++](./Leetcode/383.cpp)||
-|385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|[C++](./Leetcode/385.cpp)||
+|385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|[C++](./Leetcode/385.cpp)|String|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[C++](./Leetcode/392.cpp)||
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|[C++](./Leetcode/399.cpp)||
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[C++](./Leetcode/419.cpp) [Python](./Leetcode/419.py)||
