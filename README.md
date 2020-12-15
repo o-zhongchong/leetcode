@@ -130,7 +130,7 @@
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[C++](./Leetcode/268.cpp)||
 |274|[H-Index](https://leetcode.com/problems/h-index/)|[C++](./Leetcode/274.cpp)||
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[C++](./Leetcode/279.cpp)||
-|289|[Game of Life](https://leetcode.com/problems/game-of-life/)|[C++](./Leetcode/289.cpp)||
+|289|[Game of Life](https://leetcode.com/problems/game-of-life/)|[C++](./Leetcode/289.cpp)|Array|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[C++](./Leetcode/300.cpp)||
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[C++](./Leetcode/303.cpp)||
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[C++](./Leetcode/304.cpp)||
