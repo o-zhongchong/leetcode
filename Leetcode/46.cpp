@@ -1,22 +1,28 @@
 class Solution {
 public:
-    void backtracking(int i,int k,vector<int> &nums, vector<vector<int>> &vec)
-    {
-        if(i<k)
-        {
-            for(int j=i; j<k;++j)
-            {
-                swap(nums.at(i),nums.at(j));
-                backtracking(i+1,k,nums,vec);
-                swap(nums.at(i),nums.at(j));
-            }
-        }
-        else
-            vec.push_back(nums);
-    }
     vector<vector<int>> permute(vector<int>& nums) {
-        vector<vector<int>> vec;
-        backtracking(0,nums.size(),nums,vec);
-        return vec;
+        vector<vector<int>> res;
+        dfs(nums, 0, res);
+        return res;
+    }
+    
+    void dfs(vector<int>& nums, int k, vector<vector<int>>& res)
+    {
+        int len = nums.size();
+        
+        if(k == len)
+        {
+            res.push_back(nums);
+            return;
+        }
+        
+        for(int i=k; i<len; ++i)
+        {
+            swap(nums[k], nums[i]);
+            dfs(nums, k+1, res);
+            swap(nums[k], nums[i]);
+        }
+        
+        return;
     }
 };

@@ -40,6 +40,7 @@
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[C++](./Leetcode/43.cpp)||
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[C++](./Leetcode/44.cpp)||
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[C++](./Leetcode/45.cpp)||
+|46|[Permutations](https://leetcode.com/problems/permutations/)|[C++](./Leetcode/46.cpp)||
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/)|[C++](./Leetcode/48.cpp)||
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[C++](./Leetcode/49.cpp)||
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[C++](./Leetcode/50.cpp)||
