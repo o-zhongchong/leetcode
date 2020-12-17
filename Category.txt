@@ -6,32 +6,25 @@
 |--Heap
 |--HashTable
 |--String
-|
 |--Tree
 |--Binary Search Tree
 |--Binary Indexed Tree
 |--Segment Tree
 |--Trie
-|
 |--Graph
-|
 |--Union Find
 
 算法分类
-|--Binary Search
-|--DFS
-|--BFS
-|
-|--Sort
-|
-|--Dynamic Programming
-|
-|--Greddy
+|--Math
 |--Backtracking
 |--Recursion
+|--DFS
+|--BFS
+|--Binary Search
+|--Sort
+|--Dynamic Programming
+|--Greddy
 |--Two Pointers
 |--Bit Manipulation
-|--Math
 |--Random
 |--Sliding Window
-
