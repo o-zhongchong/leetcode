@@ -116,6 +116,7 @@
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[C++](./Leetcode/209.cpp)||
 |211|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)|[C++](./Leetcode/211.cpp)||
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|[C++](./Leetcode/213.cpp)||
+|216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[C++](./Leetcode/216.cpp)|Array|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[C++](./Leetcode/217.cpp)||
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[C++](./Leetcode/219.cpp)||
 |220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|[C++](./Leetcode/220.cpp)||
