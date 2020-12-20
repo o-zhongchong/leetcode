@@ -237,7 +237,9 @@
 |1584|[Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)|[C++](./Leetcode/1584.cpp)||
 |1588|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[C++](./Leetcode/1588.cpp)||
 |1592|[Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|[C++](./Leetcode/1592.cpp)||
-|1694|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[C++](./Leetcode/1694.cpp)||
+|1694|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[C++](./Leetcode/1694.cpp)|String|
+|1695|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[C++](./Leetcode/1695.cpp)|Sliding Window|
+|1696|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[C++](./Leetcode/1696.cpp)|Dynamic Programming|
 
 ### Concurrency
 
@@ -272,5 +274,3 @@
 | # | Title | Solution |
 |:-:| :---- | :------- |
 |195|[Tenth Line](https://leetcode.com/problems/tenth-line/)|[Bash](./Leetcode/195.sh)|
-
-
