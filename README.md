@@ -240,6 +240,7 @@
 |1694|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[C++](./Leetcode/1694.cpp)|String|
 |1695|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[C++](./Leetcode/1695.cpp)|Sliding Window|
 |1696|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[C++](./Leetcode/1696.cpp)|Dynamic Programming|
+|1697|[Checking Existence of Edge Length Limited Paths](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/)|[C++](./Leetcode/1697.cpp)|Union Find|
 
 ### Concurrency
 
