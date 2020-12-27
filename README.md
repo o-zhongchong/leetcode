@@ -247,6 +247,7 @@
 |1700|[Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)|[C++](./Leetcode/1700.cpp)|Array|
 |1701|[Average Waiting Time](https://leetcode.com/problems/average-waiting-time/)|[C++](./Leetcode/1701.cpp)|Array|
 |1702|[Maximum Binary String After Change](https://leetcode.com/problems/maximum-binary-string-after-change/)|[C++](./Leetcode/1702.cpp)|Greedy|
+|1704|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|[C++](./Leetcode/1704.cpp)|String|
 
 ### Concurrency
 
