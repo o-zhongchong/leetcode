@@ -250,6 +250,7 @@
 |1703|[Minimum Adjacent Swaps for K Consecutive Ones](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/)|[C++](./Leetcode/1703.cpp)|Array|
 |1704|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|[C++](./Leetcode/1704.cpp)|String|
 |1705|[Maximum Number of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/)|[C++](./Leetcode/1705.cpp)|Heap|
+|1706|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[C++](./Leetcode/1706.cpp)|DP|
 
 ### Concurrency
 

@@ -2,51 +2,51 @@ class Solution {
 public:
     int eatenApples(vector<int>& apples, vector<int>& days) {
         int len = apples.size();
-        map<int,int> mymap;
+        map<int,int> minheap;
         int ret = 0, i = 0;
         
         for(i=0; i<len; ++i)
         {
             if(apples[i] != 0 )
             {
-                if(mymap.find(i + days[i]) == mymap.end())
+                if(minheap.find(i + days[i]) == minheap.end())
                 {
-                    mymap[i + days[i]] = apples[i];
+                    minheap[i + days[i]] = apples[i];
                 }
                 else
                 {
-                    mymap[i + days[i]] += apples[i];
+                    minheap[i + days[i]] += apples[i];
                 }
             }
             
-            while(!mymap.empty())
+            while(!minheap.empty())
             {
-                while(!mymap.empty() && (mymap.begin()->first <= i ||
-                                         mymap.begin()->second == 0))
+                while(!minheap.empty() && (minheap.begin()->first <= i ||
+                                         minheap.begin()->second == 0))
                 {
-                    mymap.erase(mymap.begin());
+                    minheap.erase(minheap.begin());
                 }
                 
-                if(!mymap.empty())
+                if(!minheap.empty())
                 {
-                    --mymap.begin()->second;
+                    --minheap.begin()->second;
                     ++ret;
                     break;
                 }
             }
         }
         
-        while(!mymap.empty())
+        while(!minheap.empty())
         {
-            while(!mymap.empty() && (mymap.begin()->first <= i ||
-                                     mymap.begin()->second == 0))
+            while(!minheap.empty() && (minheap.begin()->first <= i ||
+                                     minheap.begin()->second == 0))
             {
-                mymap.erase(mymap.begin());
+                minheap.erase(minheap.begin());
             }
             
-            if(!mymap.empty())
+            if(!minheap.empty())
             {
-                --mymap.begin()->second;
+                --minheap.begin()->second;
                 ++ret;
             }
             
