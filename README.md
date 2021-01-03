@@ -254,6 +254,7 @@
 |1704|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|[C++](./Leetcode/1704.cpp)|String|
 |1705|[Maximum Number of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/)|[C++](./Leetcode/1705.cpp)|Heap|
 |1706|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[C++](./Leetcode/1706.cpp)|DP|
+|1710|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|[C++](./Leetcode/1710.cpp)|Greedy|
 
 ### Concurrency
 
