@@ -4,7 +4,7 @@
 |--Stack
 |--Queue
 |--Heap
-|--HashTable
+|--Hash Table
 |--String
 |--Tree
 |--Binary Search Tree
