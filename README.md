@@ -256,6 +256,7 @@
 |1706|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[C++](./Leetcode/1706.cpp)|DP|
 |1710|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|[C++](./Leetcode/1710.cpp)|Greedy|
 |1711|[Count Good Meals](https://leetcode.com/problems/count-good-meals/)|[C++](./Leetcode/1711.cpp)|Hash Table|
+|1712|[Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)|[C++](./Leetcode/1712.cpp)|Array|
 
 ### Concurrency
 
