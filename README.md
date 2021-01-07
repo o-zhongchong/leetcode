@@ -155,6 +155,7 @@
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[C++](./Leetcode/442.cpp)||
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[C++](./Leetcode/443.cpp)|String|
 |457|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|[C++](./Leetcode/457.cpp)||
+|468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[C++](./Leetcode/468.cpp)|String|
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[C++](./Leetcode/476.cpp)||
 |495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|[C++](./Leetcode/495.cpp)|Array|
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[C++](./Leetcode/500.cpp)||
