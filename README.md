@@ -261,6 +261,7 @@
 |1711|[Count Good Meals](https://leetcode.com/problems/count-good-meals/)|[C++](./Leetcode/1711.cpp)|Hash Table|
 |1712|[Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)|[C++](./Leetcode/1712.cpp)|Array|
 |1716|[Calculate Money in Leetcode Bank](https://leetcode.com/problems/calculate-money-in-leetcode-bank/)|[C++](./Leetcode/1716.cpp)|Math|
+|1717|[Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/)|[C++](./Leetcode/1717.cpp)|Greedy|
 |1718|[Construct the Lexicographically Largest Valid Sequence](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/)|[C++](./Leetcode/1718.cpp)|Backtracking|
 
 ### Concurrency
