@@ -153,6 +153,7 @@
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|[C++](./Leetcode/399.cpp)||
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[C++](./Leetcode/415.cpp)|String|
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[C++](./Leetcode/419.cpp) [Python](./Leetcode/419.py)||
+|434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|[C++](./Leetcode/434.cpp)|String|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[C++](./Leetcode/442.cpp)||
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[C++](./Leetcode/443.cpp)|String|
 |457|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|[C++](./Leetcode/457.cpp)||
