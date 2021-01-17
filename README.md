@@ -179,6 +179,7 @@
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[C++](./Leetcode/695.cpp)|Array|
 |721|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[C++](./Leetcode/721.cpp)||
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[C++](./Leetcode/766.cpp)||
+|788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[C++](./Leetcode/788.cpp)||
 |791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|[C++](./Leetcode/791.cpp)||
 |806|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)|[C++](./Leetcode/806.cpp)||
 |811|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)|[C++](./Leetcode/811.cpp)||
