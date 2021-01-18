@@ -174,7 +174,7 @@
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[C++](./Leetcode/589.cpp)||
 |590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[C++](./Leetcode/590.cpp)||
 |621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|[C++](./Leetcode/621.cpp)||
-|678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[C++](./Leetcode/678.cpp)||
+|678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[C++](./Leetcode/678.cpp)|String|
 |684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[C++](./Leetcode/684.cpp)||
 |685|[Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)|[C++](./Leetcode/685.cpp)||
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[C++](./Leetcode/695.cpp)|Array|
