@@ -276,6 +276,7 @@
 |1733|[Minimum Number of People to Teach](https://leetcode.com/problems/minimum-number-of-people-to-teach/)|[C++](./Leetcode/1733.cpp)|Greedy|
 |1734|[Decode XORed Permutation](https://leetcode.com/problems/decode-xored-permutation/)|[C++](./Leetcode/1734.cpp)|Bit Manipulation|
 |1735|[Count Ways to Make Array With Product](https://leetcode.com/problems/count-ways-to-make-array-with-product/)|[C++](./Leetcode/1735.cpp)|Math|
+|1738|[Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/)|[C++](./Leetcode/1738.cpp)|Array|
 
 ### Concurrency
 
