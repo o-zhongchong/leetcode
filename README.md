@@ -282,6 +282,7 @@
 |1737|[Change Minimum Characters to Satisfy One of Three Conditions](https://leetcode.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/)|[C++](./Leetcode/1737.cpp)|String|
 |1738|[Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/)|[C++](./Leetcode/1738.cpp)|Array|
 |1739|[Building Boxes](https://leetcode.com/problems/building-boxes/)|[C++](./Leetcode/1739.cpp)|Math|
+|1743|[Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/)|[C++](./Leetcode/1743.cpp)|Greedy|
 
 ### Concurrency
 
