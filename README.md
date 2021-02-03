@@ -284,6 +284,7 @@
 |1739|[Building Boxes](https://leetcode.com/problems/building-boxes/)|[C++](./Leetcode/1739.cpp)|Math|
 |1742|[Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/)|[C++](./Leetcode/1742.cpp)|Array|
 |1743|[Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/)|[C++](./Leetcode/1743.cpp)|Greedy|
+|1744|[Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)|[C++](./Leetcode/1744.cpp)|Math|
 
 ### Concurrency
 
