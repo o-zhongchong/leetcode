@@ -274,6 +274,7 @@
 |1717|[Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/)|[C++](./Leetcode/1717.cpp)|Greedy|
 |1718|[Construct the Lexicographically Largest Valid Sequence](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/)|[C++](./Leetcode/1718.cpp)|Backtracking|
 |1725|[Number Of Rectangles That Can Form The Largest Square](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/)|[C++](./Leetcode/1725.cpp)|Greedy|
+|1726|[Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/)|[C++](./Leetcode/1726.cpp)|Hash Table|
 |1732|[Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/)|[C++](./Leetcode/1732.cpp)|Array|
 |1733|[Minimum Number of People to Teach](https://leetcode.com/problems/minimum-number-of-people-to-teach/)|[C++](./Leetcode/1733.cpp)|Greedy|
 |1734|[Decode XORed Permutation](https://leetcode.com/problems/decode-xored-permutation/)|[C++](./Leetcode/1734.cpp)|Bit Manipulation|
