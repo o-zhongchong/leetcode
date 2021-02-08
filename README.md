@@ -287,6 +287,7 @@
 |1743|[Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/)|[C++](./Leetcode/1743.cpp)|Greedy|
 |1744|[Can You Eat Your Favorite Candy on Your Favorite Day?](https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)|[C++](./Leetcode/1744.cpp)|Math|
 |1748|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|[C++](./Leetcode/1748.cpp)|Array|
+|1749|[Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/)|[C++](./Leetcode/1749.cpp)|Greedy|
 
 ### Concurrency
 
