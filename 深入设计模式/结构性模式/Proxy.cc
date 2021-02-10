@@ -21,18 +21,18 @@ public:
 class ProxyService : public Service
 {
 public:
-    ProxyService(){service = new RealService();}
-    virtual ~ProxyService(){delete service;}
+    ProxyService(){real_service = new RealService();}
+    virtual ~ProxyService(){delete real_service;}
     
     int operation() const
     {
         std::cout<<"Proxy: Checking a real request."<<std::endl;
-        service->operation();
+        real_service->operation();
         std::cout<<"Proxy: Logging the detail of request."<<std::endl;
         return 0;
     }
 protected:
-    Service* service;
+    RealService* real_service;
 };
 
 int main(int argc, char** argv)
