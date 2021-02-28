@@ -195,6 +195,7 @@
 |883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|[C++](./Leetcode/883.cpp)||
 |885|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|[C++](./Leetcode/885.cpp)||
 |893|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/)|[C++](./Leetcode/893.cpp)||
+|895|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|[C++](./Leetcode/895.cpp)|Stack|
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[C++](./Leetcode/897.cpp)||
 |908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|[C++](./Leetcode/908.cpp)||
 |912|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|[C++](./Leetcode/912.cpp)||
