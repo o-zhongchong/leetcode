@@ -131,7 +131,7 @@
 |258|[Add Digits](https://leetcode.com/problems/add-digits/)|[C++](./Leetcode/258.cpp)||
 |260|[Single Number III](https://leetcode.com/problems/single-number-iii/)|[C++](./Leetcode/260.cpp)||
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[C++](./Leetcode/264.cpp)||
-|268|[Missing Number](https://leetcode.com/problems/missing-number/)|[C++](./Leetcode/268.cpp)||
+|268|[Missing Number](https://leetcode.com/problems/missing-number/)|[C++](./Leetcode/268.cpp)|Bit Manipulation|
 |274|[H-Index](https://leetcode.com/problems/h-index/)|[C++](./Leetcode/274.cpp)||
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[C++](./Leetcode/279.cpp)||
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[C++](./Leetcode/283.cpp)|Array|
