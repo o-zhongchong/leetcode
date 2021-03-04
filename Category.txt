@@ -1,6 +1,6 @@
 数据结构
 |--Array
-|--List
+|--Linked List
 |--Stack
 |--Queue
 |--Heap
