@@ -192,6 +192,7 @@
 |791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|[C++](./Leetcode/791.cpp)||
 |806|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)|[C++](./Leetcode/806.cpp)||
 |811|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)|[C++](./Leetcode/811.cpp)||
+|820|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|[C++](./Leetcode/820.cpp)|String|
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[C++](./Leetcode/821.cpp)||
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[C++](./Leetcode/867.cpp)||
 |872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[C++](./Leetcode/872.cpp)||
