@@ -178,6 +178,7 @@
 |590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[C++](./Leetcode/590.cpp)||
 |609|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|[C++](./Leetcode/609.cpp)||
 |621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|[C++](./Leetcode/621.cpp)||
+|623|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[C++](./Leetcode/623.cpp)|Tree|
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[C++](./Leetcode/637.cpp)|Tree|
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[C++](./Leetcode/645.cpp)|Hash Table|
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[C++](./Leetcode/647.cpp)|String|
