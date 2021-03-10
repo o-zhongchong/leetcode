@@ -298,6 +298,9 @@
 |1748|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|[C++](./Leetcode/1748.cpp)|Array|
 |1749|[Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/)|[C++](./Leetcode/1749.cpp)|Greedy|
 |1765|[Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak/)|[C++](./Leetcode/1765.cpp)|BFS|
+|1779|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|[C++](./Leetcode/1779.cpp)|Array|
+|1780|[Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)|[C++](./Leetcode/1780.cpp)|Math|
+|1781|[Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/)|[C++](./Leetcode/1781.cpp)|String|
 
 ### Concurrency
 
