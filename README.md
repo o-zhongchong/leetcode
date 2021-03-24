@@ -204,6 +204,7 @@
 |841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[C++](./Leetcode/841.cpp)|DFS|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[C++](./Leetcode/867.cpp)||
 |869|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[C++](./Leetcode/869.cpp)|Math|
+|870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|[C++](./Leetcode/870.cpp)|Array|
 |872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[C++](./Leetcode/872.cpp)||
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[C++](./Leetcode/876.cpp)||
 |883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|[C++](./Leetcode/883.cpp)||
