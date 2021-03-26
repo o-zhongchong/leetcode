@@ -215,6 +215,7 @@
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[C++](./Leetcode/897.cpp)||
 |908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|[C++](./Leetcode/908.cpp)||
 |912|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|[C++](./Leetcode/912.cpp)||
+|916|[Word Subsets](https://leetcode.com/problems/word-subsets/)|[C++](./Leetcode/916.cpp)|String|
 |922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[C++](./Leetcode/922.cpp)||
 |947|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|[C++](./Leetcode/947.cpp)||
 |951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/)|[C++](./Leetcode/951.cpp)||
