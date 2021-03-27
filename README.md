@@ -7,11 +7,11 @@
 |1|[Two Sum](https://leetcode.com/problems/two-sum)|[C++](./Leetcode/1.cpp) [Python](./Leetcode/1.py)|Array|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[C++](./Leetcode/2.cpp)|Math|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[C++](./Leetcode/3.cpp)|String|
-|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[C++](./Leetcode/5.cpp)|DP|
+|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[C++](./Leetcode/5.cpp)|Dynamic Programming|
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[C++](./Leetcode/7.cpp)||
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[C++](./Leetcode/8.cpp)||
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[C++](./Leetcode/9.cpp)||
-|10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[C++](./Leetcode/10.cpp)|DP|
+|10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[C++](./Leetcode/10.cpp)|Dynamic Programming|
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[C++](./Leetcode/11.cpp)|Array|
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[C++](./Leetcode/12.cpp)||
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[C++](./Leetcode/13.cpp)||
@@ -62,7 +62,7 @@
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[C++](./Leetcode/66.cpp)||
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|[C++](./Leetcode/67.cpp)||
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[C++](./Leetcode/69.cpp)|Math|
-|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./Leetcode/70.cpp)||
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./Leetcode/70.cpp)|Dynamic Programming|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[C++](./Leetcode/71.cpp)||
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[C++](./Leetcode/73.cpp)||
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[C++](./Leetcode/74.cpp)||
@@ -288,7 +288,7 @@
 |1703|[Minimum Adjacent Swaps for K Consecutive Ones](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/)|[C++](./Leetcode/1703.cpp)|Array|
 |1704|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|[C++](./Leetcode/1704.cpp)|String|
 |1705|[Maximum Number of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/)|[C++](./Leetcode/1705.cpp)|Heap|
-|1706|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[C++](./Leetcode/1706.cpp)|DP|
+|1706|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[C++](./Leetcode/1706.cpp)|Dynamic Programming|
 |1710|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|[C++](./Leetcode/1710.cpp)|Greedy|
 |1711|[Count Good Meals](https://leetcode.com/problems/count-good-meals/)|[C++](./Leetcode/1711.cpp)|Hash Table|
 |1712|[Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)|[C++](./Leetcode/1712.cpp)|Array|
