@@ -157,6 +157,7 @@
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[C++](./Leetcode/415.cpp)|String|
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[C++](./Leetcode/417.cpp)|DFS|
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[C++](./Leetcode/419.cpp) [Python](./Leetcode/419.py)||
+|423|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)|[C++](./Leetcode/423.cpp)|Math|
 |434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|[C++](./Leetcode/434.cpp)|String|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[C++](./Leetcode/442.cpp)||
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[C++](./Leetcode/443.cpp)|String|

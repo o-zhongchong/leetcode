@@ -11,10 +11,10 @@ public:
                 ret *= x;
             }
             
+            x = x * x;
             m >>= 1;
-            x *= x;
         }
         
-        return n > 0 ? ret : 1/ret;
+        return n > 0 ? ret : 1 / ret;
     }
 };
