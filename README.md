@@ -220,6 +220,7 @@
 |916|[Word Subsets](https://leetcode.com/problems/word-subsets/)|[C++](./Leetcode/916.cpp)|String|
 |922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[C++](./Leetcode/922.cpp)||
 |923|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|[C++](./Leetcode/923.cpp)|Two Pointers|
+|936|[Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)|[C++](./Leetcode/936.cpp)|String|
 |947|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|[C++](./Leetcode/947.cpp)||
 |951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/)|[C++](./Leetcode/951.cpp)||
 |959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)|[C++](./Leetcode/959.cpp)||
