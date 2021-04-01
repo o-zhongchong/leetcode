@@ -47,29 +47,33 @@ public:
         }
         
         int len = length(head);
-        ListNode* p = head;
+        ListNode* mid = head;
         
         for(int i=0; i<len/2; ++i)
         {
-            p = p->next;
+            mid = mid->next;
         }
         
-        ListNode* tail = reverse(p);
-        ListNode* front = head;
+        ListNode* tail = reverse(mid);
+        ListNode* p1 = head;
+        ListNode* p2 = tail;
+        bool ret = true;
         
-        while(tail != nullptr && front != nullptr)
+        while(p1 != nullptr && p2 != nullptr)
         {
-            if(tail->val == front->val)
+            if(p1->val == p2->val)
             {
-                tail = tail->next;
-                front = front->next;
+                p1 = p1->next;
+                p2 = p2->next;
             }
             else
             {
-                return false;
+                ret = false;
+                break;
             }
         }
         
-        return true;
+        reverse(tail);
+        return ret;
     }
 };
