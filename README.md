@@ -165,6 +165,7 @@
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[C++](./Leetcode/443.cpp)|String|
 |457|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|[C++](./Leetcode/457.cpp)||
 |468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[C++](./Leetcode/468.cpp)|String|
+|474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|[C++](./Leetcode/474.cpp)|Dynamic Programming|
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[C++](./Leetcode/476.cpp)||
 |478|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|[C++](./Leetcode/478.cpp)|Math|
 |495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|[C++](./Leetcode/495.cpp)|Array|
