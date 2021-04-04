@@ -13,6 +13,7 @@
 |--Trie
 |--Graph
 |--Union Find
+|--Design
 
 算法分类
 |--Math
