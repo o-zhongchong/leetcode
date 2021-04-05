@@ -202,6 +202,7 @@
 |721|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[C++](./Leetcode/721.cpp)||
 |722|[Remove Comments](https://leetcode.com/problems/remove-comments/)|[C++](./Leetcode/722.cpp)|String|
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[C++](./Leetcode/766.cpp)||
+|775|[Global and Local Inversions](https://leetcode.com/problems/global-and-local-inversions/)|[C++](./Leetcode/775.cpp)|Array|
 |788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[C++](./Leetcode/788.cpp)||
 |791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|[C++](./Leetcode/791.cpp)||
 |806|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)|[C++](./Leetcode/806.cpp)||
