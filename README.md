@@ -279,6 +279,7 @@
 |1382|[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|[C++](./Leetcode/1382.cpp)||
 |1396|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[C++](./Leetcode/1396.cpp)|Design|
 |1461|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|[C++](./Leetcode/1461.cpp)|String|
+|1551|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|[C++](./Leetcode/1551.cpp)|Math|
 |1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[C++](./Leetcode/1572.cpp)||
 |1574|[Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)|[C++](./Leetcode/1574.cpp)||
 |1575|[Count All Possible Routes](https://leetcode.com/problems/count-all-possible-routes/)|[C++](./Leetcode/1575.cpp)||
