@@ -1,26 +1,23 @@
 class Solution {
 public:
-    int vowelsCounts(string s)
-    {
+    bool halvesAreAlike(string s) {
+        set<char> vowel = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'O', 'I', 'U'};
+        int len = s.size();
         int cnt = 0;
-        string str = "aeoiuAEIOU";
         
-        for(auto c : s)
+        for(int i=0; i<len; ++i)
         {
-            if(str.find(c) != string::npos)
+            if(i < len/2 && vowel.count(s[i]))
             {
                 ++cnt;
             }
+            
+            if(i >= len/2 && vowel.count(s[i]))
+            {
+                --cnt;
+            }
         }
         
-        return cnt;
-    }
-    
-    bool halvesAreAlike(string s) {
-        int len = s.size();
-        int cnt1 = vowelsCounts(s.substr(0, len/2));
-        int cnt2 = vowelsCounts(s.substr(len/2, len/2));
-        
-        return cnt1 == cnt2;
+        return cnt == 0;
     }
 };
