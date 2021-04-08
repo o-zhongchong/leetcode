@@ -1,34 +1,33 @@
 class Solution {
 public:
     vector<string> letterCombinations(string digits) {
+        vector<string> dict = {"abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+        int len = digits.size();
         vector<string> ret;
-        string s;
         
-        if( digits.empty() )
-            return ret;
+        for(int i=0; i<len; ++i)
+        {
+            string str = dict[digits[i] - '2'];
+            vector<string> tmp;
+            
+            for(auto &c: str)
+            {
+                if(ret.empty())
+                {
+                    tmp.push_back(string(1, c));
+                }
+                else
+                {
+                    for(auto &s: ret)
+                    {
+                        tmp.push_back(s + string(1, c));
+                    }
+                }
+            }
+            
+            ret = tmp;
+        }
         
-        genLetter(digits, 0, s, ret);
         return ret;
-    }
-    
-    int genLetter(string &digits, int i, string s, vector<string> &v)
-    {
-        if(i == digits.size() )
-        {
-            v.push_back(s);
-            return 0;
-        }
-        
-        string dict[8] = {"abc","def", "ghi", "jkl",
-                       "mno","pqrs","tuv","wxyz"};
-        int n = digits[i] - '2';
-        for( auto c : dict[n] )
-        {
-            s.push_back(c);
-            genLetter(digits, i+1, s, v);
-            s.pop_back();
-        }
-        
-        return 0;
     }
 };
