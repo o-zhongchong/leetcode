@@ -229,6 +229,7 @@
 |936|[Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)|[C++](./Leetcode/936.cpp)|String|
 |947|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|[C++](./Leetcode/947.cpp)||
 |951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/)|[C++](./Leetcode/951.cpp)||
+|953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|[C++](./Leetcode/953.cpp)|String|
 |959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)|[C++](./Leetcode/959.cpp)||
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[C++](./Leetcode/965.cpp)||
 |966|[Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/)|[C++](./Leetcode/966.cpp)|String|
