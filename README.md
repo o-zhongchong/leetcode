@@ -7,11 +7,11 @@
 |1|[Two Sum](https://leetcode.com/problems/two-sum)|[C++](./Leetcode/1.cpp) [Python](./Leetcode/1.py)|Array|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[C++](./Leetcode/2.cpp)|Math|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[C++](./Leetcode/3.cpp)|String|
-|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[C++](./Leetcode/5.cpp)|Dynamic Programming|
+|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[C++](./Leetcode/5.cpp)|DP|
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[C++](./Leetcode/7.cpp)||
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[C++](./Leetcode/8.cpp)||
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[C++](./Leetcode/9.cpp)||
-|10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[C++](./Leetcode/10.cpp)|Dynamic Programming|
+|10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[C++](./Leetcode/10.cpp)|DP|
 |11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[C++](./Leetcode/11.cpp)|Array|
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[C++](./Leetcode/12.cpp)||
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[C++](./Leetcode/13.cpp)||
@@ -63,7 +63,7 @@
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[C++](./Leetcode/66.cpp)||
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)|[C++](./Leetcode/67.cpp)||
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[C++](./Leetcode/69.cpp)|Math|
-|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./Leetcode/70.cpp)|Dynamic Programming|
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./Leetcode/70.cpp)|DP|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[C++](./Leetcode/71.cpp)||
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[C++](./Leetcode/73.cpp)||
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[C++](./Leetcode/74.cpp)||
@@ -144,20 +144,20 @@
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[C++](./Leetcode/303.cpp)||
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[C++](./Leetcode/304.cpp)||
 |316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[C++](./Leetcode/316.cpp)||
-|322|[Coin Change](https://leetcode.com/problems/coin-change/)|[C++](./Leetcode/322.cpp)|Dynamic Programming|
+|322|[Coin Change](https://leetcode.com/problems/coin-change/)|[C++](./Leetcode/322.cpp)|DP|
 |324|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|[C++](./Leetcode/324.cpp)||
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[C++](./Leetcode/338.cpp)||
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./Leetcode/344.cpp)||
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[C++](./Leetcode/345.cpp)|String|
-|354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|[C++](./Leetcode/354.cpp)|Dynamic Programming|
+|354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|[C++](./Leetcode/354.cpp)|DP|
 |357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|[C++](./Leetcode/357.cpp)||
-|376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[C++](./Leetcode/376.cpp)|Dynamic Programming|
+|376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[C++](./Leetcode/376.cpp)|DP|
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[C++](./Leetcode/383.cpp)||
 |385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|[C++](./Leetcode/385.cpp)|String|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[C++](./Leetcode/387.cpp)|String|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[C++](./Leetcode/392.cpp)||
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|[C++](./Leetcode/399.cpp)||
-|413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[C++](./Leetcode/413.cpp)|Dynamic Programming|
+|413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[C++](./Leetcode/413.cpp)|DP|
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[C++](./Leetcode/415.cpp)|String|
 |417|[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)|[C++](./Leetcode/417.cpp)|DFS|
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[C++](./Leetcode/419.cpp) [Python](./Leetcode/419.py)||
@@ -167,7 +167,7 @@
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[C++](./Leetcode/443.cpp)|String|
 |457|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|[C++](./Leetcode/457.cpp)||
 |468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[C++](./Leetcode/468.cpp)|String|
-|474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|[C++](./Leetcode/474.cpp)|Dynamic Programming|
+|474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|[C++](./Leetcode/474.cpp)|DP|
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[C++](./Leetcode/476.cpp)||
 |478|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|[C++](./Leetcode/478.cpp)|Math|
 |495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|[C++](./Leetcode/495.cpp)|Array|
@@ -183,7 +183,7 @@
 |559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[C++](./Leetcode/559.cpp)||
 |565|[Array Nesting](https://leetcode.com/problems/array-nesting/)|[C++](./Leetcode/565.cpp)|Array|
 |575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[C++](./Leetcode/575.cpp)|Hash Table|
-|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[C++](./Leetcode/583.cpp)|Dynamic Programming|
+|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[C++](./Leetcode/583.cpp)|DP|
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[C++](./Leetcode/589.cpp)||
 |590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[C++](./Leetcode/590.cpp)||
 |609|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|[C++](./Leetcode/609.cpp)||
@@ -198,7 +198,7 @@
 |685|[Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)|[C++](./Leetcode/685.cpp)||
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[C++](./Leetcode/695.cpp)|Array|
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[C++](./Leetcode/706.cpp)|Hash Table|
-|714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[C++](./Leetcode/714.cpp)|Dynamic Programming|
+|714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[C++](./Leetcode/714.cpp)|DP|
 |721|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[C++](./Leetcode/721.cpp)||
 |722|[Remove Comments](https://leetcode.com/problems/remove-comments/)|[C++](./Leetcode/722.cpp)|String|
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[C++](./Leetcode/766.cpp)||
@@ -293,7 +293,7 @@
 |1592|[Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|[C++](./Leetcode/1592.cpp)||
 |1694|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[C++](./Leetcode/1694.cpp)|String|
 |1695|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[C++](./Leetcode/1695.cpp)|Sliding Window|
-|1696|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[C++](./Leetcode/1696.cpp)|Dynamic Programming|
+|1696|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[C++](./Leetcode/1696.cpp)|DP|
 |1697|[Checking Existence of Edge Length Limited Paths](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/)|[C++](./Leetcode/1697.cpp)|Union Find|
 |1700|[Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)|[C++](./Leetcode/1700.cpp)|Array|
 |1701|[Average Waiting Time](https://leetcode.com/problems/average-waiting-time/)|[C++](./Leetcode/1701.cpp)|Array|
@@ -301,7 +301,7 @@
 |1703|[Minimum Adjacent Swaps for K Consecutive Ones](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/)|[C++](./Leetcode/1703.cpp)|Array|
 |1704|[Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)|[C++](./Leetcode/1704.cpp)|String|
 |1705|[Maximum Number of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/)|[C++](./Leetcode/1705.cpp)|Heap|
-|1706|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[C++](./Leetcode/1706.cpp)|Dynamic Programming|
+|1706|[Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)|[C++](./Leetcode/1706.cpp)|DP|
 |1710|[Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/)|[C++](./Leetcode/1710.cpp)|Greedy|
 |1711|[Count Good Meals](https://leetcode.com/problems/count-good-meals/)|[C++](./Leetcode/1711.cpp)|Hash Table|
 |1712|[Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)|[C++](./Leetcode/1712.cpp)|Array|
