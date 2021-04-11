@@ -23,7 +23,7 @@
 |--BFS
 |--Binary Search
 |--Sort
-|--Dynamic Programming
+|--DP
 |--Greddy
 |--Two Pointers
 |--Bit Manipulation

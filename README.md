@@ -146,6 +146,7 @@
 |316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[C++](./Leetcode/316.cpp)||
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)|[C++](./Leetcode/322.cpp)|DP|
 |324|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|[C++](./Leetcode/324.cpp)||
+|329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[C++](./Leetcode/329.cpp)|DFS|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[C++](./Leetcode/338.cpp)||
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./Leetcode/344.cpp)||
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[C++](./Leetcode/345.cpp)|String|
