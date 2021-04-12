@@ -194,6 +194,7 @@
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[C++](./Leetcode/637.cpp)|Tree|
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[C++](./Leetcode/645.cpp)|Hash Table|
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[C++](./Leetcode/647.cpp)|String|
+|667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|[C++](./Leetcode/667.cpp)|Array|
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[C++](./Leetcode/678.cpp)|String|
 |684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[C++](./Leetcode/684.cpp)||
 |685|[Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)|[C++](./Leetcode/685.cpp)||
