@@ -175,7 +175,7 @@
 |478|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|[C++](./Leetcode/478.cpp)|Math|
 |495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|[C++](./Leetcode/495.cpp)|Array|
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[C++](./Leetcode/500.cpp)||
-|509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[C++](./Leetcode/509.cpp)||
+|509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[C++](./Leetcode/509.cpp)|Array|
 |535|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|[C++](./Leetcode/535.cpp)|String|
 |537|[Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication/)|[C++](./Leetcode/537.cpp)||
 |539|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|[C++](./Leetcode/539.cpp)||
