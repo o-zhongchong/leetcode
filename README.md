@@ -277,6 +277,7 @@
 |1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[C++](./Leetcode/1200.cpp)||
 |1202|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[C++](./Leetcode/1202.cpp)||
 |1206|[Design Skiplist](https://leetcode.com/problems/design-skiplist/)|[C++](./Leetcode/1206.cpp)||
+|1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[C++](./Leetcode/1209.cpp)|Stack|
 |1217|[Play with Chips](https://leetcode.com/problems/play-with-chips/)|[C++](./Leetcode/1217.cpp)||
 |1286|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|[C++](./Leetcode/1286.cpp)||
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|[C++](./Leetcode/1302.cpp)|Tree|
