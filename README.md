@@ -20,7 +20,7 @@
 |16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[C++](./Leetcode/16.cpp)||
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[C++](./Leetcode/17.cpp)|String|
 |18|[4Sum](https://leetcode.com/problems/4sum/)|[C++](./Leetcode/18.cpp)||
-|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C++](./Leetcode/19.cpp)||
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C++](./Leetcode/19.cpp)|Linked List|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[C++](./Leetcode/20.cpp)||
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[C++](./Leetcode/22.cpp)||
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[C++](./Leetcode/23.cpp)||

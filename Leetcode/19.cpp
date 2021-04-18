@@ -16,40 +16,31 @@ public:
             return nullptr;
         }
         
-        int len = 1;
-        ListNode* p = head;
+        ListNode* pre = head;
+        ListNode* cur = head;
         
-        while(p->next != nullptr)
+        while(cur != nullptr && n--)
         {
-            ++len;
-            p = p->next;
+            cur = cur->next;
         }
         
-        if(n <= len)
+        if(cur == nullptr && n != 0)
         {
-            ListNode* pre = nullptr;
-            p = head;
-            
-            for(int i = 0; i < len - n; ++i)
-            {
-                pre = p;
-                p = p->next;
-            }
-            
-            if(pre != nullptr)
-            {
-                pre->next = p->next;
-                delete p;
-                return head;
-            }
-            else
-            {
-                pre = p->next;
-                delete p;
-                return pre;
-            }
+            return head;
         }
         
-        return nullptr;
+        if(cur == nullptr && n == 0)
+        {
+            return head->next;
+        }
+        
+        while(cur->next != nullptr)
+        {
+            pre = pre->next;
+            cur = cur->next;
+        }
+        
+        pre->next = pre->next->next;
+        return head;
     }
 };
