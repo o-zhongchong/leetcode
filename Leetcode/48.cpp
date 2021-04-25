@@ -1,7 +1,11 @@
 class Solution {
 public:
-    void swap1(vector<vector<int>>& matrix)
-    {
+    void rotate(vector<vector<int>>& matrix) {
+        if(matrix.empty() || matrix[0].empty())
+        {
+            return;
+        }
+        
         int m = matrix.size();
         int n = matrix[0].size();
         
@@ -15,35 +19,14 @@ public:
                 }
             }
         }
-    }
-    
-    void swap2(vector<vector<int>>& matrix)
-    {
-        int m = matrix.size();
-        int n = matrix[0].size();
         
         for(int i=0; i<m; ++i)
         {
-            int j = 0;
-            int k = n-1;
-            
-            while(j < k)
+            for(int j=0; j<n/2; ++j)
             {
-                swap(matrix[i][j], matrix[i][k]);
-                ++j;
-                --k;
+                swap(matrix[i][j], matrix[i][n-j-1]);
             }
         }
-    }
-    
-    void rotate(vector<vector<int>>& matrix) {
-        if(matrix.empty() || matrix[0].empty())
-        {
-            return;
-        }
-        
-        swap1(matrix);
-        swap2(matrix);
         
         return;
     }
