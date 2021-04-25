@@ -339,6 +339,7 @@
 |1779|[Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)|[C++](./Leetcode/1779.cpp)|Array|
 |1780|[Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)|[C++](./Leetcode/1780.cpp)|Math|
 |1781|[Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/)|[C++](./Leetcode/1781.cpp)|String|
+|1834|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|[C++](./Leetcode/1834.cpp)|Heap|
 
 ### Concurrency
 
