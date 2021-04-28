@@ -1,49 +1,53 @@
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
-        int m = obstacleGrid.size();
-        
-        if(m <= 0)
+        if(obstacleGrid.empty() || obstacleGrid[0].empty())
         {
             return 0;
         }
         
+        int m = obstacleGrid.size();
         int n = obstacleGrid[0].size();
         
-        int** dp = new int*[m];
-        
-        for(int i=0; i<m; ++i)
+        if(obstacleGrid[0][0] == 1 || obstacleGrid[m-1][n-1] == 1)
         {
-            dp[i] = new int[n];
-            memset(dp[i], 0, n*sizeof(int));
-        }
-        
-        int step[2][2] = {{-1,0}, {0,-1}};
-        
-        if(obstacleGrid[0][0] == 0)
-        {
-            dp[0][0] = 1;
+            return 0;
         }
         
         for(int i=0; i<m; ++i)
         {
             for(int j=0; j<n; ++j)
             {
-                for(int k=0; k<2; ++k)
+                if(obstacleGrid[i][j] == 1)
                 {
-                    int p = i + step[k][0];
-                    int q = j + step[k][1];
-                    
-                    if(obstacleGrid[i][j] == 0 && p >=0 && p < m 
-                      && q >=0 && q < n && obstacleGrid[p][q] == 0)
-                    {
-                        dp[i][j] += dp[p][q];
-                    }
+                    obstacleGrid[i][j] = -1;
                 }
             }
         }
         
-        return dp[m-1][n-1];
+        obstacleGrid[0][0] = 1;
         
+        for(int i=0; i<m; ++i)
+        {
+            for(int j=0; j<n; ++j)
+            {
+                if(obstacleGrid[i][j] == -1)
+                {
+                    continue;
+                }
+                
+                if(i-1 >=0 && obstacleGrid[i-1][j] != -1)
+                {
+                    obstacleGrid[i][j] += obstacleGrid[i-1][j];
+                }
+                
+                if(j-1 >=0 && obstacleGrid[i][j-1] != -1)
+                {
+                    obstacleGrid[i][j] += obstacleGrid[i][j-1];
+                }
+            }
+        }
+        
+        return obstacleGrid[m-1][n-1];
     }
 };
