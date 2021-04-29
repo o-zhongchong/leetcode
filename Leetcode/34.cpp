@@ -1,52 +1,61 @@
 class Solution {
 public:
-    vector<int> searchRange(vector<int>& nums, int target) {
-        int len = nums.size();
+    int search1(vector<int> &nums, int target)
+    {
+        int left = 0;
+        int right = nums.size();
         
-        if(0 == len)
+        while(left < right)
         {
-            return {-1,-1};
-        }
-        
-        int start = 0, end = len;
-        int pos = -1;
-        
-        while(start < end)
-        {
-            int mid = start + (end - start) / 2;
+            int mid = left + (right - left) / 2;
             
-            if(target > nums[mid])
+            if(nums[mid] <= target)
             {
-                start = mid + 1;
-            }
-            else if(target < nums[mid])
-            {
-                end = mid;
+                left = mid + 1;
             }
             else
             {
-                pos = mid;
-                break;
+                right = mid;
             }
         }
         
-        if(-1 == pos)
+        return left;
+    }
+    
+    int search2(vector<int> &nums, int target)
+    {
+        int left = 0;
+        int right = nums.size();
+        
+        while(left < right)
         {
-            return {-1, -1};
+            int mid = left + (right - left) / 2;
+            
+            if(nums[mid] < target)
+            {
+                left = mid + 1;
+            }
+            else
+            {
+                right = mid;
+            }
         }
         
-        start = end = pos;
+        return left - 1;
+    }
+    
+    vector<int> searchRange(vector<int>& nums, int target) {
+        int len = nums.size();
+        int right = search1(nums, target);
+        int left = search2(nums, target);
         
-        while(start - 1 >= 0 && nums[start-1] == nums[start])
+        cout<<left<<" "<<right<<endl;
+        
+        if(left + 1 < len && right - 1 >= 0 && left + 1 <= right - 1)
         {
-            --start;
+            return {left + 1, right - 1};
         }
         
-        while(end + 1 < len && nums[end+1] == nums[end])
-        {
-            ++end;
-        }
-        
-        return {start,end};
+        return {-1, -1};
     }
 };
