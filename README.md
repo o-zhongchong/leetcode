@@ -242,6 +242,7 @@
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[C++](./Leetcode/965.cpp)||
 |966|[Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker/)|[C++](./Leetcode/966.cpp)|String|
 |969|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)|[C++](./Leetcode/969.cpp)||
+|970|[Powerful Integers](https://leetcode.com/problems/powerful-integers/)|[C++](./Leetcode/970.cpp)|Math|
 |971|[Flip Binary Tree To Match Preorder Traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)|[C++](./Leetcode/971.cpp)|Tree|
 |979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|[C++](./Leetcode/979.cpp)||
 |986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/submissions/)|[C++](./Leetcode/986.cpp)||
