@@ -209,6 +209,7 @@
 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[C++](./Leetcode/714.cpp)|DP|
 |721|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[C++](./Leetcode/721.cpp)||
 |722|[Remove Comments](https://leetcode.com/problems/remove-comments/)|[C++](./Leetcode/722.cpp)|String|
+|745|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/)|[C++](./Leetcode/745.cpp)|Trie|
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[C++](./Leetcode/766.cpp)||
 |775|[Global and Local Inversions](https://leetcode.com/problems/global-and-local-inversions/)|[C++](./Leetcode/775.cpp)|Array|
 |788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[C++](./Leetcode/788.cpp)||
