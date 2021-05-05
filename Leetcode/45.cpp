@@ -14,7 +14,7 @@ public:
                 ++cnt;
                 pre = cur;
                 
-                if(cur >= len - 1)
+                if(pre >= len - 1)
                 {
                     break;
                 }
