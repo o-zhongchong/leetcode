@@ -233,6 +233,7 @@
 |893|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/)|[C++](./Leetcode/893.cpp)||
 |895|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|[C++](./Leetcode/895.cpp)|Stack|
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[C++](./Leetcode/897.cpp)||
+|906|[Super Palindromes](https://leetcode.com/problems/super-palindromes/)|[C++](./Leetcode/906.cpp)|Math|
 |908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|[C++](./Leetcode/908.cpp)||
 |912|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|[C++](./Leetcode/912.cpp)||
 |916|[Word Subsets](https://leetcode.com/problems/word-subsets/)|[C++](./Leetcode/916.cpp)|String|
