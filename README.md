@@ -115,7 +115,7 @@
 |198|[House Robber](https://leetcode.com/problems/house-robber/)|[C++](./Leetcode/198.cpp)||
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[C++](./Leetcode/200.cpp)||
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|[C++](./Leetcode/202.cpp)||
-|204|[Count Primes](https://leetcode.com/problems/count-primes/)|[C++](./Leetcode/204.cpp)||
+|204|[Count Primes](https://leetcode.com/problems/count-primes/)|[C++](./Leetcode/204.cpp)|Math|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[C++](./Leetcode/206.cpp)||
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[C++](./Leetcode/208.cpp)||
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[C++](./Leetcode/209.cpp)||

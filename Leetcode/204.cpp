@@ -1,35 +1,20 @@
 class Solution {
 public:
     int countPrimes(int n) {
-        if( n <= 2 )
-            return 0;
-        
-        int* isPrimes = new int[n];
+        vector<int> primes(n+1, 1);
         int cnt = 0;
         
-        isPrimes[0] = 0;
-        isPrimes[1] = 0;
-        isPrimes[2] = 1;
-        
-        for(int i=3; i<n; ++i)
-        {
-            isPrimes[i]=1;
-        }
-        
         for(int i=2; i<n; ++i)
         {
-            int j = 2;
-            while(i*j < n)
+            if(primes[i] == 1)
             {
-                isPrimes[i*j] = 0;
-                ++j;
-            }
-        }
-        
-        for(int i=2; i<n; ++i)
-        {
-            if(1 == isPrimes[i])
                 ++cnt;
+                
+                for(int j=2; j * i < n; ++j)
+                {
+                    primes[i*j] = 0;
+                }
+            }
         }
         
         return cnt;
