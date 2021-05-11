@@ -298,6 +298,7 @@
 |1354|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[C++](./Leetcode/1354.cpp)|Greedy|
 |1382|[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|[C++](./Leetcode/1382.cpp)||
 |1396|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[C++](./Leetcode/1396.cpp)|Design|
+|1423|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)|[C++](./Leetcode/1423.cpp)|Array|
 |1461|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|[C++](./Leetcode/1461.cpp)|String|
 |1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[C++](./Leetcode/1480.cpp)|Array|
 |1551|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|[C++](./Leetcode/1551.cpp)|Math|
