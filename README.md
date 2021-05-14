@@ -80,6 +80,7 @@
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C++](./Leetcode/94.cpp)||
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[C++](./Leetcode/103.cpp)||
 |109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|[C++](./Leetcode/109.cpp)|Linked List|
+|114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[C++](./Leetcode/114.cpp)|Tree|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[C++](./Leetcode/118.cpp)||
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[C++](./Leetcode/119.cpp)||
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[C++](./Leetcode/120.cpp)|DP|
