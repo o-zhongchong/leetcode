@@ -353,6 +353,9 @@
 |1780|[Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)|[C++](./Leetcode/1780.cpp)|Math|
 |1781|[Sum of Beauty of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/)|[C++](./Leetcode/1781.cpp)|String|
 |1834|[Single-Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/)|[C++](./Leetcode/1834.cpp)|Heap|
+|1859|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|[C++](./Leetcode/1859.cpp)|String|
+|1860|[Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/)|[C++](./Leetcode/1860.cpp)|Math|
+|1861|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|[C++](./Leetcode/1861.cpp)|Array|
 
 ### Concurrency
 
