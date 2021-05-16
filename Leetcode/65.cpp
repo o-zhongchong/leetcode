@@ -31,7 +31,7 @@ public:
         
         for(int i=0; i<len; ++i)
         {
-            if(s[i] == 'e' && e == -1)
+            if((s[i] == 'e' || s[i] == 'E') && e == -1)
             {
                 e = i;
                 continue;
