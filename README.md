@@ -357,6 +357,7 @@
 |1859|[Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)|[C++](./Leetcode/1859.cpp)|String|
 |1860|[Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/)|[C++](./Leetcode/1860.cpp)|Math|
 |1861|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|[C++](./Leetcode/1861.cpp)|Array|
+|1862|[Sum of Floored Pairs](https://leetcode.com/problems/sum-of-floored-pairs/)|[C++](./Leetcode/1862.cpp)|Math|
 
 ### Concurrency
 
