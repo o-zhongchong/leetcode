@@ -1,47 +1,52 @@
 class Solution {
 public:
-    vector<string> findAndReplacePattern(vector<string>& words, string pattern) {
-        unordered_map<char,char> pattern_dict, word_dict;
-        vector<string> res;
-
-        for( auto word:words )
+    bool isMatch(string &s1, string &s2)
+    {
+        unordered_map<char, char> mapping;
+        unordered_map<char, char> r_mapping;
+        
+        if(s1.size() != s2.size())
         {
-            if( word.size() != pattern.size() )
-                continue;
-            pattern_dict.clear();
-            word_dict.clear();
-            int check_result = 1;
-            
-            for(int i=0; i<word.size(); ++i)
+            return false;
+        }
+        
+        int len = s1.size();
+        
+        for(int i=0; i<len; ++i)
+        {
+            if(mapping.count(s1[i]))
             {
-                if( pattern_dict.find(pattern[i]) == pattern_dict.end() 
-                  && word_dict.find(word[i]) == word_dict.end() )
+                if(mapping[s1[i]] != s2[i])
                 {
-                    pattern_dict[pattern[i]] = word[i];
-                    word_dict[word[i]] = pattern[i];
-                }
-                else if(pattern_dict.find(pattern[i]) != pattern_dict.end() 
-                  && word_dict.find(word[i]) != word_dict.end())
-                {
-                    if(pattern_dict[pattern[i]] == word[i] 
-                      && word_dict[word[i]] == pattern[i] )
-                        continue;
-                    else
-                    {
-                        check_result = 0;
-                        break;
-                    }
-                }
-                else
-                {
-                    check_result = 0;
-                    break;
+                    return false;
                 }
             }
-            
-            if(check_result == 1)
-                res.push_back(word);
+            else
+            {
+                if(r_mapping.count(s2[i]))
+                {
+                    return false;    
+                }
+                
+                mapping[s1[i]] = s2[i];
+                r_mapping[s2[i]] = s1[i];
+            }
         }
-        return res;
+        
+        return true;
+    }
+    
+    vector<string> findAndReplacePattern(vector<string>& words, string pattern) {
+        vector<string> ret;
+        
+        for(auto &word : words)
+        {
+            if(isMatch(pattern, word))
+            {
+                ret.push_back(word);
+            }
+        }
+        
+        return ret;
     }
 };
