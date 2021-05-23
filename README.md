@@ -362,6 +362,8 @@
 |1860|[Incremental Memory Leak](https://leetcode.com/problems/incremental-memory-leak/)|[C++](./Leetcode/1860.cpp)|Math|
 |1861|[Rotating the Box](https://leetcode.com/problems/rotating-the-box/)|[C++](./Leetcode/1861.cpp)|Array|
 |1862|[Sum of Floored Pairs](https://leetcode.com/problems/sum-of-floored-pairs/)|[C++](./Leetcode/1862.cpp)|Math|
+|1869|[Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)|[C++](./Leetcode/1869.cpp)|Array|
+|1871|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/)|[C++](./Leetcode/1871.cpp)|Greedy|
 
 ### Concurrency
 
