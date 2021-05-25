@@ -100,6 +100,7 @@
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[C++](./Leetcode/145.cpp)||
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[C++](./Leetcode/147.cpp)||
 |148|[Sort List](https://leetcode.com/problems/sort-list/)|[C++](./Leetcode/148.cpp)||
+|150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[C++](./Leetcode/150.cpp)|Stack|
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[C++](./Leetcode/151.cpp)||
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[C++](./Leetcode/152.cpp)||
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[C++](./Leetcode/153.cpp)||
