@@ -1,31 +1,29 @@
 class Solution {
 public:
     int maxProduct(vector<string>& words) {
-        if( words.size() <= 1)
-            return 0;
-        size_t max_val = 0;
-        size_t* bitmap = new size_t[words.size()];
-        for( size_t i =0; i < words.size(); ++i)
+        int len = words.size();
+        int ret = 0;
+        vector<int> mask(len, 0);
+        
+        for(int i=0; i<len; ++i)
         {
-            size_t bit = 0;
-            for( auto j : words.at(i) )
+            for(auto c:words[i])
             {
-                bit |= 1 << (j - 'a');
+                mask[i] |= 1<<(c-'a');
             }
-            bitmap[i] = bit;
         }
-        for( size_t i=0; i<words.size(); ++i)
+        
+        for(int i=1; i<len; ++i)
         {
-            for(size_t j=i+1; j<words.size(); ++j)
+            for(int j=0;j<i;++j)
             {
-                if( (bitmap[i] & bitmap[j]) == 0)
+                if( (mask[i] & mask[j]) == 0)
                 {
-                    size_t len = words.at(i).size() * words.at(j).size();
-                    if( len > max_val)
-                        max_val = len;
+                    ret = max(ret, (int)(words[i].size() * words[j].size()));
                 }
             }
         }
-        return max_val;
+        
+        return ret;
     }
 };
