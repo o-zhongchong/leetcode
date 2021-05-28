@@ -1,22 +1,27 @@
 class Solution {
 public:
     int maximumUniqueSubarray(vector<int>& nums) {
-        int len = nums.size();
         unordered_set<int> myset;
-        int ret = 0;
+        int len = nums.size();
+        int ret = 0, sum = 0;
+        int left = 0, right = 0;
         
-        for(int i=0, j=0, win=0; i<len; ++i)
+        while(right < len)
         {
-            while(myset.find(nums[i]) != myset.end())
+            if(myset.count(nums[right]))
             {
-                myset.erase(nums[j]);
-                win -= nums[j];
-                ++j;
+                sum -= nums[left];
+                myset.erase(nums[left]);
+                ++left;
+            }
+            else
+            {
+                sum += nums[right];
+                myset.insert(nums[right]);
+                ++right;
             }
             
-            myset.insert(nums[i]);
-            win += nums[i];
-            ret = max(ret, win);
+            ret = max(ret, sum);
         }
         
         return ret;
