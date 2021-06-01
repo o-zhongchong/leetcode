@@ -370,6 +370,7 @@
 |1862|[Sum of Floored Pairs](https://leetcode.com/problems/sum-of-floored-pairs/)|[C++](./Leetcode/1862.cpp)|Math|
 |1869|[Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)|[C++](./Leetcode/1869.cpp)|Array|
 |1871|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/)|[C++](./Leetcode/1871.cpp)|Greedy|
+|1881|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|[C++](./Leetcode/1881.cpp)|Greedy|
 
 ### Concurrency
 
