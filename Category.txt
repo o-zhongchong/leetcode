@@ -3,6 +3,7 @@
 |--Linked List
 |--Stack
 |--Queue
+|--Dequeue
 |--Heap
 |--Hash Table
 |--String

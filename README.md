@@ -336,7 +336,7 @@
 |1689|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|[C++](./Leetcode/1689.cpp)|Greedy|
 |1694|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[C++](./Leetcode/1694.cpp)|String|
 |1695|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[C++](./Leetcode/1695.cpp)|Sliding Window|
-|1696|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[C++](./Leetcode/1696.cpp)|DP|
+|1696|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[C++](./Leetcode/1696.cpp)|Dequeue|
 |1697|[Checking Existence of Edge Length Limited Paths](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/)|[C++](./Leetcode/1697.cpp)|Union Find|
 |1700|[Number of Students Unable to Eat Lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)|[C++](./Leetcode/1700.cpp)|Array|
 |1701|[Average Waiting Time](https://leetcode.com/problems/average-waiting-time/)|[C++](./Leetcode/1701.cpp)|Array|

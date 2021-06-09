@@ -8,24 +8,25 @@ public:
         
         int len = nums.size();
         vector<int> dp(len, INT_MIN);
-        deque<pair<int, int>> dq;
+        deque<int> dq;
         dp[0] = nums[0];
-        dq.push_back(make_pair(nums[0], 0));
+        dq.push_back(0);
         
         for(int i=1; i<len; ++i)
         {
-            dp[i] = nums[i] + dq[0].first;
-            dq.push_back(make_pair(dp[i], i));
+            dp[i] = nums[i] + dp[dq.front()];
             
-            if(!dq.empty() && dq[0].second <= i - k)
+            while(!dq.empty() && dq.front() <= i - k)
             {
                 dq.pop_front();
             }
             
-            while(!dq.empty() && dq[0].first < dp[i])
+            while(!dq.empty() && dp[dq.back()] < dp[i])
             {
-                dq.pop_front();
+                dq.pop_back();
             }
+            
+            dq.push_back(i);
         }
         
         return dp[len-1];
