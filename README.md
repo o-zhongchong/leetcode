@@ -79,6 +79,7 @@
 |93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[C++](./Leetcode/93.cpp)||
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C++](./Leetcode/94.cpp)||
 |97|[Interleaving String](https://leetcode.com/problems/interleaving-string/)|[C++](./Leetcode/97.cpp)|DP|
+|98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[C++](./Leetcode/98.cpp)|Tree|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C++](./Leetcode/102.cpp)|Tree|
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[C++](./Leetcode/103.cpp)||
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[C++](./Leetcode/105.cpp)|Tree|
