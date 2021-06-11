@@ -336,6 +336,7 @@
 |1592|[Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|[C++](./Leetcode/1592.cpp)||
 |1642|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[C++](./Leetcode/1642.cpp)|Heap|
 |1689|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|[C++](./Leetcode/1689.cpp)|Greedy|
+|1690|[Stone Game VII](https://leetcode.com/problems/stone-game-vii/)|[C++](./Leetcode/1690.cpp)|DP|
 |1694|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[C++](./Leetcode/1694.cpp)|String|
 |1695|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[C++](./Leetcode/1695.cpp)|Sliding Window|
 |1696|[Jump Game VI](https://leetcode.com/problems/jump-game-vi/)|[C++](./Leetcode/1696.cpp)|Dequeue|
