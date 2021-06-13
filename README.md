@@ -160,6 +160,7 @@
 |324|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|[C++](./Leetcode/324.cpp)||
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[C++](./Leetcode/326.cpp)|Math|
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[C++](./Leetcode/329.cpp)|DFS|
+|336|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)|[C++](./Leetcode/336.cpp)|Hash Table|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[C++](./Leetcode/338.cpp)||
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[C++](./Leetcode/341.cpp)|Design|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./Leetcode/344.cpp)||
