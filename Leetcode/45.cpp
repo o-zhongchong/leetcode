@@ -2,22 +2,17 @@ class Solution {
 public:
     int jump(vector<int>& nums) {
         int len = nums.size();
-        int cnt, pre, cur;
-        cnt = pre = cur = 0;
+        int cnt = 0;
+        int mx = 0;
         
-        for(int i=0; i<len-1; ++i)
+        for(int i=0, j=0; j<len-1 && i<len; ++i)
         {
-            cur = max(cur, i + nums[i]);
+            mx = max(mx, i + nums[i]);
             
-            if(i == pre)
+            if(i == j)
             {
                 ++cnt;
-                pre = cur;
-                
-                if(pre >= len - 1)
-                {
-                    break;
-                }
+                j = mx;
             }
         }
         

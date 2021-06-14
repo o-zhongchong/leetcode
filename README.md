@@ -316,6 +316,7 @@
 |1268|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|[C++](./Leetcode/1268.cpp)|String|
 |1286|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|[C++](./Leetcode/1286.cpp)||
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|[C++](./Leetcode/1302.cpp)|Tree|
+|1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[C++](./Leetcode/1306.cpp)|BFS|
 |1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|[C++](./Leetcode/1319.cpp)||
 |1332|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|[C++](./Leetcode/1332.cpp)|String|
 |1354|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[C++](./Leetcode/1354.cpp)|Greedy|
