@@ -185,6 +185,7 @@
 |457|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|[C++](./Leetcode/457.cpp)||
 |462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|[C++](./Leetcode/462.cpp)|Math|
 |468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[C++](./Leetcode/468.cpp)|String|
+|473|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[C++](./Leetcode/473.cpp)|DFS|
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|[C++](./Leetcode/474.cpp)|DP|
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)|[C++](./Leetcode/476.cpp)||
 |478|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|[C++](./Leetcode/478.cpp)|Math|
