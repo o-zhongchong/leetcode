@@ -320,6 +320,7 @@
 |1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[C++](./Leetcode/1306.cpp)|BFS|
 |1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|[C++](./Leetcode/1319.cpp)||
 |1332|[Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)|[C++](./Leetcode/1332.cpp)|String|
+|1340|[Jump Game V](https://leetcode.com/problems/jump-game-v/)|[C++](./Leetcode/1340.cpp)|DP|
 |1345|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[C++](./Leetcode/1345.cpp)|BFS|
 |1354|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[C++](./Leetcode/1354.cpp)|Greedy|
 |1382|[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|[C++](./Leetcode/1382.cpp)||
