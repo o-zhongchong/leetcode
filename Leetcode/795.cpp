@@ -1,28 +1,33 @@
 class Solution {
 public:
-    int numSubarrayBoundedMax(vector<int>& nums, int left, int right) {
+    int count(vector<int> &nums, int bound)
+    {
         int len = nums.size();
         int ret = 0;
         
-        for(int i=0; i<len; ++i)
+        for(int i=0, j=0; i<len; ++i)
         {
-            priority_queue<int> pq;
-            
-            for(int j=i; j<len; ++j)
+            if(nums[i] <= bound)
             {
-                pq.push(nums[j]);
+                ++j;
                 
-                if(pq.top() >= left && pq.top() <= right)
+                if(i == len-1)
                 {
-                    ++ret;
+                    ret += (1+j)*j/2;
+                    j=0;
                 }
-                else if(pq.top() > right)
-                {
-                    break;
-                }
+            }
+            else
+            {
+                ret += (1+j)*j/2;
+                j=0;
             }
         }
         
         return ret;
+    }
+    
+    int numSubarrayBoundedMax(vector<int>& nums, int left, int right) {
+        return count(nums, right) - count(nums, left-1);
     }
 };
