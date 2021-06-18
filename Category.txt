@@ -1,17 +1,17 @@
 数据结构
+|--String
 |--Array
 |--Linked List
 |--Stack
 |--Queue
 |--Dequeue
-|--Heap
 |--Hash Table
-|--String
 |--Tree
 |--Binary Search Tree
 |--Binary Indexed Tree
 |--Segment Tree
 |--Trie
+|--Heap
 |--Graph
 |--Union Find
 |--Design

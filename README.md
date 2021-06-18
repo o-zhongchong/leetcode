@@ -154,6 +154,7 @@
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[C++](./Leetcode/300.cpp)||
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[C++](./Leetcode/303.cpp)||
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[C++](./Leetcode/304.cpp)|DP|
+|307|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[C++](./Leetcode/307.cpp)|Binary Indexed Tree|
 |316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[C++](./Leetcode/316.cpp)||
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[C++](./Leetcode/318.cpp)|Bit Manipulation|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)|[C++](./Leetcode/322.cpp)|DP|
