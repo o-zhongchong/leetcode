@@ -211,6 +211,7 @@
 |621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|[C++](./Leetcode/621.cpp)||
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|[C++](./Leetcode/622.cpp)|Design|
 |623|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[C++](./Leetcode/623.cpp)|Tree|
+|629|[K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)|[C++](./Leetcode/629.cpp)|DP|
 |630|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)|[C++](./Leetcode/630.cpp)|Greddy|
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[C++](./Leetcode/637.cpp)|Tree|
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[C++](./Leetcode/645.cpp)|Hash Table|
