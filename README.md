@@ -234,6 +234,7 @@
 |752|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|[C++](./Leetcode/752.cpp)|BFS|
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[C++](./Leetcode/766.cpp)||
 |775|[Global and Local Inversions](https://leetcode.com/problems/global-and-local-inversions/)|[C++](./Leetcode/775.cpp)|Array|
+|778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|[C++](./Leetcode/778.cpp)|Heap|
 |788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[C++](./Leetcode/788.cpp)||
 |791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|[C++](./Leetcode/791.cpp)||
 |795|[Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/)|[C++](./Leetcode/795.cpp)|Array|
