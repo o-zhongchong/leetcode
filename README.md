@@ -86,7 +86,7 @@
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[C++](./Leetcode/106.cpp)|Tree|
 |109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|[C++](./Leetcode/109.cpp)|Linked List|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[C++](./Leetcode/114.cpp)|Tree|
-|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[C++](./Leetcode/118.cpp)||
+|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[C++](./Leetcode/118.cpp)|Array|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[C++](./Leetcode/119.cpp)||
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[C++](./Leetcode/120.cpp)|DP|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[C++](./Leetcode/121.cpp)||
