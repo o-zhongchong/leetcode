@@ -205,6 +205,7 @@
 |559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[C++](./Leetcode/559.cpp)||
 |565|[Array Nesting](https://leetcode.com/problems/array-nesting/)|[C++](./Leetcode/565.cpp)|Array|
 |575|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[C++](./Leetcode/575.cpp)|Hash Table|
+|576|[Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/)|[C++](./Leetcode/576.cpp)|DP|
 |583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[C++](./Leetcode/583.cpp)|DP|
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[C++](./Leetcode/589.cpp)||
 |590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[C++](./Leetcode/590.cpp)||
