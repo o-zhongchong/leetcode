@@ -221,7 +221,7 @@
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[C++](./Leetcode/665.cpp)|Array|
 |667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|[C++](./Leetcode/667.cpp)|Array|
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[C++](./Leetcode/678.cpp)|String|
-|684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[C++](./Leetcode/684.cpp)||
+|684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[C++](./Leetcode/684.cpp)|Union Find|
 |685|[Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)|[C++](./Leetcode/685.cpp)||
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[C++](./Leetcode/695.cpp)|Array|
 |696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|[C++](./Leetcode/696.cpp)|String|

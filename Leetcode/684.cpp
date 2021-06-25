@@ -1,14 +1,14 @@
 class Solution {
 public:
-    int find(int* ds, int x)
+    int find(vector<int> &ds, int x)
     {
-        return x == ds[x] ? x : ds[x] = find(ds,ds[x]);
+        return ds[x] == x ? x : ds[x] = find(ds, ds[x]);
     }
     
-    int merge(int* ds, int x, int y)
+    int merge(vector<int> &ds, int x, int y)
     {
-        int fx = find(ds,x);
-        int fy = find(ds,y);
+        int fx = find(ds, x);
+        int fy = find(ds, y);
         
         if(fx != fy)
         {
@@ -20,24 +20,22 @@ public:
     }
     
     vector<int> findRedundantConnection(vector<vector<int>>& edges) {
-        int len = edges.size();
-        vector<int> ret;
-        int* ds = new int[len];
+        int n = edges.size();
+        vector<int> ds(n+1, 0);
         
-        for(int i=0; i<len; ++i)
+        for(int i=0; i<=n; ++i)
         {
             ds[i] = i;
         }
         
-        for(int i=0; i<len; ++i)
+        for(auto &e : edges)
         {
-            if(!merge(ds,edges[i][0]-1, edges[i][1]-1))
+            if(!merge(ds, e[0], e[1]))
             {
-                ret.push_back(edges[i][0]);
-                ret.push_back(edges[i][1]);
+                return {e[0], e[1]};
             }
         }
         
-        return ret;
+        return {};
     }
 };
