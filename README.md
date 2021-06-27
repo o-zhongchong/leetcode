@@ -96,6 +96,7 @@
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[C++](./Leetcode/125.cpp)||
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[C++](./Leetcode/128.cpp)|Array|
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|[C++](./Leetcode/130.cpp)||
+|135|[Candy](https://leetcode.com/problems/candy/)|[C++](./Leetcode/135.cpp)|Array|
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[C++](./Leetcode/136.cpp)||
 |137|[Single Number II](https://leetcode.com/problems/single-number-ii/)|[C++](./Leetcode/137.cpp)||
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[C++](./Leetcode/138.cpp)||
