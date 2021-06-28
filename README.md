@@ -288,7 +288,7 @@
 |1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|[C++](./Leetcode/1025.cpp)||
 |1030|[Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/)|[C++](./Leetcode/1030.cpp)||
 |1043|[Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|[C++](./Leetcode/1043.cpp)||
-|1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[C++](./Leetcode/1047.cpp)||
+|1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[C++](./Leetcode/1047.cpp)|Stack|
 |1048|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[C++](./Leetcode/1048.cpp)|DP|
 |1074|[Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)|[C++](./Leetcode/1074.cpp)|Array|
 |1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|[C++](./Leetcode/1078.cpp)||
