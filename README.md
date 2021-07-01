@@ -74,6 +74,7 @@
 |81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[C++](./Leetcode/81.cpp)||
 |86|[Partition List](https://leetcode.com/problems/partition-list/)|[C++](./Leetcode/86.cpp)|Linked List|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[C++](./Leetcode/88.cpp)||
+|89|[Merge Sorted Array](https://leetcode.com/problems/gray-code/)|[C++](./Leetcode/89.cpp)|Math|
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[C++](./Leetcode/90.cpp)||
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[C++](./Leetcode/91.cpp)||
 |92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[C++](./Leetcode/92.cpp)|Linked List|

@@ -1,18 +1,14 @@
 class Solution {
 public:
     vector<int> grayCode(int n) {
-        vector<int> res;
-        if( n <=0 )
+        int len = pow(2, n);
+        vector<int> ret(len, 0);
+        
+        for(int i=0; i<len; ++i)
         {
-            res.push_back(0);
-            return res;
+            ret[i] = i ^ (i >> 1);
         }
-        n = (1<<n);
-        for( int i=0; i<n; ++i)
-        {
-            int gray = i ^ i>>1;
-            res.push_back(gray);
-        }
-        return res;
+        
+        return ret;
     }
 };
