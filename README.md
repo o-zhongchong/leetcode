@@ -74,7 +74,7 @@
 |81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[C++](./Leetcode/81.cpp)||
 |86|[Partition List](https://leetcode.com/problems/partition-list/)|[C++](./Leetcode/86.cpp)|Linked List|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[C++](./Leetcode/88.cpp)||
-|89|[Merge Sorted Array](https://leetcode.com/problems/gray-code/)|[C++](./Leetcode/89.cpp)|Math|
+|89|[Gray Code](https://leetcode.com/problems/gray-code/)|[C++](./Leetcode/89.cpp)|Math|
 |90|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[C++](./Leetcode/90.cpp)||
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)|[C++](./Leetcode/91.cpp)||
 |92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[C++](./Leetcode/92.cpp)|Linked List|
@@ -222,6 +222,7 @@
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[C++](./Leetcode/637.cpp)|Tree|
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[C++](./Leetcode/645.cpp)|Hash Table|
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[C++](./Leetcode/647.cpp)|String|
+|658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|[C++](./Leetcode/658.cpp)|Binary Search|
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[C++](./Leetcode/665.cpp)|Array|
 |667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|[C++](./Leetcode/667.cpp)|Array|
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[C++](./Leetcode/678.cpp)|String|
