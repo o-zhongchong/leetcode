@@ -114,7 +114,7 @@
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[C++](./Leetcode/153.cpp)||
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[C++](./Leetcode/154.cpp)||
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[C++](./Leetcode/160.cpp)|Linked List|
-|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[C++](./Leetcode/162.cpp)||
+|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[C++](./Leetcode/162.cpp)|Binary Search|
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[C++](./Leetcode/164.cpp)|Sort|
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[C++](./Leetcode/165.cpp)|String|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[C++](./Leetcode/167.cpp)||
