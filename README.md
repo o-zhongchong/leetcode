@@ -219,6 +219,7 @@
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[C++](./Leetcode/589.cpp)||
 |590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[C++](./Leetcode/590.cpp)||
 |609|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|[C++](./Leetcode/609.cpp)||
+|611|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)|[C++](./Leetcode/611.cpp)|Binary Search|
 |621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/)|[C++](./Leetcode/621.cpp)||
 |622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|[C++](./Leetcode/622.cpp)|Design|
 |623|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[C++](./Leetcode/623.cpp)|Tree|
