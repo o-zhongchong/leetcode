@@ -1,47 +1,34 @@
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
-        vector<vector<int>> ret;
-        int len = (int)nums.size();
+        int len = nums.size();
+        sort(nums.begin(), nums.end());
+        set<vector<int>> ret;
         
-        if( len < 4 )
-            return ret;
-        
-        sort(nums.begin(),nums.end());
-        
-        for(int i=0; i<len; ++i)
-        {
-            if( i > 0 && nums[i] == nums[i-1] )
-                continue;
-            
-            for(int j=i+1; j<len; ++j)
-            {
-                if( j > i+1 && nums[j] == nums[j-1] )
-                    continue;
+        for(int i=0; i<len-3; ++i) {
+            for(int j=i+1; j<len-2; ++j) {
+                int left = j + 1;
+                int right = len - 1;
                 
-                int l = j+1, r = len-1;
-                
-                while(l < r)
-                {
-                    int sum = nums[i] + nums[j] + nums[l] + nums[r];
-                              
-                    if( sum > target)
-                        --r;
-                    else if( sum < target)
-                        ++l;
-                    else
-                    {
-                        ret.push_back(vector<int>                                                               {nums[i],nums[j],nums[l],nums[r]});
-                        ++l;
-                        --r;
-                        while (l < r && nums[l] == nums[l-1])
-                            ++l;
-                        while (l < r && nums[r] == nums[r+1])
-                            --r;  
+                while(left < right) {
+                    int sum = nums[i] + nums[j] + nums[left] + nums[right];
+                    
+                    if(sum == target) {
+                        vector<int> out={nums[i], nums[j], nums[left], nums[right]};
+                        ret.insert(out);
+                        --right;
+                        ++left;
+                    }
+                    else if(sum > target) {
+                        --right;
+                    }
+                    else if(sum < target) {
+                        ++left;
                     }
                 }
             }
         }
-        return ret;
+        
+        return vector<vector<int>>(ret.begin(), ret.end());
     }
 };
