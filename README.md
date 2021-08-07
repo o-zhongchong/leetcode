@@ -97,6 +97,7 @@
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[C++](./Leetcode/125.cpp)||
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[C++](./Leetcode/128.cpp)|Array|
 |130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|[C++](./Leetcode/130.cpp)||
+|132|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)|[C++](./Leetcode/132.cpp)|DP|
 |135|[Candy](https://leetcode.com/problems/candy/)|[C++](./Leetcode/135.cpp)|Array|
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[C++](./Leetcode/136.cpp)||
 |137|[Single Number II](https://leetcode.com/problems/single-number-ii/)|[C++](./Leetcode/137.cpp)||
