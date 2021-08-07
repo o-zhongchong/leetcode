@@ -261,6 +261,7 @@
 |820|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|[C++](./Leetcode/820.cpp)|String|
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[C++](./Leetcode/821.cpp)||
 |823|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[C++](./Leetcode/823.cpp)||
+|827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/)|[C++](./Leetcode/827.cpp)|BFS|
 |841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[C++](./Leetcode/841.cpp)|DFS|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[C++](./Leetcode/867.cpp)||
 |869|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[C++](./Leetcode/869.cpp)|Math|
