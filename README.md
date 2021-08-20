@@ -206,7 +206,7 @@
 |535|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|[C++](./Leetcode/535.cpp)|String|
 |537|[Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication/)|[C++](./Leetcode/537.cpp)||
 |539|[Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)|[C++](./Leetcode/539.cpp)||
-|541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[C++](./Leetcode/541.cpp)||
+|541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[C++](./Leetcode/541.cpp)|String|
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/)|[C++](./Leetcode/547.cpp)||
 |551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)|[C++](./Leetcode/551.cpp)|String|
 |552|[Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/)|[C++](./Leetcode/552.cpp)|DP|

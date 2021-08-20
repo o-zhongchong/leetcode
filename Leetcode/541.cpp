@@ -1,42 +1,18 @@
 class Solution {
 public:
+    void reverse(string &s, int left, int right) {
+        int len = s.size();
+        left = max(0, left);
+        right = min(len-1, right);
+        while(left < right) {
+            swap(s[left++], s[right--]);
+        }
+    }
     string reverseStr(string s, int k) {
         int len = s.size();
-        
-        if(k < 0)
-        {
-            return s;
+        for(int i=0; i<len; i+=2*k) {
+            reverse(s, i, i+k-1);
         }
-        
-        for(int i=0; i<len; i=i+k+k)
-        {
-            reverseSubStr(s, i, i+k-1);
-        }
-        
         return s;
-    }
-    
-    int reverseSubStr(string& s, int start, int end)
-    {
-        int len = s.size();
-        
-        if(start < 0 || start >= len || end < 0)
-        {
-            return -1;
-        }
-        
-        if(end >= len)
-        {
-            end = len -1;
-        }
-        
-        while(start < end)
-        {
-            swap(s[start], s[end]);
-            ++start;
-            --end;
-        }
-        
-        return 0;
     }
 };
