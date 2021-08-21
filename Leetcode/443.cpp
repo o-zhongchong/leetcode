@@ -1,64 +1,40 @@
 class Solution {
 public:
+    void fill(vector<char> &chars, int &start, const string &str) {
+        int len = str.size();
+        for(int i=0; i<len; ++i) {
+            chars[start+i] = str[i];
+        }
+        start += str.size();
+    }
     int compress(vector<char>& chars) {
-        if(chars.empty())
-        {
-            return 0;
-        }
-        
         int len = chars.size();
-        int new_length = 0, cnt = 0;
-        char ch;
-        
-        for(int i=0; i<len; ++i)
-        {
-            if(cnt == 0)
-            {
-                ch = chars[i];
+        int ret = 0;
+        char c = '\0';
+        for(int i=0,j=0,cnt=0; i<len; ++i) {
+            if(cnt == 0 || chars[i] == c) {
                 ++cnt;
+                c = chars[i];
             }
-            else
-            {
-                if(chars[i] == ch)
-                {
-                    ++cnt;
+            if(cnt != 0 && chars[i] != c) {
+                chars[j++]=c;
+                if(cnt > 1) {
+                    string n = to_string(cnt);
+                    fill(chars, j, n);
                 }
-                else
-                {
-                    chars[new_length++] = ch;
-                    
-                    if(cnt > 1)
-                    {
-                        string s = to_string(cnt);
-                    
-                        for(char k : s)
-                        {
-                            chars[new_length++] = k;
-                        }
-                    }
-                    
-                    ch = chars[i];
-                    cnt = 1;
+                cnt = 1;
+                c = chars[i];
+            }
+            if(cnt != 0 && i == len-1) {
+                chars[j++]=c;
+                if(cnt > 1) {
+                    string n = to_string(cnt);
+                    fill(chars, j, n);
                 }
+                cnt = 0;
+                ret = j;
             }
         }
-        
-        if(cnt > 0)
-        {
-            chars[new_length++] = ch;
-            
-            if(cnt > 1)
-            {
-                string s = to_string(cnt);
-
-                for(char k : s)
-                {
-                    chars[new_length++] = k;
-                }
-            }
-        }
-        
-        chars.resize(new_length);
-        return new_length;
+        return ret;
     }
 };
