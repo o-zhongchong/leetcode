@@ -1,44 +1,23 @@
 class Solution {
 public:
-    vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
-        stack<int> path_stack;
-        vector<int> path;
-        vector<vector<int>> result;
-        int index, end = graph.size() - 1;
-
-        if (graph.size() <= 0)
-            return result;
-        path_stack.push(0);
-
-        while ( !path_stack.empty()  )
-        {
-            index = path_stack.top();
-            if ( !path.empty() && path.back() == index )
-            {
-                path.pop_back();
-                path_stack.pop();
-                continue;
-            }
-
-            if ( index == end )
-            {
-                path.push_back(index);
-                result.push_back(path);
-                path.pop_back();
-                path_stack.pop();
-            }
-            else
-            {
-                if ( !graph[index].empty() )
-                {
-                    path.push_back(index);
-                    for ( auto node : graph[index] )
-                        path_stack.push(node);
-                }
-                else
-                    path_stack.pop();
-            }
+    void dfs(vector<vector<int>>& graph, vector<int> &road, vector<vector<int>> &ret) {
+        int n = graph.size();
+        int cur = road.back();
+        if(cur == n-1) {
+            ret.push_back(road);
+            return;
         }
-        return result;
+        for(auto next : graph[cur]) {
+            road.push_back(next);
+            dfs(graph,road,ret);
+            road.pop_back();
+        }
+    }
+    vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
+        int n = graph.size();
+        vector<vector<int>> ret;
+        vector<int> road = {0};
+        dfs(graph, road, ret);
+        return ret;
     }
 };
