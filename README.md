@@ -157,7 +157,7 @@
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[C++](./Leetcode/283.cpp)|Array|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[C++](./Leetcode/287.cpp)|Array|
 |289|[Game of Life](https://leetcode.com/problems/game-of-life/)|[C++](./Leetcode/289.cpp)|Array|
-|295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[C++](./Leetcode/295.cpp)|Design|
+|295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[C++](./Leetcode/295.cpp)|Heap|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[C++](./Leetcode/300.cpp)|DP|
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[C++](./Leetcode/303.cpp)||
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[C++](./Leetcode/304.cpp)|DP|
