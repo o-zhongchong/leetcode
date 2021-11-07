@@ -39,7 +39,7 @@
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[C++](./Leetcode/39.cpp)||
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[C++](./Leetcode/40.cpp)||
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[C++](./Leetcode/41.cpp)||
-|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[C++](./Leetcode/43.cpp)||
+|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[C++](./Leetcode/43.cpp)|String|
 |44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[C++](./Leetcode/44.cpp)||
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[C++](./Leetcode/45.cpp)|Array|
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[C++](./Leetcode/46.cpp)|Backtracking|

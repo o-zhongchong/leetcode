@@ -1,35 +1,26 @@
 class Solution {
 public:
     string multiply(string num1, string num2) {
-        int m = num1.size();
-        int n = num2.size();
-        vector<int> vals(m + n);
-        
-        for(int i=m-1; i>=0; --i)
-        {
-            for(int j=n-1; j>=0; --j)
-            {
-                int mul = (num1[i] - '0') * (num2[j] - '0');
-                int p1 = i + j + 1;
-                int p2 = i + j;
-                int sum = mul + vals[p1];
-                vals[p1] = sum % 10;
-                vals[p2] += sum / 10;
+        int len1 = num1.size();
+        int len2 = num2.size();
+        int len3 = len1 + len2;
+        int upper = 0;
+        string ret(len3, '0');
+        for(int i=0; i<len2; ++i) {
+            for(int j=0; j<len1; ++j) {
+                int t = (int)(num2[len2-1-i] - '0') * (int)(num1[len1-1-j] - '0');
+                t += (int)(ret[len3-1-i-j] - '0') + upper;
+                ret[len3-1-i-j] = t % 10 + '0';
+                upper = t / 10;
+            }
+            if(upper > 0) {
+                ret[len3-1-i-len1] = upper + '0';
+                upper = 0;
             }
         }
-        
-        string ret;
-        
-        for(auto val : vals)
-        {
-            if(!ret.empty() || val != 0)
-                ret.push_back(val + '0');
+        while(ret.size() > 1 && ret[0] == '0') {
+            ret.erase(ret.begin());
         }
-        
-        if(ret == "")
-            ret="0";
-        
         return ret;
     }
-    
 };
