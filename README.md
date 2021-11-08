@@ -80,6 +80,7 @@
 |92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[C++](./Leetcode/92.cpp)|Linked List|
 |93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[C++](./Leetcode/93.cpp)||
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[C++](./Leetcode/94.cpp)||
+|96|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|[C++](./Leetcode/96.cpp)|Math|
 |97|[Interleaving String](https://leetcode.com/problems/interleaving-string/)|[C++](./Leetcode/97.cpp)|DP|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[C++](./Leetcode/98.cpp)|Tree|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[C++](./Leetcode/102.cpp)|Tree|
