@@ -94,7 +94,7 @@
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[C++](./Leetcode/119.cpp)||
 |120|[Triangle](https://leetcode.com/problems/triangle/)|[C++](./Leetcode/120.cpp)|DP|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[C++](./Leetcode/121.cpp)||
-|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[C++](./Leetcode/122.cpp)||
+|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[C++](./Leetcode/122.cpp)|Greedy|
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)|[C++](./Leetcode/123.cpp)||
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[C++](./Leetcode/125.cpp)||
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[C++](./Leetcode/128.cpp)|Array|
