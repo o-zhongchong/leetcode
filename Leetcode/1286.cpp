@@ -9,8 +9,8 @@ public:
     CombinationIterator(string characters, int combinationLength) {
         int len = characters.size();
         vector<bool> visited(len,false);
-        string tmp;
-        helper(characters, combinationLength, tmp, 0);
+        string t = "";
+        helper(characters, combinationLength, t, 0);
     }
     string next() {
         string r = mDat.front();
@@ -22,6 +22,9 @@ public:
     }
 private:
     void helper(string &str, int length, string &ret, int pos) {
+        if(str.size() - pos + ret.size() < length) {
+            return;
+        }
         if(ret.size() == length) {
             mDat.push(ret);
             return;
