@@ -240,6 +240,7 @@
 |658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|[C++](./Leetcode/658.cpp)|Binary Search|
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[C++](./Leetcode/665.cpp)|Array|
 |667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|[C++](./Leetcode/667.cpp)|Array|
+|668|[Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)|[C++](./Leetcode/668.cpp)|Binary Search|
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[C++](./Leetcode/678.cpp)|String|
 |684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/)|[C++](./Leetcode/684.cpp)|Union Find|
 |685|[Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)|[C++](./Leetcode/685.cpp)||
