@@ -1,26 +1,14 @@
 class Solution {
 public:
     int uniquePaths(int m, int n) {
-        int x = m - 1;
-        int y = m + n -2;
-        
-        return caculate(x,y);
+        return helper(m+n-2, min(m-1,n-1));
     }
-    
-    int caculate(int x, int y)
-    {
-        double ret = 1;
-        
-        if(y - x < x)
-        {
-            x = y - x;
+private:
+    int helper(int64_t m, int64_t n) {
+        int64_t ret = 1;
+        for(int64_t i=0; i<n; ++i) {
+            ret = ret * (m-i) / (i+1); 
         }
-        
-        for(int i=1; i<=x; ++i)
-        {
-            ret = ret * (y-i+1) / i;
-        }
-        
-        return ret;
+        return (int)ret;
     }
 };

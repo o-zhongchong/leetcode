@@ -56,7 +56,7 @@
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[C++](./Leetcode/58.cpp)|String|
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[C++](./Leetcode/59.cpp)||
 |61|[Rotate List](https://leetcode.com/problems/rotate-list/)|[C++](./Leetcode/61.cpp)||
-|62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[C++](./Leetcode/62.cpp)||
+|62|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[C++](./Leetcode/62.cpp)|Math|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[C++](./Leetcode/63.cpp)|DP|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[C++](./Leetcode/64.cpp)||
 |65|[Valid Number](https://leetcode.com/problems/valid-number/)|[C++](./Leetcode/65.cpp)|String|
