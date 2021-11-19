@@ -199,6 +199,7 @@
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[C++](./Leetcode/443.cpp)|String|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[C++](./Leetcode/448.cpp)|Array|
 |457|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|[C++](./Leetcode/457.cpp)||
+|461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[C++](./Leetcode/461.cpp)|Bit Manipulation|
 |462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|[C++](./Leetcode/462.cpp)|Math|
 |468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[C++](./Leetcode/468.cpp)|String|
 |473|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[C++](./Leetcode/473.cpp)|DFS|
@@ -432,11 +433,6 @@
 |1869|[Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)|[C++](./Leetcode/1869.cpp)|Array|
 |1871|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/)|[C++](./Leetcode/1871.cpp)|Greedy|
 |1881|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|[C++](./Leetcode/1881.cpp)|Greedy|
-
-### Concurrency
-
-| # | Title | Solution |
-|:-:| :---- | :------- |
 
 ### Database
 
