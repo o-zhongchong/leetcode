@@ -198,6 +198,7 @@
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[C++](./Leetcode/442.cpp)||
 |443|[String Compression](https://leetcode.com/problems/string-compression/)|[C++](./Leetcode/443.cpp)|String|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[C++](./Leetcode/448.cpp)|Array|
+|450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|[C++](./Leetcode/450.cpp)|Binary Search Tree|
 |457|[Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)|[C++](./Leetcode/457.cpp)||
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[C++](./Leetcode/461.cpp)|Bit Manipulation|
 |462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|[C++](./Leetcode/462.cpp)|Math|
