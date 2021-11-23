@@ -302,6 +302,7 @@
 |943|[Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)|[C++](./Leetcode/943.cpp)|DP|
 |947|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|[C++](./Leetcode/947.cpp)||
 |951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/)|[C++](./Leetcode/951.cpp)||
+|952|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)|[C++](./Leetcode/952.cpp)|Union Find|
 |953|[Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|[C++](./Leetcode/953.cpp)|String|
 |959|[Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/)|[C++](./Leetcode/959.cpp)||
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[C++](./Leetcode/965.cpp)||
