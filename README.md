@@ -312,7 +312,7 @@
 |970|[Powerful Integers](https://leetcode.com/problems/powerful-integers/)|[C++](./Leetcode/970.cpp)|Math|
 |971|[Flip Binary Tree To Match Preorder Traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)|[C++](./Leetcode/971.cpp)|Tree|
 |979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|[C++](./Leetcode/979.cpp)||
-|986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/submissions/)|[C++](./Leetcode/986.cpp)||
+|986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/submissions/)|[C++](./Leetcode/986.cpp)|Array|
 |990|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|[C++](./Leetcode/990.cpp)||
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[C++](./Leetcode/1002.cpp)||
 |1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[C++](./Leetcode/1004.cpp)|Sliding Window|
