@@ -49,7 +49,7 @@
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[C++](./Leetcode/50.cpp)||
 |51|[N-Queens](https://leetcode.com/problems/n-queens/)|[C++](./Leetcode/51.cpp)|Backtracking|
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[C++](./Leetcode/52.cpp)||
-|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Leetcode/53.cpp)||
+|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Leetcode/53.cpp)|Array|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[C++](./Leetcode/55.cpp)||
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[C++](./Leetcode/56.cpp)||
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/)|[C++](./Leetcode/57.cpp)||
