@@ -148,7 +148,7 @@
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[C++](./Leetcode/229.cpp)||
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[C++](./Leetcode/234.cpp)|Linked List|
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[C++](./Leetcode/236.cpp)|Tree|
-|238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[C++](./Leetcode/238.cpp)||
+|238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[C++](./Leetcode/238.cpp)|Array|
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[C++](./Leetcode/239.cpp)|Dequeue|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[C++](./Leetcode/242.cpp)||
 |258|[Add Digits](https://leetcode.com/problems/add-digits/)|[C++](./Leetcode/258.cpp)||
