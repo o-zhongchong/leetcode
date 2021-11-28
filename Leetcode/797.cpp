@@ -1,23 +1,34 @@
 class Solution {
 public:
-    void dfs(vector<vector<int>>& graph, vector<int> &road, vector<vector<int>> &ret) {
-        int n = graph.size();
-        int cur = road.back();
-        if(cur == n-1) {
-            ret.push_back(road);
+    vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
+        int len = graph.size();
+        vector<bool> visited(len, false);
+        vector<vector<int>> ret;
+        vector<int> path;
+        helper(graph, 0, visited, path, ret);
+        return ret;
+    }
+private:
+    void helper(vector<vector<int>>& graph, int pos, vector<bool> &visited,
+                vector<int> &path, vector<vector<int>> &ret)
+    {
+        path.push_back(pos);
+        visited[pos] = true;
+        if(pos == graph.size()-1) {
+            ret.push_back(path);
+            path.pop_back();
+            visited[pos] = false;
             return;
         }
-        for(auto next : graph[cur]) {
-            road.push_back(next);
-            dfs(graph,road,ret);
-            road.pop_back();
+        int len = graph[pos].size();
+        for(int i=0; i<len; ++i) {
+            int next = graph[pos][i];
+            if(!visited[next]) {
+                helper(graph, next, visited, path, ret);
+            }
         }
-    }
-    vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
-        int n = graph.size();
-        vector<vector<int>> ret;
-        vector<int> road = {0};
-        dfs(graph, road, ret);
-        return ret;
+        path.pop_back();
+        visited[pos] = false;
+        return;
     }
 };
