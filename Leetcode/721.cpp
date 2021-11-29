@@ -1,94 +1,54 @@
 class Solution {
 public:
-    string find(unordered_map<string, string>& ds, string x)
-    {
-        return x == ds[x] ? x : ds[x] = find(ds, ds[x]);
+    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
+        unordered_map<string,int> emails;
+        unordered_map<int,string> names;
+        unordered_map<int,int> m;
+        int len = accounts.size();
+        vector<int> ds(len, 0);
+        for(int i=0; i<len; ++i) {
+            ds[i] = i;
+        }
+        for(int i=0; i<len; ++i) {
+            names[i] = accounts[i][0];
+            int cnt = accounts[i].size();
+            for(int j=1; j<cnt; ++j) {
+                if(emails.count(accounts[i][j])) {
+                    merge(ds, i, emails[accounts[i][j]]);
+                    continue;
+                }
+                emails[accounts[i][j]] = i;
+            }
+        }
+        int total = 0;
+        for(int i=0; i<len; ++i) {
+            if(ds[i] == i) {
+                m[i] = total++;
+            }
+        }
+        vector<vector<string>> ret(total);
+        for(auto em : emails) {
+            int id = find(ds, em.second);
+            ret[m[id]].push_back(em.first);
+        }
+        for(int i=0; i<total; ++i) {
+            sort(ret[i].begin(), ret[i].end());
+            int id = find(ds, emails[ret[i][0]]);
+            ret[i].insert(ret[i].begin(), names[id]);
+        }
+        return ret;
     }
-    
-    int merge(unordered_map<string, string>& ds, string x, string y)
-    {
-        string fx = find(ds, x);
-        string fy = find(ds, y);
-        
-        if(fx != fy)
-        {
+private:
+    int find(vector<int> &ds, int x) {
+        return ds[x] == x ? x : ds[x] = find(ds, ds[x]);
+    }
+    int merge(vector<int> &ds, int x, int y) {
+        int fx = find(ds, x);
+        int fy = find(ds, y);
+        if(fx != fy) {
             ds[fx] = fy;
             return 1;
         }
-        
         return 0;
-    }
-    
-    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
-        unordered_map<string, string> mymap1;
-        unordered_map<string, string> mymap2;
-        unordered_map<string, vector<string>> mymap3;
-        
-        unordered_set<string> myset;
-        
-        vector<vector<string>> ret;
-        int len = accounts.size();
-        
-        for(int i=0; i<len; ++i)
-        {
-            int len2 = accounts[i].size();
-            string name = accounts[i][0];
-            
-            if(len2 == 1)
-            {
-                myset.insert(name);
-                continue;
-            }
-            
-            if(len2 > 1)
-            {
-                mymap1[accounts[i][1]] = name;
-                
-                if(!mymap2.count(accounts[i][1]))
-                {
-                    mymap2[accounts[i][1]] = accounts[i][1];
-                }
-            }
-            
-            for(int j=2; j<len2; ++j)
-            {
-                mymap1[accounts[i][j]] = name;
-                
-                if(!mymap2.count(accounts[i][j]))
-                {
-                    mymap2[accounts[i][j]] = accounts[i][j];
-                }
-                
-                merge(mymap2, accounts[i][1], accounts[i][j]);
-            }
-        }
-        
-        for(auto a : mymap2)
-        {
-            string f = find(mymap2, a.first);
-            
-            if(!mymap3.count(f))
-            {
-                mymap3[f] = vector<string>(1, a.first);
-            }
-            else
-            {
-                mymap3[f].push_back(a.first);
-            }
-        }
-        
-        for(auto a : mymap3)
-        {
-            sort(a.second.begin(), a.second.end());
-            a.second.insert(a.second.begin(), mymap1[a.first]);
-            ret.push_back(a.second);
-        }
-        
-        for(auto a : myset)
-        {
-            ret.push_back(vector<string>(1, a));
-        }
-        
-        return ret;
     }
 };

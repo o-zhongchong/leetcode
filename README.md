@@ -254,7 +254,7 @@
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[C++](./Leetcode/709.cpp)|String|
 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[C++](./Leetcode/714.cpp)|DP|
 |718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[C++](./Leetcode/718.cpp)|DP|
-|721|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[C++](./Leetcode/721.cpp)||
+|721|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[C++](./Leetcode/721.cpp)|Union Find|
 |722|[Remove Comments](https://leetcode.com/problems/remove-comments/)|[C++](./Leetcode/722.cpp)|String|
 |729|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)|[C++](./Leetcode/729.cpp)|Array|
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[C++](./Leetcode/739.cpp)|Stack|
