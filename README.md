@@ -126,7 +126,7 @@
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[C++](./Leetcode/189.cpp)||
 |190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[C++](./Leetcode/190.cpp)||
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[C++](./Leetcode/191.cpp)||
-|198|[House Robber](https://leetcode.com/problems/house-robber/)|[C++](./Leetcode/198.cpp)||
+|198|[House Robber](https://leetcode.com/problems/house-robber/)|[C++](./Leetcode/198.cpp)|DP|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[C++](./Leetcode/200.cpp)||
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)|[C++](./Leetcode/202.cpp)||
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[C++](./Leetcode/203.cpp)|Linked List|
