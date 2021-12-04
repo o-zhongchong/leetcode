@@ -319,6 +319,7 @@
 |1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[C++](./Leetcode/1022.cpp)||
 |1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|[C++](./Leetcode/1025.cpp)||
 |1030|[Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/)|[C++](./Leetcode/1030.cpp)||
+|1032|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|[C++](./Leetcode/1032.cpp)|Trie|
 |1043|[Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|[C++](./Leetcode/1043.cpp)||
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[C++](./Leetcode/1047.cpp)|Stack|
 |1048|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[C++](./Leetcode/1048.cpp)|DP|
