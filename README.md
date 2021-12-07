@@ -362,6 +362,7 @@
 |1220|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[C++](./Leetcode/1220.cpp)|DP|
 |1268|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|[C++](./Leetcode/1268.cpp)|String|
 |1286|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|[C++](./Leetcode/1286.cpp)|Backtracking|
+|1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[C++](./Leetcode/1290.cpp)|Linked List|
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|[C++](./Leetcode/1302.cpp)|Tree|
 |1306|[Jump Game III](https://leetcode.com/problems/jump-game-iii/)|[C++](./Leetcode/1306.cpp)|BFS|
 |1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)|[C++](./Leetcode/1319.cpp)||
