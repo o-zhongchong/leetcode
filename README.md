@@ -288,6 +288,7 @@
 |871|[Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)|[C++](./Leetcode/871.cpp)|Heap|
 |872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[C++](./Leetcode/872.cpp)||
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[C++](./Leetcode/876.cpp)||
+|878|[Nth Magical Number](https://leetcode.com/problems/nth-magical-number/)|[C++](./Leetcode/878.cpp)|Math|
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[C++](./Leetcode/881.cpp)|Greddy|
 |883|[Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/)|[C++](./Leetcode/883.cpp)||
 |885|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|[C++](./Leetcode/885.cpp)||
