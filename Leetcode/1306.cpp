@@ -3,34 +3,24 @@ public:
     bool canReach(vector<int>& arr, int start) {
         int len = arr.size();
         vector<bool> visited(len, false);
-        queue<int> q;
-        q.push(start);
-        
-        while(!q.empty())
-        {
-            int i = q.front();
-            q.pop();
-            visited[i] = true;
-            
-            if(arr[i] == 0)
-            {
-                return true;
+        deque<int> q;
+        visited[start] = true;
+        q.push_back(start);
+        while(!q.empty()) {
+            int idx = q.front();
+            q.pop_front();
+            if(arr[idx] == 0) return true;
+            int next = idx + arr[idx];
+            if(next >= 0 && next < len && !visited[next]) {
+                visited[next] = true;
+                q.push_back(next);
             }
-            
-            int left = i + arr[i];
-            int right = i - arr[i];
-            
-            if(left >= 0 && left < len && !visited[left])
-            {
-                q.push(left);
-            }
-            
-            if(right >= 0 && right < len && !visited[right])
-            {
-                q.push(right);
+            next = idx - arr[idx];
+            if(next >= 0 && next < len && !visited[next]) {
+                visited[next] = true;
+                q.push_back(next);
             }
         }
-        
         return false;
     }
 };
