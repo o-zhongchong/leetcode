@@ -6,6 +6,7 @@
 |--Queue
 |--Dequeue
 |--Hash Table
+|--BitSet
 |--Tree
 |--Binary Search Tree
 |--Binary Indexed Tree
