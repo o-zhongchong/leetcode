@@ -110,7 +110,7 @@
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[C++](./Leetcode/141.cpp)||
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[C++](./Leetcode/144.cpp)||
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[C++](./Leetcode/145.cpp)||
-|147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[C++](./Leetcode/147.cpp)||
+|147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[C++](./Leetcode/147.cpp)|Linked List|
 |148|[Sort List](https://leetcode.com/problems/sort-list/)|[C++](./Leetcode/148.cpp)||
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[C++](./Leetcode/150.cpp)|Stack|
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[C++](./Leetcode/151.cpp)||
