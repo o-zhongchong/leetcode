@@ -142,7 +142,7 @@
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[C++](./Leetcode/217.cpp)||
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[C++](./Leetcode/219.cpp)||
 |220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|[C++](./Leetcode/220.cpp)||
-|221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[C++](./Leetcode/221.cpp)||
+|221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[C++](./Leetcode/221.cpp)|DP|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[C++](./Leetcode/224.cpp)||
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[C++](./Leetcode/227.cpp)||
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[C++](./Leetcode/228.cpp)||
