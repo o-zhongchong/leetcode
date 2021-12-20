@@ -364,7 +364,7 @@
 |1189|[Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|[C++](./Leetcode/1189.cpp)||
 |1192|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|[C++](./Leetcode/1192.cpp)|DFS|
 |1195|[Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/)|[C++](./Leetcode/1195.cpp)||
-|1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[C++](./Leetcode/1200.cpp)||
+|1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[C++](./Leetcode/1200.cpp)|Array|
 |1202|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[C++](./Leetcode/1202.cpp)||
 |1206|[Design Skiplist](https://leetcode.com/problems/design-skiplist/)|[C++](./Leetcode/1206.cpp)||
 |1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[C++](./Leetcode/1209.cpp)|Stack|
