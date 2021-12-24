@@ -51,7 +51,7 @@
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[C++](./Leetcode/52.cpp)||
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[C++](./Leetcode/53.cpp)|Array|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[C++](./Leetcode/55.cpp)||
-|56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[C++](./Leetcode/56.cpp)||
+|56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[C++](./Leetcode/56.cpp)|Array|
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval/)|[C++](./Leetcode/57.cpp)||
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[C++](./Leetcode/58.cpp)|String|
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[C++](./Leetcode/59.cpp)||
