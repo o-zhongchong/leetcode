@@ -111,6 +111,7 @@
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/)|[C++](./Leetcode/143.cpp)|Linked List|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[C++](./Leetcode/144.cpp)||
 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[C++](./Leetcode/145.cpp)||
+|146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[C++](./Leetcode/146.cpp)|Design|
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[C++](./Leetcode/147.cpp)|Linked List|
 |148|[Sort List](https://leetcode.com/problems/sort-list/)|[C++](./Leetcode/148.cpp)||
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[C++](./Leetcode/150.cpp)|Stack|
