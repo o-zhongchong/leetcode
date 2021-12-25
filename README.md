@@ -185,6 +185,7 @@
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[C++](./Leetcode/341.cpp)|Design|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./Leetcode/344.cpp)||
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[C++](./Leetcode/345.cpp)|String|
+|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[C++](./Leetcode/347.cpp)|Heap|
 |354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|[C++](./Leetcode/354.cpp)|DP|
 |357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|[C++](./Leetcode/357.cpp)||
 |363|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)|[C++](./Leetcode/363.cpp)|DP|
