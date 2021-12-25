@@ -68,6 +68,7 @@
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[C++](./Leetcode/73.cpp)||
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[C++](./Leetcode/74.cpp)||
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[C++](./Leetcode/75.cpp)||
+|77|[Combinations](https://leetcode.com/problems/combinations/)|[C++](./Leetcode/77.cpp)|Array|
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[C++](./Leetcode/78.cpp)||
 |79|[Word Search](https://leetcode.com/problems/word-search/)|[C++](./Leetcode/79.cpp)||
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[C++](./Leetcode/80.cpp)||
