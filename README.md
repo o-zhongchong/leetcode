@@ -328,6 +328,7 @@
 |969|[Pancake Sorting](https://leetcode.com/problems/pancake-sorting/)|[C++](./Leetcode/969.cpp)||
 |970|[Powerful Integers](https://leetcode.com/problems/powerful-integers/)|[C++](./Leetcode/970.cpp)|Math|
 |971|[Flip Binary Tree To Match Preorder Traversal](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)|[C++](./Leetcode/971.cpp)|Tree|
+|973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|[C++](./Leetcode/973.cpp)|Heap|
 |979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|[C++](./Leetcode/979.cpp)||
 |986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/submissions/)|[C++](./Leetcode/986.cpp)|Array|
 |990|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|[C++](./Leetcode/990.cpp)||
