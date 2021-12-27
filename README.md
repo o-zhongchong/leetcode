@@ -218,7 +218,7 @@
 |468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)|[C++](./Leetcode/468.cpp)|String|
 |473|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[C++](./Leetcode/473.cpp)|DFS|
 |474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)|[C++](./Leetcode/474.cpp)|DP|
-|476|[Number Complement](https://leetcode.com/problems/number-complement/)|[C++](./Leetcode/476.cpp)||
+|476|[Number Complement](https://leetcode.com/problems/number-complement/)|[C++](./Leetcode/476.cpp)|Bit Manipulation|
 |478|[Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)|[C++](./Leetcode/478.cpp)|Math|
 |495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)|[C++](./Leetcode/495.cpp)|Array|
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)|[C++](./Leetcode/500.cpp)||

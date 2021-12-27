@@ -1,15 +1,8 @@
 class Solution {
 public:
     int findComplement(int num) {
-        int res = num;
-        int weight = 0;
-
-        while( num )
-        {
-            res ^= (1<<weight);
-            num = num >>1;
-            ++weight;
-        }
-        return res;
+        uint32_t mask = INT_MAX;
+        while(mask & num) mask <<= 1;
+        return ~mask & ~num;
     }
 };
