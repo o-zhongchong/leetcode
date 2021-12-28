@@ -3,33 +3,28 @@
  * struct ListNode {
  *     int val;
  *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
-        int len = 0;
-
+        int len = getLength(head);
         ListNode* p = head;
-        while( p!=nullptr )
-        {
-            ++len;
+        for(int i=0; i<len/2; ++i) {
             p = p->next;
         }
-        
-        if( len == 0)
-            return nullptr;
-      
-        if( len & 1)
-            len = (len+1)/2;
-        else
-            len = len/2 + 1;
-        
-        --len;
-        p = head;
-        while(len--)
-            p = p->next;
         return p;
+    }
+private:
+    int getLength(ListNode* head) {
+        int cnt = 0;
+        while(head) {
+            ++cnt;
+            head = head->next;
+        }
+        return cnt;
     }
 };
