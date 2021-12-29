@@ -1,37 +1,34 @@
-/**
- * Definition for binary tree with next pointer.
- * struct TreeLinkNode {
- *  int val;
- *  TreeLinkNode *left, *right, *next;
- *  TreeLinkNode(int x) : val(x), left(NULL), right(NULL), next(NULL) {}
- * };
- */
+/*
+// Definition for a Node.
+class Node {
+public:
+    int val;
+    Node* left;
+    Node* right;
+    Node* next;
+    Node() : val(0), left(NULL), right(NULL), next(NULL) {}
+    Node(int _val) : val(_val), left(NULL), right(NULL), next(NULL) {}
+    Node(int _val, Node* _left, Node* _right, Node* _next)
+        : val(_val), left(_left), right(_right), next(_next) {}
+};
+*/
 class Solution {
 public:
-    void connect(TreeLinkNode *root) {
-        if( root == nullptr )
-            return;
-        queue<TreeLinkNode*> tree_queue;
-        int last_node=1, curr_node=1, floor=1;
-        tree_queue.push(root);
-        while( !tree_queue.empty() )
-        {
-            TreeLinkNode* tmp=tree_queue.front();
-            tree_queue.pop();
-            if( curr_node == last_node)
-            {
-                tmp->next=nullptr;
-                floor *= 2;
-                last_node += floor;
+    Node* connect(Node* root) {
+        if(root == nullptr) return nullptr;
+        queue<Node*> q;
+        q.push(root);
+        while(!q.empty()) {
+            int sz = q.size();
+            Node* pre = nullptr;
+            for(int i=0; i<sz; ++i) {
+                Node* t = q.front(); q.pop();
+                if(t->left) q.push(t->left);
+                if(t->right) q.push(t->right);
+                if(pre) pre->next = t;
+                pre = t;
             }
-            else
-                tmp->next = tree_queue.front();
-            ++curr_node;
-            if(tmp->left!=nullptr)
-                tree_queue.push(tmp->left);
-            if(tmp->right!=nullptr)
-                tree_queue.push(tmp->right);
         }
-        return;
+        return root;
     }
 };
