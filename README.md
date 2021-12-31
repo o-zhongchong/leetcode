@@ -339,6 +339,7 @@
 |1015|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[C++](./Leetcode/1015.cpp)|Math|
 |1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[C++](./Leetcode/1022.cpp)||
 |1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|[C++](./Leetcode/1025.cpp)||
+|1026|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[C++](./Leetcode/1026.cpp)|Tree|
 |1030|[Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/)|[C++](./Leetcode/1030.cpp)||
 |1032|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|[C++](./Leetcode/1032.cpp)|Trie|
 |1043|[Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|[C++](./Leetcode/1043.cpp)||
