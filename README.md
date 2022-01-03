@@ -335,6 +335,7 @@
 |979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|[C++](./Leetcode/979.cpp)||
 |986|[Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/submissions/)|[C++](./Leetcode/986.cpp)|Array|
 |990|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)|[C++](./Leetcode/990.cpp)||
+|997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[C++](./Leetcode/997.cpp)|Array|
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[C++](./Leetcode/1002.cpp)||
 |1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[C++](./Leetcode/1004.cpp)|Sliding Window|
 |1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./Leetcode/1010.cpp)|Array|
