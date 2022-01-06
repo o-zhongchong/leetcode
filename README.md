@@ -352,6 +352,7 @@
 |1048|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[C++](./Leetcode/1048.cpp)|DP|
 |1074|[Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)|[C++](./Leetcode/1074.cpp)|Array|
 |1078|[Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)|[C++](./Leetcode/1078.cpp)||
+|1094|[Car Pooling](https://leetcode.com/problems/car-pooling/)|[C++](./Leetcode/1094.cpp)|Array|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address)|[C++](./Leetcode/1108.cpp)||
 |1109|[Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/)|[C++](./Leetcode/1109.cpp)|Array|
 |1110|[Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)|[C++](./Leetcode/1110.cpp)||
