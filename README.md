@@ -348,6 +348,7 @@
 |1026|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[C++](./Leetcode/1026.cpp)|Tree|
 |1030|[Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/)|[C++](./Leetcode/1030.cpp)||
 |1032|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|[C++](./Leetcode/1032.cpp)|Trie|
+|1041|[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[C++](./Leetcode/1041.cpp)|String|
 |1043|[Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|[C++](./Leetcode/1043.cpp)||
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[C++](./Leetcode/1047.cpp)|Stack|
 |1048|[Longest String Chain](https://leetcode.com/problems/longest-string-chain/)|[C++](./Leetcode/1048.cpp)|DP|
