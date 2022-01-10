@@ -4,25 +4,15 @@ public:
         int m = a.size();
         int n = b.size();
         int len = max(m,n);
-        
-        string x = a;
-        string y = b;
+        a.insert(0, len-m, '0');
+        b.insert(0, len-n, '0');
         string ret;
-        int c = 0;
-        
-        x.insert(0,len-m,'0');
-        y.insert(0,len-n,'0');
-        
-        for(int i=0; i<len; ++i)
-        {
-            int sum = (x[len-i-1]-'0') + (y[len-i-1]-'0') + c;
-            ret.insert(0,1,sum%2 + '0');
-            c = sum/2;
+        for(int i=len-1,j=0; i>=0; --i) {
+            int sum = (a[i]-'0')+(b[i]-'0')+j;
+            j = sum/2;
+            ret.insert(0,1,sum%2+'0');
+            if(i==0 && j>0) ret.insert(0,1,'1'); 
         }
-        
-        if(c != 0)
-            ret.insert(0,1,'1');
-        
         return ret;
     }
 };

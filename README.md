@@ -61,7 +61,7 @@
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[C++](./Leetcode/64.cpp)||
 |65|[Valid Number](https://leetcode.com/problems/valid-number/)|[C++](./Leetcode/65.cpp)|String|
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[C++](./Leetcode/66.cpp)||
-|67|[Add Binary](https://leetcode.com/problems/add-binary/)|[C++](./Leetcode/67.cpp)||
+|67|[Add Binary](https://leetcode.com/problems/add-binary/)|[C++](./Leetcode/67.cpp)|String|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[C++](./Leetcode/69.cpp)|Math|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./Leetcode/70.cpp)|DP|
 |71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[C++](./Leetcode/71.cpp)||
