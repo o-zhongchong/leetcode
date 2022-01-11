@@ -4,31 +4,27 @@
  *     int val;
  *     TreeNode *left;
  *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
 class Solution {
 public:
     int sumRootToLeaf(TreeNode* root) {
-        if(root == nullptr)
-            return 0;
-        
         int ret = 0;
-        getSum(root, root->val, ret);
+        helper(root, 0, ret);
         return ret;
     }
-
-    int getSum(TreeNode* root, int num, int &ret)
-    {
-        if(root->left == nullptr && root->right ==nullptr)
-            ret += num;
-        
-        if(root->left != nullptr)
-            getSum(root->left, num*2 + root->left->val, ret);
-        
-        if(root->right != nullptr)
-            getSum(root->right, num*2 + root->right->val, ret);
-
-        return 0;
+private:
+    void helper(TreeNode* root, int sum, int &ret) {
+        if(root == nullptr) return;
+        sum = (sum << 1) + root->val;
+        if(root->left == nullptr && root->right == nullptr) {
+            ret += sum;
+            return;
+        }
+        if(root->left != nullptr) helper(root->left, sum, ret);
+        if(root->right != nullptr) helper(root->right, sum, ret);
     }
 };

@@ -343,7 +343,7 @@
 |1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|[C++](./Leetcode/1009.cpp)|Bit Manipulation|
 |1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./Leetcode/1010.cpp)|Array|
 |1015|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[C++](./Leetcode/1015.cpp)|Math|
-|1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[C++](./Leetcode/1022.cpp)||
+|1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[C++](./Leetcode/1022.cpp)|Tree|
 |1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|[C++](./Leetcode/1025.cpp)||
 |1026|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[C++](./Leetcode/1026.cpp)|Tree|
 |1030|[Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/)|[C++](./Leetcode/1030.cpp)||
