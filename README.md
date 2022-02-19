@@ -426,6 +426,7 @@
 |1592|[Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|[C++](./Leetcode/1592.cpp)||
 |1642|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[C++](./Leetcode/1642.cpp)|Heap|
 |1646|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|[C++](./Leetcode/1646.cpp)|Array|
+|1675|[Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)|[C++](./Leetcode/1675.cpp)|Heap|
 |1689|[Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|[C++](./Leetcode/1689.cpp)|Greedy|
 |1690|[Stone Game VII](https://leetcode.com/problems/stone-game-vii/)|[C++](./Leetcode/1690.cpp)|DP|
 |1694|[Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/)|[C++](./Leetcode/1694.cpp)|String|
