@@ -127,7 +127,7 @@
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[C++](./Leetcode/164.cpp)|Sort|
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[C++](./Leetcode/165.cpp)|String|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[C++](./Leetcode/167.cpp)||
-|169|[Majority Element](https://leetcode.com/problems/majority-element/)|[C++](./Leetcode/169.cpp)||
+|169|[Majority Element](https://leetcode.com/problems/majority-element/)|[C++](./Leetcode/169.cpp)|Array|
 |173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[C++](./Leetcode/173.cpp)|Stack|
 |179|[Largest Number](https://leetcode.com/problems/largest-number/)|[C++](./Leetcode/179.cpp)||
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[C++](./Leetcode/189.cpp)||
