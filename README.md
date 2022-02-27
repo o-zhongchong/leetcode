@@ -263,6 +263,7 @@
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[C++](./Leetcode/645.cpp)|Hash Table|
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[C++](./Leetcode/647.cpp)|String|
 |658|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|[C++](./Leetcode/658.cpp)|Binary Search|
+|662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[C++](./Leetcode/662.cpp)|BFS|
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[C++](./Leetcode/665.cpp)|Array|
 |667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|[C++](./Leetcode/667.cpp)|Array|
 |668|[Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)|[C++](./Leetcode/668.cpp)|Binary Search|
