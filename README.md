@@ -153,7 +153,7 @@
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[C++](./Leetcode/221.cpp)|DP|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[C++](./Leetcode/224.cpp)||
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[C++](./Leetcode/227.cpp)|String|
-|228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[C++](./Leetcode/228.cpp)||
+|228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[C++](./Leetcode/228.cpp)|Array|
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[C++](./Leetcode/229.cpp)||
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[C++](./Leetcode/231.cpp)|Bit Manipulation|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[C++](./Leetcode/234.cpp)|Linked List|
