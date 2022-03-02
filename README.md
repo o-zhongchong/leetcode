@@ -203,7 +203,7 @@
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[C++](./Leetcode/383.cpp)||
 |385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|[C++](./Leetcode/385.cpp)|String|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[C++](./Leetcode/387.cpp)|String|
-|392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[C++](./Leetcode/392.cpp)||
+|392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[C++](./Leetcode/392.cpp)|Two Pointers|
 |394|[Decode String](https://leetcode.com/problems/decode-string/)|[C++](./Leetcode/394.cpp)|String|
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|[C++](./Leetcode/399.cpp)||
 |413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[C++](./Leetcode/413.cpp)|DP|
