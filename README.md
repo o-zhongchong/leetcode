@@ -204,6 +204,7 @@
 |385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|[C++](./Leetcode/385.cpp)|String|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[C++](./Leetcode/387.cpp)|String|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[C++](./Leetcode/392.cpp)|Two Pointers|
+|393|[UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)|[C++](./Leetcode/393.cpp)|Bit Manipulation|
 |394|[Decode String](https://leetcode.com/problems/decode-string/)|[C++](./Leetcode/394.cpp)|String|
 |399|[Evaluate Division](https://leetcode.com/problems/evaluate-division/)|[C++](./Leetcode/399.cpp)||
 |413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[C++](./Leetcode/413.cpp)|DP|
