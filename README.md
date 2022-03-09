@@ -73,6 +73,7 @@
 |79|[Word Search](https://leetcode.com/problems/word-search/)|[C++](./Leetcode/79.cpp)||
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[C++](./Leetcode/80.cpp)||
 |81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[C++](./Leetcode/81.cpp)||
+|82|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[C++](./Leetcode/82.cpp)|Linked List|
 |86|[Partition List](https://leetcode.com/problems/partition-list/)|[C++](./Leetcode/86.cpp)|Linked List|
 |87|[Scramble String](https://leetcode.com/problems/scramble-string/)|[C++](./Leetcode/87.cpp)|String|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[C++](./Leetcode/88.cpp)||
