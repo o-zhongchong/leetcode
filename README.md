@@ -492,32 +492,3 @@
 |2192|[All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)|[C++](./Leetcode/2192.cpp)|BFS|
 |2195|[Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/)|[C++](./Leetcode/2195.cpp)|Array|
 |2196|[Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/)|[C++](./Leetcode/2196.cpp)|Tree|
-
-### Database
-
-| # | Title | Solution |
-|:-:| :---- | :------- |
-|175|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)|[SQL](./Leetcode/175.sql)|
-|176|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)|[SQL](./Leetcode/176.sql)|
-|177|[Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)|[SQL](./Leetcode/177.sql)|
-|178|[Rank Scores](https://leetcode.com/problems/rank-scores/)|[SQL](./Leetcode/178.sql)|
-|180|[Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/)|[SQL](./Leetcode/180.sql)|
-|181|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)|[SQL](./Leetcode/181.sql)|
-|182|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)|[SQL](./Leetcode/182.sql)|
-|183|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)|[SQL](./Leetcode/183.sql)|
-|184|[Department Highest Salary](https://leetcode.com/problems/department-highest-salary/)|[SQL](./Leetcode/184.sql)|
-|185|[Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)|[SQL](./Leetcode/185.sql)|
-|196|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)|[SQL](./Leetcode/196.sql)|
-|197|[Rising Temperature](https://leetcode.com/problems/rising-temperature/)|[SQL](./Leetcode/197.sql)|
-|262|[Trips and Users](https://leetcode.com/problems/trips-and-users/)|[SQL](./Leetcode/262.sql)|
-|595|[Big Countries](https://leetcode.com/problems/big-countries/)|[SQL](./Leetcode/595.sql)|
-|596|[Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/)|[SQL](./Leetcode/596.sql)|
-|620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)|[SQL](./Leetcode/620.sql)|
-|626|[Exchange Seats](https://leetcode.com/problems/exchange-seats/)|[SQL](./Leetcode/626.sql)|
-|627|[Swap Salary](https://leetcode.com/problems/swap-salary/)|[SQL](./Leetcode/627.sql)|
-
-### Shell
-
-| # | Title | Solution |
-|:-:| :---- | :------- |
-|195|[Tenth Line](https://leetcode.com/problems/tenth-line/)|[Bash](./Leetcode/195.sh)|
