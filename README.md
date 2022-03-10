@@ -485,6 +485,7 @@
 |1869|[Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)|[C++](./Leetcode/1869.cpp)|Array|
 |1871|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/)|[C++](./Leetcode/1871.cpp)|Greedy|
 |1881|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|[C++](./Leetcode/1881.cpp)|Greedy|
+|2186|[Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|[C++](./Leetcode/2186.cpp)|Hash Table|
 |2187|[Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)|[C++](./Leetcode/2187.cpp)|Binary Search|
 |2191|[Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/)|[C++](./Leetcode/2191.cpp)|Array|
 |2192|[All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)|[C++](./Leetcode/2192.cpp)|BFS|
