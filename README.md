@@ -485,6 +485,7 @@
 |1869|[Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)|[C++](./Leetcode/1869.cpp)|Array|
 |1871|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/)|[C++](./Leetcode/1871.cpp)|Greedy|
 |1881|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|[C++](./Leetcode/1881.cpp)|Greedy|
+|2178|[Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/)|[C++](./Leetcode/2178.cpp)|Greedy|
 |2181|[Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/)|[C++](./Leetcode/2181.cpp)|Linked List|
 |2182|[Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/)|[C++](./Leetcode/2182.cpp)|Greedy|
 |2186|[Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|[C++](./Leetcode/2186.cpp)|Hash Table|
