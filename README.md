@@ -109,7 +109,7 @@
 |135|[Candy](https://leetcode.com/problems/candy/)|[C++](./Leetcode/135.cpp)|Array|
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[C++](./Leetcode/136.cpp)||
 |137|[Single Number II](https://leetcode.com/problems/single-number-ii/)|[C++](./Leetcode/137.cpp)||
-|138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[C++](./Leetcode/138.cpp)||
+|138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[C++](./Leetcode/138.cpp)|Linked List|
 |139|[Word Break](https://leetcode.com/problems/word-break/)|[C++](./Leetcode/139.cpp)||
 |140|[Word Break II](https://leetcode.com/problems/word-break-ii/)|[C++](./Leetcode/140.cpp)||
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[C++](./Leetcode/141.cpp)||
