@@ -494,3 +494,4 @@
 |2192|[All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)|[C++](./Leetcode/2192.cpp)|BFS|
 |2195|[Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/)|[C++](./Leetcode/2195.cpp)|Array|
 |2196|[Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/)|[C++](./Leetcode/2196.cpp)|Tree|
+|2201|[Count Artifacts That Can Be Extracted](https://leetcode.com/problems/count-artifacts-that-can-be-extracted/)|[C++](./Leetcode/2201.cpp)|Hash Table|
