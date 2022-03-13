@@ -495,3 +495,4 @@
 |2195|[Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/)|[C++](./Leetcode/2195.cpp)|Array|
 |2196|[Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/)|[C++](./Leetcode/2196.cpp)|Tree|
 |2201|[Count Artifacts That Can Be Extracted](https://leetcode.com/problems/count-artifacts-that-can-be-extracted/)|[C++](./Leetcode/2201.cpp)|Hash Table|
+|2202|[Maximize the Topmost Element After K Moves](https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves/)|[C++](./Leetcode/2202.cpp)|Array|
