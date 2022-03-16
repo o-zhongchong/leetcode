@@ -334,6 +334,7 @@
 |936|[Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)|[C++](./Leetcode/936.cpp)|String|
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[C++](./Leetcode/938.cpp)|Tree|
 |943|[Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/)|[C++](./Leetcode/943.cpp)|DP|
+|946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[C++](./Leetcode/946.cpp)|Stack|
 |947|[Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)|[C++](./Leetcode/947.cpp)||
 |951|[Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/)|[C++](./Leetcode/951.cpp)||
 |952|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/)|[C++](./Leetcode/952.cpp)|Union Find|
