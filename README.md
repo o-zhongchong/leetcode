@@ -310,6 +310,7 @@
 |827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/)|[C++](./Leetcode/827.cpp)|BFS|
 |841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[C++](./Leetcode/841.cpp)|DFS|
 |845|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[C++](./Leetcode/845.cpp)|Array|
+|856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[C++](./Leetcode/856.cpp)|Stack|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[C++](./Leetcode/867.cpp)||
 |869|[Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)|[C++](./Leetcode/869.cpp)|Math|
 |870|[Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle/)|[C++](./Leetcode/870.cpp)|Array|
