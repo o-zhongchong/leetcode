@@ -1,37 +1,23 @@
 class Solution {
 public:
     string removeDuplicateLetters(string s) {
+        int dict[26], visited[26];
+        memset(dict, 0, sizeof(dict));
+        memset(visited, 0, sizeof(visited));
+        string ans = "";
         int len = s.size();
-        vector<int> cnt(26, 0);
-        vector<int> visited(26, 0);
-        string ret;
-        
-        for(int i=0; i<len; ++i)
-        {
-            int c = s[i] - 'a';
-            ++cnt[c];
-        }
-        
-        for(int i=0; i<len; ++i)
-        {
-            int c = s[i] - 'a';
-            --cnt[c];
-            
-            if(visited[c])
-            {
-                continue;
+        for(auto c : s) ++dict[c-'a'];
+        for(int i=0; i<len; ++i) {
+            int idx = s[i] - 'a';
+            --dict[idx];
+            if(visited[idx]) continue;
+            while(!ans.empty() && s[i] < ans.back() && dict[ans.back()-'a'] > 0) {
+                visited[ans.back()-'a'] = 0;
+                ans.pop_back();
             }
-            
-            while(!ret.empty() && s[i] < ret.back() && cnt[ret.back() - 'a'])
-            {
-                visited[ret.back() - 'a'] = 0;
-                ret.pop_back();
-            }
-            
-            ret.push_back(s[i]);
-            visited[c] = 1;
+            ans.push_back(s[i]);
+            visited[idx] = 1;
         }
-        
-        return ret;
+        return ans;
     }
 };

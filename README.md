@@ -179,7 +179,7 @@
 |310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|[C++](./Leetcode/310.cpp)|Graph|
 |312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[C++](./Leetcode/312.cpp)|DP|
 |315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)|[C++](./Leetcode/315.cpp)|Binary Indexed Tree|
-|316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[C++](./Leetcode/316.cpp)||
+|316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[C++](./Leetcode/316.cpp)|Hash Table|
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[C++](./Leetcode/318.cpp)|Bit Manipulation|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)|[C++](./Leetcode/322.cpp)|DP|
 |324|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|[C++](./Leetcode/324.cpp)||
