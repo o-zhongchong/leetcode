@@ -323,7 +323,7 @@
 |885|[Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)|[C++](./Leetcode/885.cpp)||
 |890|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)|[C++](./Leetcode/890.cpp)|String|
 |893|[Groups of Special-Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings/)|[C++](./Leetcode/893.cpp)||
-|895|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|[C++](./Leetcode/895.cpp)|Stack|
+|895|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|[C++](./Leetcode/895.cpp)|Hash Table|
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[C++](./Leetcode/897.cpp)||
 |902|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[C++](./Leetcode/902.cpp)|Math|
 |906|[Super Palindromes](https://leetcode.com/problems/super-palindromes/)|[C++](./Leetcode/906.cpp)|Math|

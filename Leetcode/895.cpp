@@ -1,37 +1,27 @@
 /**
  * Your FreqStack object will be instantiated and called as such:
  * FreqStack* obj = new FreqStack();
- * obj->push(x);
+ * obj->push(val);
  * int param_2 = obj->pop();
  */
-
 class FreqStack {
 public:
     FreqStack() {
         maxFreq = 0;
     }
-    
-    void push(int x) {
-        ++freq[x];
-        data[freq[x]].push_back(x);
-        maxFreq = max(maxFreq, freq[x]);
+    void push(int val) {
+        m[++freq[val]].push_back(val);
+        maxFreq = max(maxFreq, freq[val]);
     }
-    
     int pop() {
-        int ret = data[maxFreq].back();
-        data[maxFreq].pop_back();
-        --freq[ret];
         
-        if(data[maxFreq].empty())
-        {
-            --maxFreq;
-        }
-        
-        return ret;
+        int ans = m[maxFreq].back();
+        m[maxFreq].pop_back(); --freq[ans];
+        if(m[maxFreq].empty()) --maxFreq;
+        return ans;
     }
-    
-protected:
-    unordered_map<int,int> freq;
-    unordered_map<int,vector<int>> data;
+private:
     int maxFreq;
+    unordered_map<int,int> freq;
+    unordered_map<int,vector<int>> m;
 };
