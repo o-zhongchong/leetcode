@@ -354,6 +354,7 @@
 |997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[C++](./Leetcode/997.cpp)|Array|
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[C++](./Leetcode/1002.cpp)||
 |1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[C++](./Leetcode/1004.cpp)|Sliding Window|
+|1007|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[C++](./Leetcode/1007.cpp)|DFS|
 |1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)|[C++](./Leetcode/1009.cpp)|Bit Manipulation|
 |1010|[Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)|[C++](./Leetcode/1010.cpp)|Array|
 |1015|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)|[C++](./Leetcode/1015.cpp)|Math|
