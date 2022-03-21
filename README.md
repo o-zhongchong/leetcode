@@ -289,6 +289,7 @@
 |745|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/)|[C++](./Leetcode/745.cpp)|Trie|
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[C++](./Leetcode/746.cpp)|DP|
 |752|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|[C++](./Leetcode/752.cpp)|BFS|
+|763|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[C++](./Leetcode/763.cpp)|Hash Table|
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[C++](./Leetcode/766.cpp)||
 |775|[Global and Local Inversions](https://leetcode.com/problems/global-and-local-inversions/)|[C++](./Leetcode/775.cpp)|Array|
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|[C++](./Leetcode/778.cpp)|Heap|
