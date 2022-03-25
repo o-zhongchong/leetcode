@@ -363,6 +363,7 @@
 |1022|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[C++](./Leetcode/1022.cpp)|Tree|
 |1025|[Divisor Game](https://leetcode.com/problems/divisor-game/)|[C++](./Leetcode/1025.cpp)||
 |1026|[Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)|[C++](./Leetcode/1026.cpp)|Tree|
+|1029|[Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)|[C++](./Leetcode/1029.cpp)|Greddy|
 |1030|[Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/)|[C++](./Leetcode/1030.cpp)||
 |1032|[Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|[C++](./Leetcode/1032.cpp)|Trie|
 |1041|[Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[C++](./Leetcode/1041.cpp)|String|
