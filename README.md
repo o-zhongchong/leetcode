@@ -276,6 +276,7 @@
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[C++](./Leetcode/695.cpp)|Array|
 |696|[Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)|[C++](./Leetcode/696.cpp)|String|
 |701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[C++](./Leetcode/701.cpp)|Tree|
+|704|[Binary Search](https://leetcode.com/problems/binary-search/)|[C++](./Leetcode/704.cpp)|Binary Search|
 |706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[C++](./Leetcode/706.cpp)|Hash Table|
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case/)|[C++](./Leetcode/709.cpp)|String|
 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[C++](./Leetcode/714.cpp)|DP|
