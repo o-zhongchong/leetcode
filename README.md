@@ -510,3 +510,4 @@
 |2201|[Count Artifacts That Can Be Extracted](https://leetcode.com/problems/count-artifacts-that-can-be-extracted/)|[C++](./Leetcode/2201.cpp)|Hash Table|
 |2202|[Maximize the Topmost Element After K Moves](https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves/)|[C++](./Leetcode/2202.cpp)|Array|
 |2207|[Maximize Number of Subsequences in a String](https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/)|[C++](./Leetcode/2207.cpp)|Greddy|
+|2208|[Minimum Operations to Halve Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/)|[C++](./Leetcode/2208.cpp)|Greddy|
