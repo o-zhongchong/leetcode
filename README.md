@@ -511,3 +511,4 @@
 |2202|[Maximize the Topmost Element After K Moves](https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves/)|[C++](./Leetcode/2202.cpp)|Array|
 |2207|[Maximize Number of Subsequences in a String](https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/)|[C++](./Leetcode/2207.cpp)|Greddy|
 |2208|[Minimum Operations to Halve Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/)|[C++](./Leetcode/2208.cpp)|Greddy|
+|2211|[Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/)|[C++](./Leetcode/2211.cpp)|String|
