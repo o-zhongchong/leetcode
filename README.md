@@ -29,6 +29,7 @@
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[C++](./Leetcode/27.cpp)||
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[C++](./Leetcode/28.cpp)||
 |29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[C++](./Leetcode/29.cpp)||
+|31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[C++](./Leetcode/31.cpp)|Array|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[C++](./Leetcode/32.cpp)|String|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[C++](./Leetcode/33.cpp)||
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[C++](./Leetcode/34.cpp)|Binary Search|
