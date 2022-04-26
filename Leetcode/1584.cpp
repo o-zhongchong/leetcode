@@ -1,72 +1,35 @@
-class Edge
-{
-public:
-    Edge(int i, int j, int dist):x(i),y(j),distance(dist){};
-    bool operator < (const Edge& edge) const
-    {
-        return this->distance < edge.distance;
-    }
-    
-    int distance;
-    int x,y;
-};
-
-int find(int* ds, int x)
-{
-    return ds[x] == x ? x : ds[x] = find(ds, ds[x]);
-}
-
-int merge(int* ds, int x, int y)
-{
-    int fx = find(ds, x);
-    int fy = find(ds, y);
-    
-    if(fx != fy)
-    {
-        ds[fx] = fy;
-        return 1;
-    }
-    
-    return 0;
-}
-
 class Solution {
 public:
     int minCostConnectPoints(vector<vector<int>>& points) {
         int n = points.size();
-        vector<Edge> myedge;
-        int* ds = new int[n];
-        int min_cost = 0;
-        
-        for(int i=0; i<n; ++i)
-        {
-            ds[i] = i;
+        vector<int> ds(n, INT_MAX);
+        for(int i=1; i<n; ++i) {
+            ds[i] = dist(points[0], points[i]);
         }
-        
-        for(int i=0; i<n; ++i)
-        {
-            for(int j=1; j<n; ++j)
-            {
-                
-                if(i < j)
-                {
-                    int dist = abs(points[i][0]-points[j][0]) 
-                        + abs(points[i][1]-points[j][1]);
-                    myedge.push_back(Edge(i,j,dist));
-                }
+        int ans = 0;
+        for(int i=1; i<n; ++i) {
+            int v = minElement(ds);
+            if(v == -1) break;
+            ans += ds[v];
+            ds[v] = INT_MAX;
+            for(int i=0; i<n; ++i) {
+                if(ds[i] == INT_MAX) continue;
+                ds[i] = min(ds[i], dist(points[v], points[i]));
             }
         }
-        
-        sort(myedge.begin(), myedge.end());
-        
-        for(auto e : myedge)
-        {
-            if(merge(ds, e.x, e.y))
-            {
-                min_cost += e.distance;
+        return ans;
+    }
+private:
+    static int dist(const vector<int> &a, const vector<int> &b) {
+        return abs(a[0] - b[0]) + abs(a[1] - b[1]);
+    }
+    static int minElement(const vector<int> &nums) {
+        int ans = -1, len = nums.size();
+        for(int i=0; i<len; ++i) {
+            if(ans == -1 || nums[i] < nums[ans]) {
+                ans = i;
             }
         }
-        
-        return min_cost;
+        return ans;
     }
 };
