@@ -296,6 +296,7 @@
 |766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/)|[C++](./Leetcode/766.cpp)||
 |775|[Global and Local Inversions](https://leetcode.com/problems/global-and-local-inversions/)|[C++](./Leetcode/775.cpp)|Array|
 |778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)|[C++](./Leetcode/778.cpp)|Heap|
+|785|[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[C++](./Leetcode/785.cpp)|Union Find|
 |787|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)|[C++](./Leetcode/787.cpp)|DP|
 |788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/)|[C++](./Leetcode/788.cpp)||
 |789|[Escape The Ghosts](https://leetcode.com/problems/escape-the-ghosts/)|[C++](./Leetcode/789.cpp)|Math|
