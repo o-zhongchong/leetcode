@@ -1,91 +1,44 @@
-class Node
-{
-public:
-    string str;
-    double val;
-    Node(string s="", double v=1.0):str(s),val(v){};
-};
-
 class Solution {
 public:
-    unordered_map<string, Node> ds;
-    
-    void init(string s)
+    typedef pair<string, double> Node;
+public:
+    vector<double> calcEquation(vector<vector<string>>& equations, 
+                                vector<double>& values, 
+                                vector<vector<string>>& queries) 
     {
-        if(!ds.count(s))
-        {
-            ds[s] = Node(s);
-        }
-    }
-    
-    Node find(string x)
-    {
-        if(x == ds[x].str)
-        {
-            return ds[x];
-        }
-        
-        Node n(x, 1.0);
-        Node m = find(ds[x].str);
-        n.str = m.str;
-        n.val = m.val * ds[x].val;
-        
-        return ds[x] = n;
-    }
-    
-    int merge(string x, string y, double v)
-    {
-        Node fx = find(x);
-        Node fy = find(y);
-        
-        if(fx.str != fy.str)
-        {
-            ds[fx.str].str = fy.str;
-            ds[fx.str].val = fy.val * v / fx.val;
-            
-            return 1;
-        }
-        
-        return 0;
-    }
-    
-    vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
         int len = equations.size();
-        
-        for(int i=0; i<len; ++i)
-        {
-            string x = equations[i][0];
-            string y = equations[i][1];
-            double val = values[i];
-            
-            init(x);
-            init(y);
-            merge(x, y, val);
-        }
-        
-        vector<double> ret;
-        
-        for(auto q : queries)
-        {
-            if(!ds.count(q[0]) || !ds.count(q[1]))
-            {
-                ret.push_back(-1.0);
-                continue;
-            }
-            
-            Node fx = find(q[0]);
-            Node fy = find(q[1]);
-            
-            if(fx.str == fy.str)
-            {
-                ret.push_back(fx.val/fy.val);
-            }
-            else
-            {
-                ret.push_back(-1.0);
+        unordered_map<string, Node> m;
+        for(int i=0; i<len; ++i) {
+            string s1 = equations[i][0];
+            string s2 = equations[i][1];
+            if(!m.count(s1)) m[s1] = make_pair(s1, 1.0);
+            if(!m.count(s2)) m[s2] = make_pair(s2, 1.0);
+            Node n1 = find(m, s1);
+            Node n2 = find(m, s2);
+            if(n1.first != n2.first) {
+                m[n1.first] = make_pair(n2.first, values[i] * n2.second / n1.second);
             }
         }
-        
-        return ret;
+        vector<double> ans;
+        for(auto query : queries) {
+            Node n1 = find(m, query[0]);
+            Node n2 = find(m, query[1]);
+            if(n1.second < 0 || n2.second < 0 || n1.first != n2.first) {
+                ans.push_back(-1.0);
+            } else {
+                ans.push_back(n1.second / n2.second);
+            }
+        }
+        return ans;
+    }
+private:
+    Node find(unordered_map<string, Node> &m, string &s) 
+    {
+        if(!m.count(s)) return make_pair(s, -1.0);
+        if(s != m[s].first) {
+            Node n = find(m, m[s].first);
+            return make_pair(n.first, m[s].second * n.second);
+        }
+        return m[s];
     }
 };
