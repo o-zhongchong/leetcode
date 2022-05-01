@@ -314,6 +314,7 @@
 |823|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[C++](./Leetcode/823.cpp)||
 |827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/)|[C++](./Leetcode/827.cpp)|BFS|
 |841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)|[C++](./Leetcode/841.cpp)|DFS|
+|844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[C++](./Leetcode/844.cpp)|String|
 |845|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[C++](./Leetcode/845.cpp)|Array|
 |856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)|[C++](./Leetcode/856.cpp)|Stack|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[C++](./Leetcode/867.cpp)||
