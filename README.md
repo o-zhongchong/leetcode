@@ -332,6 +332,7 @@
 |895|[Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)|[C++](./Leetcode/895.cpp)|Hash Table|
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[C++](./Leetcode/897.cpp)||
 |902|[Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)|[C++](./Leetcode/902.cpp)|Math|
+|905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[C++](./Leetcode/905.cpp)|Array|
 |906|[Super Palindromes](https://leetcode.com/problems/super-palindromes/)|[C++](./Leetcode/906.cpp)|Math|
 |908|[Smallest Range I](https://leetcode.com/problems/smallest-range-i/)|[C++](./Leetcode/908.cpp)||
 |912|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|[C++](./Leetcode/912.cpp)||

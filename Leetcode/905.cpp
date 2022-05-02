@@ -1,22 +1,13 @@
 class Solution {
 public:
-    vector<int> sortArrayByParity(vector<int>& A) {
-        int s=0, e=A.size()-1;
-        int tmp;
-        while(s != e)
-        {
-            if( A[s] & 1)
-            {
-                tmp = A[s];
-                A[s] = A[e];
-                A[e] = tmp;
-                --e;
-                continue;
-            }
-            else
-                ++s;
+    vector<int> sortArrayByParity(vector<int>& nums) {
+        vector<int> ans;
+        for(auto n : nums) {
+            if(!(n & 1)) ans.push_back(n);
         }
-        vector<int> B(A);
-        return B;
+        for(auto n : nums) {
+            if(n & 1) ans.push_back(n);
+        }
+        return ans;
     }
 };
