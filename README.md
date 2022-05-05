@@ -154,6 +154,7 @@
 |220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|[C++](./Leetcode/220.cpp)||
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[C++](./Leetcode/221.cpp)|DP|
 |224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[C++](./Leetcode/224.cpp)||
+|225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[C++](./Leetcode/225.cpp)|Design|
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)|[C++](./Leetcode/227.cpp)|String|
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[C++](./Leetcode/228.cpp)|Array|
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[C++](./Leetcode/229.cpp)||
