@@ -1,67 +1,48 @@
 /**
- * // This is the interface that allows for creating nested lists.
- * // You should not implement it, or speculate about its implementation
  * class NestedInteger {
  *   public:
- *     // Return true if this NestedInteger holds a single integer, rather than a nested list.
  *     bool isInteger() const;
- *
- *     // Return the single integer that this NestedInteger holds, if it holds a single integer
- *     // The result is undefined if this NestedInteger holds a nested list
  *     int getInteger() const;
- *
- *     // Return the nested list that this NestedInteger holds, if it holds a nested list
- *     // The result is undefined if this NestedInteger holds a single integer
  *     const vector<NestedInteger> &getList() const;
  * };
  */
 
 class NestedIterator {
 public:
-    NestedIterator(vector<NestedInteger> &nestedList) {
+    NestedIterator(vector<NestedInteger>& nestedList) {
         int len = nestedList.size();
-        
-        for(int i=len-1; i>=0; --i)
-        {
+        for(int i=len-1; i>=0; --i) {
             st.push(nestedList[i]);
         }
+        helper();
     }
-    
     int next() {
-        NestedInteger p = st.top();
-        st.pop();
-        return p.getInteger();
+        if(st.empty()) return -1;
+        NestedInteger t = st.top(); st.pop();
+        helper();
+        return t.getInteger();
     }
-    
     bool hasNext() {
-        while(!st.empty())
-        {
-            NestedInteger p = st.top();
-            
-            if(p.isInteger())
-            {
-                return true;
-            }
-            
+        return !st.empty();
+    }
+private:
+    void helper() {
+        if (st.empty()) return;
+        NestedInteger t = st.top();
+        while(!t.isInteger()) {
             st.pop();
-            vector<NestedInteger> list = p.getList();
+            const vector<NestedInteger>& list = t.getList();
             int len = list.size();
-            
-            for(int i=len-1; i>=0; --i)
-            {
+            for(int i=len-1; i>=0; --i) {
                 st.push(list[i]);
             }
+            if(!st.empty()) {
+                t = st.top();
+            } else {
+                break;
+            }
         }
-        
-        return false;
     }
-    
-protected:
+private:
     stack<NestedInteger> st;
 };
-
-/**
- * Your NestedIterator object will be instantiated and called as such:
- * NestedIterator i(nestedList);
- * while (i.hasNext()) cout << i.next();
- */
