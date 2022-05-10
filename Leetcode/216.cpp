@@ -1,40 +1,23 @@
 class Solution {
 public:
     vector<vector<int>> combinationSum3(int k, int n) {
-        vector<vector<int>> res;
-        vector<int> tmp;
-        dfs(k, n, tmp, res);
-        return res;
+        vector<int> t;
+        vector<vector<int>> ans;
+        helper(k, n, t, ans);
+        return ans;
     }
-    
-    void dfs(int k, int n, vector<int>& t, vector<vector<int>>& res)
-    {
-        if(k == 0 && n == 0)
-        {
-            res.push_back(t);
-        }
-        else if(k == 0 && n != 0)
-        {
+private:
+    void helper(int k, int n, vector<int>& tmp, vector<vector<int>>& ans) {
+        if(k < 0 || n < 0) return;
+        if (k == 0 && n == 0) {
+            ans.push_back(tmp);
             return;
         }
-        
-        int start = 1;
-        
-        if(!t.empty())
-        {
-            start = t.back() + 1;
+        int start = tmp.empty() ? 1 : tmp.back() + 1;
+        for (int i=start; i>=1 && i <=9 && i<=n; ++i) {
+            tmp.push_back(i);
+            helper(k-1, n-i, tmp, ans);
+            tmp.pop_back();
         }
-        
-        for(int i=start; i<=9; ++i)
-        {
-            if(n >= i)
-            {
-                t.push_back(i);
-                dfs(k-1, n-i, t, res);
-                t.pop_back();
-            }
-        }
-        
-        return;
     }
 };
