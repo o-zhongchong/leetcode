@@ -454,6 +454,7 @@
 |1588|[Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/)|[C++](./Leetcode/1588.cpp)|Math|
 |1592|[Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/)|[C++](./Leetcode/1592.cpp)||
 |1631|[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)|[C++](./Leetcode/1631.cpp)|BFS|
+|1641|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|[C++](./Leetcode/1641.cpp)|DP|
 |1642|[Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[C++](./Leetcode/1642.cpp)|Heap|
 |1646|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|[C++](./Leetcode/1646.cpp)|Array|
 |1663|[Smallest String With A Given Numeric Value](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value/)|[C++](./Leetcode/1663.cpp)|Greddy|
