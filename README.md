@@ -7,6 +7,7 @@
 |1|[Two Sum](https://leetcode.com/problems/two-sum)|[C++](./Leetcode/1.cpp) [Python](./Leetcode/1.py)|Array|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[C++](./Leetcode/2.cpp)|Math|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[C++](./Leetcode/3.cpp)|String|
+|4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[C++](./Leetcode/4.cpp)|Array|
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[C++](./Leetcode/5.cpp)|DP|
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[C++](./Leetcode/7.cpp)||
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[C++](./Leetcode/8.cpp)|String|
