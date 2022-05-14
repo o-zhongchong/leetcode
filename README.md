@@ -295,6 +295,7 @@
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[C++](./Leetcode/739.cpp)|Stack|
 |740|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[C++](./Leetcode/740.cpp)|DP|
 |741|[Cherry Pickup](https://leetcode.com/problems/cherry-pickup/)|[C++](./Leetcode/741.cpp)|DP|
+|743|[Network Delay Time](https://leetcode.com/problems/network-delay-time/)|[C++](./Leetcode/743.cpp)|Graph|
 |745|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/)|[C++](./Leetcode/745.cpp)|Trie|
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[C++](./Leetcode/746.cpp)|DP|
 |752|[Open the Lock](https://leetcode.com/problems/open-the-lock/)|[C++](./Leetcode/752.cpp)|BFS|
