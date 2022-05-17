@@ -436,6 +436,7 @@
 |1345|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[C++](./Leetcode/1345.cpp)|BFS|
 |1354|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[C++](./Leetcode/1354.cpp)|Greedy|
 |1359|[Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)|[C++](./Leetcode/1359.cpp)|DP|
+|1379|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|[C++](./Leetcode/1379.cpp)|Tree|
 |1382|[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|[C++](./Leetcode/1382.cpp)||
 |1383|[Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)|[C++](./Leetcode/1383.cpp)|Greddy|
 |1396|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[C++](./Leetcode/1396.cpp)|Design|
