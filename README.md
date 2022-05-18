@@ -413,7 +413,7 @@
 |1182|[Shortest Distance to Target Color](https://leetcode.com/problems/shortest-distance-to-target-color/)|[C++](./Leetcode/1182.cpp)||
 |1185|[Day of the Week](https://leetcode.com/problems/day-of-the-week/)|[C++](./Leetcode/1185.cpp)||
 |1189|[Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|[C++](./Leetcode/1189.cpp)||
-|1192|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|[C++](./Leetcode/1192.cpp)|DFS|
+|1192|[Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|[C++](./Leetcode/1192.cpp)|Graph|
 |1195|[Fizz Buzz Multithreaded](https://leetcode.com/problems/fizz-buzz-multithreaded/)|[C++](./Leetcode/1195.cpp)||
 |1200|[Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/)|[C++](./Leetcode/1200.cpp)|Array|
 |1202|[Smallest String With Swaps](https://leetcode.com/problems/smallest-string-with-swaps/)|[C++](./Leetcode/1202.cpp)|Union Find|

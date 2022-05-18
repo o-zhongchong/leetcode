@@ -1,71 +1,39 @@
 class Solution {
 public:
-    int dfs(unordered_map<int, vector<int>> &graph, int cur, int pre, 
-           vector<int> &dfn, vector<int> &low, vector<bool> &visited)
+    vector<vector<int>> criticalConnections(int n, 
+        vector<vector<int>>& connections) 
     {
-        if(visited[cur] == true)
-        {
-            return low[cur];
+        vector<vector<int>> g(n);
+        for (auto& conn : connections) {
+            sort(conn.begin(), conn.end());
+            g[conn[0]].push_back(conn[1]);
+            g[conn[1]].push_back(conn[0]);
         }
-        
-        visited[cur] = true;
-        dfn[cur] = cur;
-        low[cur] = cur;
-        int len = graph[cur].size();
-        sort(graph[cur].begin(), graph[cur].end());
-        
-        for(int i=0; i<len; ++i)
-        {
-            if(graph[cur][i] != pre)
-            {
-                int r = dfs(graph, graph[cur][i], cur, dfn, low, visited);
-                low[cur] = min(r, low[cur]);
-            }
-        }
-        
-        return low[cur];
-    }
-    
-    vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
-        unordered_map<int, vector<int>> graph;
+        int cnt = 1;
         vector<int> dfn(n, 0);
         vector<int> low(n, 0);
-        vector<bool> visited(n, false);
-        vector<vector<int>> ret;
-        
-        for(auto &edge: connections)
-        {
-            sort(edge.begin(), edge.end());
-            
-            if(graph.count(edge[0]))
-            {
-                graph[edge[0]].push_back(edge[1]);
-            }
-            else
-            {
-                graph[edge[0]] = vector<int>{edge[1]};
-            }
-            
-            if(graph.count(edge[1]))
-            {
-                graph[edge[1]].push_back(edge[0]);
-            }
-            else
-            {
-                graph[edge[1]] = vector<int>{edge[0]};
+        vector<vector<int>> ans;
+        dfs(g, 0, -1, cnt, dfn, low);
+        for (auto& conn : connections) {
+            if (low[conn[1]] > dfn[conn[0]]) {
+                ans.push_back(conn);
             }
         }
-        
-        dfs(graph, 0, 0, dfn, low, visited);
-        
-        for(auto &edge: connections)
-        {
-            if(low[edge[1]] > dfn[edge[0]])
-            {
-                ret.push_back(edge);
+        return ans;
+    }
+private:
+    void dfs(vector<vector<int>>& g, int cur, int pre, int& cnt,
+        vector<int>& dfn, vector<int>& low)
+    {
+        dfn[cur] = low[cur] = cnt++;
+        sort(g[cur].begin(), g[cur].end());
+        for (auto& next : g[cur]) {
+            if (dfn[next] == 0) {
+                dfs(g, next, cur, cnt, dfn, low);
+                low[cur] = min(low[cur], low[next]);
+            } else if (dfn[next] != 0 && next != pre) {
+                low[cur] = min(low[cur], dfn[next]);
             }
         }
-        
-        return ret;
     }
 };
