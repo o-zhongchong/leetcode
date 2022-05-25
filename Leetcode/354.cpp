@@ -1,34 +1,28 @@
 class Solution {
 public:
-    bool comp(vector<int> &a, vector<int> &b)
-    {
-        return a[0] < b[0] || (a[0] == b[0] && a[1] < b[1]);
-    }
-    
     int maxEnvelopes(vector<vector<int>>& envelopes) {
-        if(envelopes.empty())
-        {
-            return 0;
-        }
-        
         int len = envelopes.size();
-        sort(envelopes.begin(), envelopes.end());
-        vector<int> dp(len, 1);
-        int ret = 1;
-        
-        for(int i=1; i<len; ++i)
-        {
-            for(int j=0; j<i; ++j)
-            {
-                if(envelopes[i][0] > envelopes[j][0] && envelopes[i][1] > envelopes[j][1])
-                {
-                    dp[i] = max(dp[i], dp[j] + 1);
+        auto cmp = [](const vector<int>& a, const vector<int>& b) {
+            return a[0] < b[0] || (a[0] == b[0] && a[1] > b[1]);
+        };
+        sort(envelopes.begin(), envelopes.end(), cmp);
+        vector<int> dp;
+        for (int i=0; i<len; ++i) {
+            int left = 0, right = dp.size();
+            while (left < right) {
+                int mid = (right - left) / 2 + left;
+                if (dp[mid] < envelopes[i][1]) {
+                    left = mid + 1;
+                } else {
+                    right = mid;
                 }
             }
-            
-            ret = max(ret, dp[i]);
+            if (left >= dp.size()) {
+                dp.push_back(envelopes[i][1]);    
+            } else {
+                dp[left] = envelopes[i][1];
+            }
         }
-        
-        return ret;
+        return dp.size();
     }
 };
