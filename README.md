@@ -433,6 +433,7 @@
 |1337|[The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[C++](./Leetcode/1337.cpp)|Array|
 |1338|[Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)|[C++](./Leetcode/1338.cpp)|Array|
 |1340|[Jump Game V](https://leetcode.com/problems/jump-game-v/)|[C++](./Leetcode/1340.cpp)|DP|
+|1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[C++](./Leetcode/1342.cpp)|Bit Manipulation|
 |1345|[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)|[C++](./Leetcode/1345.cpp)|BFS|
 |1354|[Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)|[C++](./Leetcode/1354.cpp)|Greedy|
 |1359|[Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)|[C++](./Leetcode/1359.cpp)|DP|
