@@ -316,7 +316,7 @@
 |806|[Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)|[C++](./Leetcode/806.cpp)||
 |811|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)|[C++](./Leetcode/811.cpp)||
 |816|[Ambiguous Coordinates](https://leetcode.com/problems/ambiguous-coordinates/)|[C++](./Leetcode/816.cpp)|String|
-|820|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|[C++](./Leetcode/820.cpp)|String|
+|820|[Short Encoding of Words](https://leetcode.com/problems/short-encoding-of-words/)|[C++](./Leetcode/820.cpp)|Trie|
 |821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[C++](./Leetcode/821.cpp)||
 |823|[Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)|[C++](./Leetcode/823.cpp)||
 |827|[Making A Large Island](https://leetcode.com/problems/making-a-large-island/)|[C++](./Leetcode/827.cpp)|BFS|
