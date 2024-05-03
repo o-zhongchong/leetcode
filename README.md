@@ -536,3 +536,4 @@
 |2207|[Maximize Number of Subsequences in a String](https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string/)|[C++](./Leetcode/2207.cpp)|Greddy|
 |2208|[Minimum Operations to Halve Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/)|[C++](./Leetcode/2208.cpp)|Greddy|
 |2211|[Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/)|[C++](./Leetcode/2211.cpp)|String|
+|2441|[Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative)|[Go](./Leetcode/2441.go)|Hash Table|

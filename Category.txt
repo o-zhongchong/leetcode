@@ -32,7 +32,7 @@
 |--Sliding Window
 |--Math
 
-面向对象OOP
+面向对象
 |--Design
 
 设计模式
