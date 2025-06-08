@@ -210,6 +210,7 @@
 |382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[C++](./Leetcode/382.cpp)|Linked List|
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[C++](./Leetcode/383.cpp)||
 |385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|[C++](./Leetcode/385.cpp)|String|
+|386|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers)|[Go](./Leetcode/386.go)|DFS|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[C++](./Leetcode/387.cpp)|String|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[C++](./Leetcode/392.cpp)|Two Pointers|
 |393|[UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)|[C++](./Leetcode/393.cpp)|Bit Manipulation|
