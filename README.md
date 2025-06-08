@@ -209,6 +209,7 @@
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[C++](./Leetcode/378.cpp)|Heap|
 |382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[C++](./Leetcode/382.cpp)|Linked List|
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[C++](./Leetcode/383.cpp)||
+|384|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|[Go](./Leetcode/384.go)|Design|
 |385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|[C++](./Leetcode/385.cpp)|String|
 |386|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers)|[Go](./Leetcode/386.go)|DFS|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[C++](./Leetcode/387.cpp)|String|
