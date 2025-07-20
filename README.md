@@ -521,7 +521,7 @@
 |1869|[Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/)|[C++](./Leetcode/1869.cpp)|Array|
 |1871|[Jump Game VII](https://leetcode.com/problems/jump-game-vii/)|[C++](./Leetcode/1871.cpp)|Greedy|
 |1881|[Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/)|[C++](./Leetcode/1881.cpp)|Greedy|
-|1948|[Delete Duplicate Folders in System](https://leetcode.com/problems/delete-duplicate-folders-in-system)|[C++](./Leetcode/1948.go)|Trie|
+|1948|[Delete Duplicate Folders in System](https://leetcode.com/problems/delete-duplicate-folders-in-system)|[Go](./Leetcode/1948.go)|Trie|
 |2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|[Go](./Leetcode/2000.go)|String|
 |2170|[Minimum Operations to Make the Array Alternating](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/)|[C++](./Leetcode/2170.cpp)|Hash Table|
 |2171|[Removing Minimum Number of Magic Beans](https://leetcode.com/problems/removing-minimum-number-of-magic-beans/)|[C++](./Leetcode/2171.cpp)|Array|
