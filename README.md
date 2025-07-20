@@ -426,6 +426,7 @@
 |1209|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[C++](./Leetcode/1209.cpp)|Stack|
 |1217|[Play with Chips](https://leetcode.com/problems/play-with-chips/)|[C++](./Leetcode/1217.cpp)|Array|
 |1220|[Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)|[C++](./Leetcode/1220.cpp)|DP|
+|1233|[Remove Sub-Folders from the Filesystem](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/)|[Go](./Leetcode/1233.go)|Trie|
 |1249|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)|[C++](./Leetcode/1249.cpp)|Stack|
 |1268|[Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)|[C++](./Leetcode/1268.cpp)|String|
 |1286|[Iterator for Combination](https://leetcode.com/problems/iterator-for-combination/)|[C++](./Leetcode/1286.cpp)|Backtracking|
