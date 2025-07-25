@@ -544,3 +544,4 @@
 |2211|[Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/)|[C++](./Leetcode/2211.cpp)|String|
 |2441|[Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative)|[Go](./Leetcode/2441.go)|Hash Table|
 |2894|[Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference)|[Go](./Leetcode/2894.go)|Math|
+|3487|[Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/)|[Go](./Leetcode/3487.go)|Hash Table|
